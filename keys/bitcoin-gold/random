@@ -1,0 +1,3968 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>    Random Bitcoin Gold Private Keys
+</title>
+    <meta name="description" content="    Pick a random list of ECDSA Bitcoin Gold Keys in decimal, hex or WIF format
+">
+    <meta name="keywords" content="    random bitcoin gold private keys database list directory
+">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#333333">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#333333">
+    <!-- /favicons -->
+
+    <link rel="preload" as="style" href="/assets/app-F7rovCNy.css" /><link rel="stylesheet" href="/assets/app-F7rovCNy.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    
+    
+    
+    
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-dark">
+    <div class=" container ">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+            <img src="/images/logo.png" alt="Logo" title="PrivateKeys" width="35" height="35"> PrivateKeys
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDirectory" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-database" aria-hidden="true"></i> Directory
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirectory">
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/1" title="Private Keys Directory">
+                                <i class="fas fa-key"></i> All Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item  active " href="/keys/bitcoin/random" title="Random Private Keys Generator">
+                                <i class="fas fa-random"></i> Random Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/search/bitcoin" title="Private Key Search">
+                                <i class="fas fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/brainwallet/bitcoin/1">
+                        <i class="fas fa-brain" aria-hidden="true"></i> Brainwallets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/puzzles" title="Crypto Puzzles">
+                        <i class="fas fa-puzzle-piece" aria-hidden="true"></i> Puzzles
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " href="/richest/bitcoin">
+                        <i class="fas fa-trophy" aria-hidden="true"></i> Rich List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/balances">
+                        <i class="fas fa-coins"></i> Balances
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownTools" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-tools" aria-hidden="true"></i> Tools
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownTools">
+                        <li>
+                            <a class="dropdown-item "  href="/bitcoin-puzzle-solver">
+                                Bitcoin Puzzle Solver
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/tx-parser">
+                                Transaction Decoder
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/mnemonic/bitcoin">
+                                Mnemonic Converter
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/calc">
+                                Crypto Calculator
+                            </a>
+                        </li>
+                                                                                            </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/faq">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+    <a href="#" id="bd-theme" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="bi bi-sun"></i> <span class="d-xl-none" id="bd-theme-text">Toggle theme</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button class="dropdown-item active" type="button" data-bs-theme-value="light"><i class="bi bi-sun"></i> Light</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="dark"><i class="bi bi-moon"></i> Dark</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="auto"><i class="bi bi-circle-half"></i> Auto</button></li>
+    </ul>
+</li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="dropdownUser" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i> <span class="d-xl-none" id="bd-theme-text">My Account</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownUser">
+                                                    <li>
+                                <a class="dropdown-item " href="/auth/login">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item " href="/auth/register">
+                                    Register
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+            </ul>
+
+            <form action="/quick-search" class="ms-xl-2" data-bs-theme="dark">
+                <div class="input-group">
+                    <input class="form-control" type="search" name="query" placeholder="Search Private Key" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class=" container ">
+            </div>
+    <div class=" container ">
+            </div>
+
+<main role="main">
+        <div class="container">
+        <ul class="nav nav-underline mb-3">
+            <li class="nav-item">
+            <a class="nav-link " href="/keys/bitcoin/random">
+                Bitcoin
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/keys/bitcoin-testnet/random">
+                Bitcoin Testnet
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/keys/bitcoin-cash/random">
+                Bitcoin Cash
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/keys/bitcoin-sv/random">
+                Bitcoin SV
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link  active " href="/keys/bitcoin-gold/random">
+                Bitcoin Gold
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/keys/litecoin/random">
+                Litecoin
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/keys/dogecoin/random">
+                Dogecoin
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/keys/dash/random">
+                Dash
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/keys/zcash/random">
+                Zcash
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/keys/clams/random">
+                Clams
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/keys/ethereum/random">
+                Ethereum
+            </a>
+        </li>
+    </ul>
+
+        <h1>Random Bitcoin Gold Private Keys</h1>
+
+        <p>Random Bitcoin Gold private key generator. Generate random private keys in WIF, hex, or decimal format.</p>
+
+        <div class="py-2" style="display: none">
+    Total balance on this page: <span class="js-balances-bitcoin-gold"></span>
+</div>
+
+        <div class="table-adaptive">
+    <table class="table table-borderless table-striped table-hover">
+        <thead>
+        <tr>
+            <th>Private Key (HEX)</th>
+            <th><div class="d-flex align-items-center gap-2">
+    Bitcoin Gold Address
+
+    </div>
+</th>
+        </tr>
+        </thead>
+        <tbody>
+                    <tr id="a00afed2d40e69e6ecd887469cf2aea41c02441b5abb3459933fa3206622c9c0">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/a00afed2d40e69e6ecd887469cf2aea41c02441b5abb3459933fa3206622c9c0" class="wrap">a00afed2d40e69e6ecd887469cf2aea41c02441b5abb3459933fa3206622c9c0</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1608655177143631692568540011385116249627835380431537720095270460803748088000#a00afed2d40e69e6ecd887469cf2aea41c02441b5abb3459933fa3206622c9c0" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="a00afed2d40e69e6ecd887469cf2aea41c02441b5abb3459933fa3206622c9c0">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GfngZBXQtngeKtpudxRTJtFLcXmqa78JP5</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GfngZBXQtngeKtpudxRTJtFLcXmqa78JP5" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GfngZBXQtngeKtpudxRTJtFLcXmqa78JP5">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GfngZBXQtngeKtpudxRTJtFLcXmqa78JP5"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GSr1pMvzj8SwcbX7ca5tEonCPtSUYHX4Yr</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GSr1pMvzj8SwcbX7ca5tEonCPtSUYHX4Yr" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GSr1pMvzj8SwcbX7ca5tEonCPtSUYHX4Yr">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GSr1pMvzj8SwcbX7ca5tEonCPtSUYHX4Yr"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="cb310de007ea61cb757544641d19769908cc6dbc27130382473b0c7c065c2769">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/cb310de007ea61cb757544641d19769908cc6dbc27130382473b0c7c065c2769" class="wrap">cb310de007ea61cb757544641d19769908cc6dbc27130382473b0c7c065c2769</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/2042359545136475213320269702968149261741338790928956736277025623850515979238#cb310de007ea61cb757544641d19769908cc6dbc27130382473b0c7c065c2769" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="cb310de007ea61cb757544641d19769908cc6dbc27130382473b0c7c065c2769">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GPpDdVmMYoHDiFEZvP8Ng6fyhxpE5AVMEu</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GPpDdVmMYoHDiFEZvP8Ng6fyhxpE5AVMEu" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GPpDdVmMYoHDiFEZvP8Ng6fyhxpE5AVMEu">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GPpDdVmMYoHDiFEZvP8Ng6fyhxpE5AVMEu"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GcnGcpSSPqqMFRcNutpGUBs7rG6ciV7UW6</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GcnGcpSSPqqMFRcNutpGUBs7rG6ciV7UW6" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GcnGcpSSPqqMFRcNutpGUBs7rG6ciV7UW6">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GcnGcpSSPqqMFRcNutpGUBs7rG6ciV7UW6"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="f1caf1b76ec7121d747f4f86b0556b6a51942afa2697cf400dbbfb3efc091406">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/f1caf1b76ec7121d747f4f86b0556b6a51942afa2697cf400dbbfb3efc091406" class="wrap">f1caf1b76ec7121d747f4f86b0556b6a51942afa2697cf400dbbfb3efc091406</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/2430354841819077664267379468623963720925674153362752734296869766088855902368#f1caf1b76ec7121d747f4f86b0556b6a51942afa2697cf400dbbfb3efc091406" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="f1caf1b76ec7121d747f4f86b0556b6a51942afa2697cf400dbbfb3efc091406">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GXhuMyVWFJ5SyRVFUB6s16Z1sYg68C6YJH</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GXhuMyVWFJ5SyRVFUB6s16Z1sYg68C6YJH" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GXhuMyVWFJ5SyRVFUB6s16Z1sYg68C6YJH">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GXhuMyVWFJ5SyRVFUB6s16Z1sYg68C6YJH"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GNSNn9PMEMnfqd9P792iREmZ2suSto9Koj</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GNSNn9PMEMnfqd9P792iREmZ2suSto9Koj" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GNSNn9PMEMnfqd9P792iREmZ2suSto9Koj">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GNSNn9PMEMnfqd9P792iREmZ2suSto9Koj"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="6c2bd3950f9674298445e930c306872ff68ed6aed14923b5f77e456daaf87385">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/6c2bd3950f9674298445e930c306872ff68ed6aed14923b5f77e456daaf87385" class="wrap">6c2bd3950f9674298445e930c306872ff68ed6aed14923b5f77e456daaf87385</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1087271607954023203249802314865859628576486161127945856011440169129402428368#6c2bd3950f9674298445e930c306872ff68ed6aed14923b5f77e456daaf87385" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="6c2bd3950f9674298445e930c306872ff68ed6aed14923b5f77e456daaf87385">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GJ56D4Dx52osZM24LSd3Uedxo63Qg34euN</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GJ56D4Dx52osZM24LSd3Uedxo63Qg34euN" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GJ56D4Dx52osZM24LSd3Uedxo63Qg34euN">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GJ56D4Dx52osZM24LSd3Uedxo63Qg34euN"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GeVQuYkzxtNjdY6oF3YRbbp2rHA7nrhRom</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GeVQuYkzxtNjdY6oF3YRbbp2rHA7nrhRom" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GeVQuYkzxtNjdY6oF3YRbbp2rHA7nrhRom">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GeVQuYkzxtNjdY6oF3YRbbp2rHA7nrhRom"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="d804e64c3a9fd742b9f717c047d211f1467ac74af5ae4f56d2bf25c1952645cf">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/d804e64c3a9fd742b9f717c047d211f1467ac74af5ae4f56d2bf25c1952645cf" class="wrap">d804e64c3a9fd742b9f717c047d211f1467ac74af5ae4f56d2bf25c1952645cf</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/2171294047534093990945200105642779289697544113676753181652446092256844684071#d804e64c3a9fd742b9f717c047d211f1467ac74af5ae4f56d2bf25c1952645cf" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="d804e64c3a9fd742b9f717c047d211f1467ac74af5ae4f56d2bf25c1952645cf">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GX1rU58xBTCzTNp1fymSJKC9WwR571jbcB</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GX1rU58xBTCzTNp1fymSJKC9WwR571jbcB" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GX1rU58xBTCzTNp1fymSJKC9WwR571jbcB">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GX1rU58xBTCzTNp1fymSJKC9WwR571jbcB"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GbR2GbDakz2JwVGKkYsoWwy3fAKX5zhbvi</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GbR2GbDakz2JwVGKkYsoWwy3fAKX5zhbvi" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GbR2GbDakz2JwVGKkYsoWwy3fAKX5zhbvi">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GbR2GbDakz2JwVGKkYsoWwy3fAKX5zhbvi"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="b96a51cc8acd634228bf03c60ce330e51eab567351d6981885098b7e80251aa6">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/b96a51cc8acd634228bf03c60ce330e51eab567351d6981885098b7e80251aa6" class="wrap">b96a51cc8acd634228bf03c60ce330e51eab567351d6981885098b7e80251aa6</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1863682829614924190741686488236623178193528973156822996823646924349717518898#b96a51cc8acd634228bf03c60ce330e51eab567351d6981885098b7e80251aa6" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="b96a51cc8acd634228bf03c60ce330e51eab567351d6981885098b7e80251aa6">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GUcY3hBLbRM9iHsAJSTe4Xj2Lo5pXyB7bt</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GUcY3hBLbRM9iHsAJSTe4Xj2Lo5pXyB7bt" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GUcY3hBLbRM9iHsAJSTe4Xj2Lo5pXyB7bt">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GUcY3hBLbRM9iHsAJSTe4Xj2Lo5pXyB7bt"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GQL8q4GrWnfS5bUW5aPJMoQ5CAsNUd3Y4p</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GQL8q4GrWnfS5bUW5aPJMoQ5CAsNUd3Y4p" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GQL8q4GrWnfS5bUW5aPJMoQ5CAsNUd3Y4p">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GQL8q4GrWnfS5bUW5aPJMoQ5CAsNUd3Y4p"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="a4b9efb45e6ac315bb48878aec110a96abed7d18e06afde266250dcbcf440dcb">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/a4b9efb45e6ac315bb48878aec110a96abed7d18e06afde266250dcbcf440dcb" class="wrap">a4b9efb45e6ac315bb48878aec110a96abed7d18e06afde266250dcbcf440dcb</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1655729516772227702288928006938300193422777547972882299543319509482724742564#a4b9efb45e6ac315bb48878aec110a96abed7d18e06afde266250dcbcf440dcb" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="a4b9efb45e6ac315bb48878aec110a96abed7d18e06afde266250dcbcf440dcb">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GPgx7Rv9LLmQqCunfrSc2cZsJb8qjqd9DW</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GPgx7Rv9LLmQqCunfrSc2cZsJb8qjqd9DW" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GPgx7Rv9LLmQqCunfrSc2cZsJb8qjqd9DW">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GPgx7Rv9LLmQqCunfrSc2cZsJb8qjqd9DW"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GXPUB88dxJsdWNA2m3bvj1Z9LSAzkAX2dj</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GXPUB88dxJsdWNA2m3bvj1Z9LSAzkAX2dj" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GXPUB88dxJsdWNA2m3bvj1Z9LSAzkAX2dj">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GXPUB88dxJsdWNA2m3bvj1Z9LSAzkAX2dj"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="546c450728a372a6ca00013359b4c5323ecdf5057883429cb316a3a5d981bb6e">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/546c450728a372a6ca00013359b4c5323ecdf5057883429cb316a3a5d981bb6e" class="wrap">546c450728a372a6ca00013359b4c5323ecdf5057883429cb316a3a5d981bb6e</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/848568337277505057005602742163693318037137231805230383954358928232729341289#546c450728a372a6ca00013359b4c5323ecdf5057883429cb316a3a5d981bb6e" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="546c450728a372a6ca00013359b4c5323ecdf5057883429cb316a3a5d981bb6e">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GSFFxR7EHr7Mpyt8tMv47YXDPABtmcbbeY</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GSFFxR7EHr7Mpyt8tMv47YXDPABtmcbbeY" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GSFFxR7EHr7Mpyt8tMv47YXDPABtmcbbeY">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GSFFxR7EHr7Mpyt8tMv47YXDPABtmcbbeY"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GT2FvkzVMuFtEsDJ8mpLow5j8zmsjfatxn</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GT2FvkzVMuFtEsDJ8mpLow5j8zmsjfatxn" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GT2FvkzVMuFtEsDJ8mpLow5j8zmsjfatxn">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GT2FvkzVMuFtEsDJ8mpLow5j8zmsjfatxn"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="7be9c78334dc00b21f4fd04b0bc7a1dae86c06aaa085ca2a4e6bff2054742da9">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/7be9c78334dc00b21f4fd04b0bc7a1dae86c06aaa085ca2a4e6bff2054742da9" class="wrap">7be9c78334dc00b21f4fd04b0bc7a1dae86c06aaa085ca2a4e6bff2054742da9</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1245500727259508823847751199889393087058324472611007174126510954551651056832#7be9c78334dc00b21f4fd04b0bc7a1dae86c06aaa085ca2a4e6bff2054742da9" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="7be9c78334dc00b21f4fd04b0bc7a1dae86c06aaa085ca2a4e6bff2054742da9">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GL1KJLxmG7fpEksTi8sZ4whTayoMcDGzXe</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GL1KJLxmG7fpEksTi8sZ4whTayoMcDGzXe" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GL1KJLxmG7fpEksTi8sZ4whTayoMcDGzXe">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GL1KJLxmG7fpEksTi8sZ4whTayoMcDGzXe"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GS8SShmbfjirTFbZeuKUNBP4PFjpBscaqJ</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GS8SShmbfjirTFbZeuKUNBP4PFjpBscaqJ" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GS8SShmbfjirTFbZeuKUNBP4PFjpBscaqJ">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GS8SShmbfjirTFbZeuKUNBP4PFjpBscaqJ"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="76dc2ea20488d37e962658bc99729f960d506bc0b6466a315a369b97dd73136f">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/76dc2ea20488d37e962658bc99729f960d506bc0b6466a315a369b97dd73136f" class="wrap">76dc2ea20488d37e962658bc99729f960d506bc0b6466a315a369b97dd73136f</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1194709874119945044556564762681364560664305874755158961598130427405642589909#76dc2ea20488d37e962658bc99729f960d506bc0b6466a315a369b97dd73136f" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="76dc2ea20488d37e962658bc99729f960d506bc0b6466a315a369b97dd73136f">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GZKvTtPjxyg6wWza1t1LiVMekH3GkBmvhw</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GZKvTtPjxyg6wWza1t1LiVMekH3GkBmvhw" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GZKvTtPjxyg6wWza1t1LiVMekH3GkBmvhw">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GZKvTtPjxyg6wWza1t1LiVMekH3GkBmvhw"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GfaHegffJWHcY9XotMgkLfQrjcFZVKHCMX</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GfaHegffJWHcY9XotMgkLfQrjcFZVKHCMX" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GfaHegffJWHcY9XotMgkLfQrjcFZVKHCMX">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GfaHegffJWHcY9XotMgkLfQrjcFZVKHCMX"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="095d7a64ca30d16634f7d9790ad8cb230f5cac514275c3963ac6beffddbd974d">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/095d7a64ca30d16634f7d9790ad8cb230f5cac514275c3963ac6beffddbd974d" class="wrap">095d7a64ca30d16634f7d9790ad8cb230f5cac514275c3963ac6beffddbd974d</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/94132825435909508115733766583265021384119239393174894950909087862526786625#095d7a64ca30d16634f7d9790ad8cb230f5cac514275c3963ac6beffddbd974d" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="095d7a64ca30d16634f7d9790ad8cb230f5cac514275c3963ac6beffddbd974d">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GMXRhNYbua7iMq8w2YgBuY1jepmDAYRUzL</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GMXRhNYbua7iMq8w2YgBuY1jepmDAYRUzL" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GMXRhNYbua7iMq8w2YgBuY1jepmDAYRUzL">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GMXRhNYbua7iMq8w2YgBuY1jepmDAYRUzL"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GLkrheJpgBVXQDU7BnCNZFp8e8ZCaF49Jd</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GLkrheJpgBVXQDU7BnCNZFp8e8ZCaF49Jd" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GLkrheJpgBVXQDU7BnCNZFp8e8ZCaF49Jd">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GLkrheJpgBVXQDU7BnCNZFp8e8ZCaF49Jd"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="5ef7b19b86e8e38b4e3ccc20465a9f78b2ddf21c4143a5a3244e4bae59477728">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/5ef7b19b86e8e38b4e3ccc20465a9f78b2ddf21c4143a5a3244e4bae59477728" class="wrap">5ef7b19b86e8e38b4e3ccc20465a9f78b2ddf21c4143a5a3244e4bae59477728</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/954556550976223750487154406870073749681405512097423306780465043488382670844#5ef7b19b86e8e38b4e3ccc20465a9f78b2ddf21c4143a5a3244e4bae59477728" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="5ef7b19b86e8e38b4e3ccc20465a9f78b2ddf21c4143a5a3244e4bae59477728">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">Gft5tkZRLSh8d5sZZdNV7RTbNebwEiNUAb</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/Gft5tkZRLSh8d5sZZdNV7RTbNebwEiNUAb" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="Gft5tkZRLSh8d5sZZdNV7RTbNebwEiNUAb">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="Gft5tkZRLSh8d5sZZdNV7RTbNebwEiNUAb"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GVdZRH4v2oCYFUBYwqHGXeuKVHKL38VYHL</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GVdZRH4v2oCYFUBYwqHGXeuKVHKL38VYHL" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GVdZRH4v2oCYFUBYwqHGXeuKVHKL38VYHL">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GVdZRH4v2oCYFUBYwqHGXeuKVHKL38VYHL"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="3257a1089d4b0cf4ca4486291fdfe4da8e1e706c63de3a2d030f700397abae47">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/3257a1089d4b0cf4ca4486291fdfe4da8e1e706c63de3a2d030f700397abae47" class="wrap">3257a1089d4b0cf4ca4486291fdfe4da8e1e706c63de3a2d030f700397abae47</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/506010434160118873234600991150751683832889000674279676779311504146856084448#3257a1089d4b0cf4ca4486291fdfe4da8e1e706c63de3a2d030f700397abae47" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="3257a1089d4b0cf4ca4486291fdfe4da8e1e706c63de3a2d030f700397abae47">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GRxWX2y5pSdhkgu126EvE5wZRwWU7Pxs7t</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GRxWX2y5pSdhkgu126EvE5wZRwWU7Pxs7t" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GRxWX2y5pSdhkgu126EvE5wZRwWU7Pxs7t">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GRxWX2y5pSdhkgu126EvE5wZRwWU7Pxs7t"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GKQKgXi43HUqvDB7thL8zSyCnMMtAk3PDR</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GKQKgXi43HUqvDB7thL8zSyCnMMtAk3PDR" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GKQKgXi43HUqvDB7thL8zSyCnMMtAk3PDR">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GKQKgXi43HUqvDB7thL8zSyCnMMtAk3PDR"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="91a71f9aa28c240c19fbf62df94c3e5c35ab403d0b7555c0ba88bad6def38864">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/91a71f9aa28c240c19fbf62df94c3e5c35ab403d0b7555c0ba88bad6def38864" class="wrap">91a71f9aa28c240c19fbf62df94c3e5c35ab403d0b7555c0ba88bad6def38864</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1464014325055075457364284549289846759285141513543457493484331827613924472380#91a71f9aa28c240c19fbf62df94c3e5c35ab403d0b7555c0ba88bad6def38864" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="91a71f9aa28c240c19fbf62df94c3e5c35ab403d0b7555c0ba88bad6def38864">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GXaGr5SxyEXaQYHrxAdPUjvFKjPKVc6ScU</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GXaGr5SxyEXaQYHrxAdPUjvFKjPKVc6ScU" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GXaGr5SxyEXaQYHrxAdPUjvFKjPKVc6ScU">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GXaGr5SxyEXaQYHrxAdPUjvFKjPKVc6ScU"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GQetGkhtCzeS16cLvzTQKkkcF4Fx1ATpGt</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GQetGkhtCzeS16cLvzTQKkkcF4Fx1ATpGt" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GQetGkhtCzeS16cLvzTQKkkcF4Fx1ATpGt">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GQetGkhtCzeS16cLvzTQKkkcF4Fx1ATpGt"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="5ac7b843fba4fe05630c9bb80547c03f9fd468c7bde355b8d9e9a6eb5be91665">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/5ac7b843fba4fe05630c9bb80547c03f9fd468c7bde355b8d9e9a6eb5be91665" class="wrap">5ac7b843fba4fe05630c9bb80547c03f9fd468c7bde355b8d9e9a6eb5be91665</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/912467348722897081994476871036025696362658018302162179476375144374350947706#5ac7b843fba4fe05630c9bb80547c03f9fd468c7bde355b8d9e9a6eb5be91665" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="5ac7b843fba4fe05630c9bb80547c03f9fd468c7bde355b8d9e9a6eb5be91665">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GVQZeTPsStakchTqGwLqRXhwYSrVnDo8rA</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GVQZeTPsStakchTqGwLqRXhwYSrVnDo8rA" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GVQZeTPsStakchTqGwLqRXhwYSrVnDo8rA">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GVQZeTPsStakchTqGwLqRXhwYSrVnDo8rA"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GaD3jYdyypbAXXkpxuWgf9eGmURK6AqY8Z</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GaD3jYdyypbAXXkpxuWgf9eGmURK6AqY8Z" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GaD3jYdyypbAXXkpxuWgf9eGmURK6AqY8Z">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GaD3jYdyypbAXXkpxuWgf9eGmURK6AqY8Z"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="32405b941930a80671843bf3ee1ce1ae3895d8ea1f2b8c38b1616fe15b70559d">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/32405b941930a80671843bf3ee1ce1ae3895d8ea1f2b8c38b1616fe15b70559d" class="wrap">32405b941930a80671843bf3ee1ce1ae3895d8ea1f2b8c38b1616fe15b70559d</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/505096726510036089951069616507143832688571375584215576994242484099596477814#32405b941930a80671843bf3ee1ce1ae3895d8ea1f2b8c38b1616fe15b70559d" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="32405b941930a80671843bf3ee1ce1ae3895d8ea1f2b8c38b1616fe15b70559d">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GeeZkrECgzu9dSkw3gx6jc1MAw4o9dtdRW</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GeeZkrECgzu9dSkw3gx6jc1MAw4o9dtdRW" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GeeZkrECgzu9dSkw3gx6jc1MAw4o9dtdRW">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GeeZkrECgzu9dSkw3gx6jc1MAw4o9dtdRW"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GM6kVXCL7R89gnuaMcu1FJPraswoKkMAy5</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GM6kVXCL7R89gnuaMcu1FJPraswoKkMAy5" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GM6kVXCL7R89gnuaMcu1FJPraswoKkMAy5">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GM6kVXCL7R89gnuaMcu1FJPraswoKkMAy5"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="065c8de8f53f5162e1487743647da3fe0385a657c09f870743efcc045c9c012e">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/065c8de8f53f5162e1487743647da3fe0385a657c09f870743efcc045c9c012e" class="wrap">065c8de8f53f5162e1487743647da3fe0385a657c09f870743efcc045c9c012e</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/63942365516206508338663746122794013124277788798277201016311879262086790447#065c8de8f53f5162e1487743647da3fe0385a657c09f870743efcc045c9c012e" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="065c8de8f53f5162e1487743647da3fe0385a657c09f870743efcc045c9c012e">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GSgiGtH17LjDXL8q4dJAzXFPE8H7LKkKsA</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GSgiGtH17LjDXL8q4dJAzXFPE8H7LKkKsA" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GSgiGtH17LjDXL8q4dJAzXFPE8H7LKkKsA">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GSgiGtH17LjDXL8q4dJAzXFPE8H7LKkKsA"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GVvugMMVbEvVMofzgex4AJfxDx2Qeaq4p1</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GVvugMMVbEvVMofzgex4AJfxDx2Qeaq4p1" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GVvugMMVbEvVMofzgex4AJfxDx2Qeaq4p1">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GVvugMMVbEvVMofzgex4AJfxDx2Qeaq4p1"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="0e4f878f920853eab6e0a6aa070bddecf5aa31abce371bda08499d21422e422e">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/0e4f878f920853eab6e0a6aa070bddecf5aa31abce371bda08499d21422e422e" class="wrap">0e4f878f920853eab6e0a6aa070bddecf5aa31abce371bda08499d21422e422e</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/143842142326476274884978414007668062271788537185757833743986090792525144259#0e4f878f920853eab6e0a6aa070bddecf5aa31abce371bda08499d21422e422e" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="0e4f878f920853eab6e0a6aa070bddecf5aa31abce371bda08499d21422e422e">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GJ6xBsn4xgU2BEFcfPuk2hYdftj2bNX3Bs</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GJ6xBsn4xgU2BEFcfPuk2hYdftj2bNX3Bs" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GJ6xBsn4xgU2BEFcfPuk2hYdftj2bNX3Bs">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GJ6xBsn4xgU2BEFcfPuk2hYdftj2bNX3Bs"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GJsUmsYGmTf1Fk94HKjwm7wUqunDNBMLr3</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GJsUmsYGmTf1Fk94HKjwm7wUqunDNBMLr3" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GJsUmsYGmTf1Fk94HKjwm7wUqunDNBMLr3">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GJsUmsYGmTf1Fk94HKjwm7wUqunDNBMLr3"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="85d846bd2a5ef837e27b78ede123836063c65d14b3ceda7f65a0d3de2d93acd8">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/85d846bd2a5ef837e27b78ede123836063c65d14b3ceda7f65a0d3de2d93acd8" class="wrap">85d846bd2a5ef837e27b78ede123836063c65d14b3ceda7f65a0d3de2d93acd8</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1345327467771176457297411093996077968890820081667783111890474790714160347983#85d846bd2a5ef837e27b78ede123836063c65d14b3ceda7f65a0d3de2d93acd8" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="85d846bd2a5ef837e27b78ede123836063c65d14b3ceda7f65a0d3de2d93acd8">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GfjZkJoJuAL3XRLaDVtVxM8YL65wHhGpvo</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GfjZkJoJuAL3XRLaDVtVxM8YL65wHhGpvo" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GfjZkJoJuAL3XRLaDVtVxM8YL65wHhGpvo">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GfjZkJoJuAL3XRLaDVtVxM8YL65wHhGpvo"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GXrpC6gVyo5DHBCnsGt4oLGWZBkjFEyMDZ</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GXrpC6gVyo5DHBCnsGt4oLGWZBkjFEyMDZ" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GXrpC6gVyo5DHBCnsGt4oLGWZBkjFEyMDZ">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GXrpC6gVyo5DHBCnsGt4oLGWZBkjFEyMDZ"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="6d296862f5a230bfef8efa2598cd14b206c69d2e8c851bafe49a57579d6bca61">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/6d296862f5a230bfef8efa2598cd14b206c69d2e8c851bafe49a57579d6bca61" class="wrap">6d296862f5a230bfef8efa2598cd14b206c69d2e8c851bafe49a57579d6bca61</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1097228037217667164906586103634966483874339346364567426124766721214255499096#6d296862f5a230bfef8efa2598cd14b206c69d2e8c851bafe49a57579d6bca61" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="6d296862f5a230bfef8efa2598cd14b206c69d2e8c851bafe49a57579d6bca61">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">Geqh2AW5GBZ5EK9by2WBYpjKWfSrBjPR85</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/Geqh2AW5GBZ5EK9by2WBYpjKWfSrBjPR85" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="Geqh2AW5GBZ5EK9by2WBYpjKWfSrBjPR85">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="Geqh2AW5GBZ5EK9by2WBYpjKWfSrBjPR85"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GMzLAFZeYAHREVEcQDRezxnypvr9PjNcvc</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GMzLAFZeYAHREVEcQDRezxnypvr9PjNcvc" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GMzLAFZeYAHREVEcQDRezxnypvr9PjNcvc">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GMzLAFZeYAHREVEcQDRezxnypvr9PjNcvc"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="78f49093d62d4a62f0f1018c76898754872820884b3cb8dfd5158e25b809166b">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/78f49093d62d4a62f0f1018c76898754872820884b3cb8dfd5158e25b809166b" class="wrap">78f49093d62d4a62f0f1018c76898754872820884b3cb8dfd5158e25b809166b</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1215770007798654492697041725752080063297300646475399534926449484373159944138#78f49093d62d4a62f0f1018c76898754872820884b3cb8dfd5158e25b809166b" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="78f49093d62d4a62f0f1018c76898754872820884b3cb8dfd5158e25b809166b">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GgQfHSBRV6czUqF3bdxNRpBFvWtsAx2VrX</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GgQfHSBRV6czUqF3bdxNRpBFvWtsAx2VrX" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GgQfHSBRV6czUqF3bdxNRpBFvWtsAx2VrX">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GgQfHSBRV6czUqF3bdxNRpBFvWtsAx2VrX"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GQ8P1T66hvbpFXg1CM9GDftsqdTRZGdP2Z</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GQ8P1T66hvbpFXg1CM9GDftsqdTRZGdP2Z" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GQ8P1T66hvbpFXg1CM9GDftsqdTRZGdP2Z">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GQ8P1T66hvbpFXg1CM9GDftsqdTRZGdP2Z"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="087d493dd983ec674cdd3fb1dafea36d5a71f4eb33aeaf9ab8d4dabdb5b12540">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/087d493dd983ec674cdd3fb1dafea36d5a71f4eb33aeaf9ab8d4dabdb5b12540" class="wrap">087d493dd983ec674cdd3fb1dafea36d5a71f4eb33aeaf9ab8d4dabdb5b12540</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/85330314815789533503640545827282856177766656104749472885394245646160577817#087d493dd983ec674cdd3fb1dafea36d5a71f4eb33aeaf9ab8d4dabdb5b12540" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="087d493dd983ec674cdd3fb1dafea36d5a71f4eb33aeaf9ab8d4dabdb5b12540">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">Gh6ifmWxeMdeirVHbtqP2k6t9pkX1UEyQi</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/Gh6ifmWxeMdeirVHbtqP2k6t9pkX1UEyQi" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="Gh6ifmWxeMdeirVHbtqP2k6t9pkX1UEyQi">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="Gh6ifmWxeMdeirVHbtqP2k6t9pkX1UEyQi"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GVayDPNNDwXRpXyvTY25uiz9EGyZS4k4ek</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GVayDPNNDwXRpXyvTY25uiz9EGyZS4k4ek" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GVayDPNNDwXRpXyvTY25uiz9EGyZS4k4ek">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GVayDPNNDwXRpXyvTY25uiz9EGyZS4k4ek"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="b33ce46025b28fa51ceb2e0b79ca23000d41517f021c47fd2cc4707ae2dc6a3e">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/b33ce46025b28fa51ceb2e0b79ca23000d41517f021c47fd2cc4707ae2dc6a3e" class="wrap">b33ce46025b28fa51ceb2e0b79ca23000d41517f021c47fd2cc4707ae2dc6a3e</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1801590820235185454371413036567737627457151809068719351616557546062333905637#b33ce46025b28fa51ceb2e0b79ca23000d41517f021c47fd2cc4707ae2dc6a3e" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="b33ce46025b28fa51ceb2e0b79ca23000d41517f021c47fd2cc4707ae2dc6a3e">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GSGUK1TySUpPW8PBNwPbGt5TA7HpUhyuDp</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GSGUK1TySUpPW8PBNwPbGt5TA7HpUhyuDp" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GSGUK1TySUpPW8PBNwPbGt5TA7HpUhyuDp">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GSGUK1TySUpPW8PBNwPbGt5TA7HpUhyuDp"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GQ6AsVZU1PUvXTJJHe8Ro1F5HMxk6HbMgT</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GQ6AsVZU1PUvXTJJHe8Ro1F5HMxk6HbMgT" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GQ6AsVZU1PUvXTJJHe8Ro1F5HMxk6HbMgT">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GQ6AsVZU1PUvXTJJHe8Ro1F5HMxk6HbMgT"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="a787169182bfebd7502dab4c3725d9c4026789ae668310426c01d53d5f3522b4">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/a787169182bfebd7502dab4c3725d9c4026789ae668310426c01d53d5f3522b4" class="wrap">a787169182bfebd7502dab4c3725d9c4026789ae668310426c01d53d5f3522b4</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1683887240634044769190949734708949465327338431604728032714445489496230882525#a787169182bfebd7502dab4c3725d9c4026789ae668310426c01d53d5f3522b4" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="a787169182bfebd7502dab4c3725d9c4026789ae668310426c01d53d5f3522b4">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">Gab27BcfZMtUp2d1qyeuqpy5BuaBaNY2zX</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/Gab27BcfZMtUp2d1qyeuqpy5BuaBaNY2zX" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="Gab27BcfZMtUp2d1qyeuqpy5BuaBaNY2zX">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="Gab27BcfZMtUp2d1qyeuqpy5BuaBaNY2zX"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GJYGX5pSdvi85Sk8Hh9kSNyptuzfe3YPjt</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GJYGX5pSdvi85Sk8Hh9kSNyptuzfe3YPjt" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GJYGX5pSdvi85Sk8Hh9kSNyptuzfe3YPjt">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GJYGX5pSdvi85Sk8Hh9kSNyptuzfe3YPjt"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="67de879172119427ced126641023927023783779680da0f32e187cc4c71c8bad">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/67de879172119427ced126641023927023783779680da0f32e187cc4c71c8bad" class="wrap">67de879172119427ced126641023927023783779680da0f32e187cc4c71c8bad</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1044031091320425677952594328284948917789511634410978148598310036164528437178#67de879172119427ced126641023927023783779680da0f32e187cc4c71c8bad" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="67de879172119427ced126641023927023783779680da0f32e187cc4c71c8bad">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GMYVcQboYiNf6amz1YAo4VkuVwH1eJZYHq</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GMYVcQboYiNf6amz1YAo4VkuVwH1eJZYHq" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GMYVcQboYiNf6amz1YAo4VkuVwH1eJZYHq">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GMYVcQboYiNf6amz1YAo4VkuVwH1eJZYHq"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GPzKiBPgHkgkNffeWV1UKiF2PysnJYNSRa</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GPzKiBPgHkgkNffeWV1UKiF2PysnJYNSRa" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GPzKiBPgHkgkNffeWV1UKiF2PysnJYNSRa">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GPzKiBPgHkgkNffeWV1UKiF2PysnJYNSRa"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="bff739c61c3fefe1092edb926ea60b7e1464f97059206aaaaf956243c929f797">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/bff739c61c3fefe1092edb926ea60b7e1464f97059206aaaaf956243c929f797" class="wrap">bff739c61c3fefe1092edb926ea60b7e1464f97059206aaaaf956243c929f797</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1929523645444230991131946627150010161803650435168043746658613236224837005356#bff739c61c3fefe1092edb926ea60b7e1464f97059206aaaaf956243c929f797" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="bff739c61c3fefe1092edb926ea60b7e1464f97059206aaaaf956243c929f797">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GS3fwuY58atyyMwLvj2McukUjixKqqJ4Aj</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GS3fwuY58atyyMwLvj2McukUjixKqqJ4Aj" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GS3fwuY58atyyMwLvj2McukUjixKqqJ4Aj">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GS3fwuY58atyyMwLvj2McukUjixKqqJ4Aj"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GduZMCoxKvgRwXj7uQpPNfLjEhaWoc4hAn</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GduZMCoxKvgRwXj7uQpPNfLjEhaWoc4hAn" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GduZMCoxKvgRwXj7uQpPNfLjEhaWoc4hAn">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GduZMCoxKvgRwXj7uQpPNfLjEhaWoc4hAn"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="68515994afeb84ce56ac591be2d5d9a667fe49412da3a5310e3f9609469ee8bb">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/68515994afeb84ce56ac591be2d5d9a667fe49412da3a5310e3f9609469ee8bb" class="wrap">68515994afeb84ce56ac591be2d5d9a667fe49412da3a5310e3f9609469ee8bb</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1048539313976228054794752906571535647446877246182995994486576604442503651014#68515994afeb84ce56ac591be2d5d9a667fe49412da3a5310e3f9609469ee8bb" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="68515994afeb84ce56ac591be2d5d9a667fe49412da3a5310e3f9609469ee8bb">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">Gahx38wmPd8ARHeAkmipP5rjXhEipYaUUS</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/Gahx38wmPd8ARHeAkmipP5rjXhEipYaUUS" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="Gahx38wmPd8ARHeAkmipP5rjXhEipYaUUS">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="Gahx38wmPd8ARHeAkmipP5rjXhEipYaUUS"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GLQsr8hoQ16PwqvRTpC7YiTKXzW3RtchwK</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GLQsr8hoQ16PwqvRTpC7YiTKXzW3RtchwK" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GLQsr8hoQ16PwqvRTpC7YiTKXzW3RtchwK">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GLQsr8hoQ16PwqvRTpC7YiTKXzW3RtchwK"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="2fde134bd446c2d25aacec4f7e7eae0ebbb91b69bde13958a4f0bd1b763de7c6">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/2fde134bd446c2d25aacec4f7e7eae0ebbb91b69bde13958a4f0bd1b763de7c6" class="wrap">2fde134bd446c2d25aacec4f7e7eae0ebbb91b69bde13958a4f0bd1b763de7c6</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/481135046873916130257916113681752981033464943559974506708661838294562131740#2fde134bd446c2d25aacec4f7e7eae0ebbb91b69bde13958a4f0bd1b763de7c6" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="2fde134bd446c2d25aacec4f7e7eae0ebbb91b69bde13958a4f0bd1b763de7c6">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GP32rFp3z4sjwDRFPse5D8a74YnnCU5KSZ</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GP32rFp3z4sjwDRFPse5D8a74YnnCU5KSZ" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GP32rFp3z4sjwDRFPse5D8a74YnnCU5KSZ">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GP32rFp3z4sjwDRFPse5D8a74YnnCU5KSZ"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">Gd3fCWKZwGjEf4BJUaRkEcW9Sfk9h8UN4G</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/Gd3fCWKZwGjEf4BJUaRkEcW9Sfk9h8UN4G" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="Gd3fCWKZwGjEf4BJUaRkEcW9Sfk9h8UN4G">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="Gd3fCWKZwGjEf4BJUaRkEcW9Sfk9h8UN4G"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="4539a100cedc2c9ce303063dabc6bc50d13bf291a2651b46ddf299bad45d35d7">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/4539a100cedc2c9ce303063dabc6bc50d13bf291a2651b46ddf299bad45d35d7" class="wrap">4539a100cedc2c9ce303063dabc6bc50d13bf291a2651b46ddf299bad45d35d7</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/695809067508544189105754897704014455817994047982199382867638653374103652795#4539a100cedc2c9ce303063dabc6bc50d13bf291a2651b46ddf299bad45d35d7" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="4539a100cedc2c9ce303063dabc6bc50d13bf291a2651b46ddf299bad45d35d7">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GfCTQdE6JfAv5rck1K5Z6WohdtGrzjtEWt</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GfCTQdE6JfAv5rck1K5Z6WohdtGrzjtEWt" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GfCTQdE6JfAv5rck1K5Z6WohdtGrzjtEWt">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GfCTQdE6JfAv5rck1K5Z6WohdtGrzjtEWt"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GQam5mfZpU34kUaGd7ZhjY9Y825HxUq1Wm</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GQam5mfZpU34kUaGd7ZhjY9Y825HxUq1Wm" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GQam5mfZpU34kUaGd7ZhjY9Y825HxUq1Wm">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GQam5mfZpU34kUaGd7ZhjY9Y825HxUq1Wm"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="d575a9bdf6db4c97bcaa3a2c68770d89863b59784345d6b6580592af180e53a7">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/d575a9bdf6db4c97bcaa3a2c68770d89863b59784345d6b6580592af180e53a7" class="wrap">d575a9bdf6db4c97bcaa3a2c68770d89863b59784345d6b6580592af180e53a7</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/2145567319363875057590410453252755141280556332319126495927965540627877570263#d575a9bdf6db4c97bcaa3a2c68770d89863b59784345d6b6580592af180e53a7" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="d575a9bdf6db4c97bcaa3a2c68770d89863b59784345d6b6580592af180e53a7">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GRboYq16zW4dda1LDQyN7JkRZfP2km1t8s</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GRboYq16zW4dda1LDQyN7JkRZfP2km1t8s" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GRboYq16zW4dda1LDQyN7JkRZfP2km1t8s">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GRboYq16zW4dda1LDQyN7JkRZfP2km1t8s"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">Gg3QPHZ1wvPq3cFPqF3EHd9AqYmjQBpgon</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/Gg3QPHZ1wvPq3cFPqF3EHd9AqYmjQBpgon" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="Gg3QPHZ1wvPq3cFPqF3EHd9AqYmjQBpgon">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="Gg3QPHZ1wvPq3cFPqF3EHd9AqYmjQBpgon"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="b0be5f65ec77c597a8ab8f207fc8077f8884f219015eafb69f835dbfffb524a7">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/b0be5f65ec77c597a8ab8f207fc8077f8884f219015eafb69f835dbfffb524a7" class="wrap">b0be5f65ec77c597a8ab8f207fc8077f8884f219015eafb69f835dbfffb524a7</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1776520460149406843894065942151452913747472008915091747838635753018422077603#b0be5f65ec77c597a8ab8f207fc8077f8884f219015eafb69f835dbfffb524a7" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="b0be5f65ec77c597a8ab8f207fc8077f8884f219015eafb69f835dbfffb524a7">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GQSeM5UgDu2HiuHscmkZBwAc4oFRmfRaX8</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GQSeM5UgDu2HiuHscmkZBwAc4oFRmfRaX8" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GQSeM5UgDu2HiuHscmkZBwAc4oFRmfRaX8">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GQSeM5UgDu2HiuHscmkZBwAc4oFRmfRaX8"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GT3NyGJmNNstHVerVo2tY6ekbeojnU4Q43</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GT3NyGJmNNstHVerVo2tY6ekbeojnU4Q43" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GT3NyGJmNNstHVerVo2tY6ekbeojnU4Q43">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GT3NyGJmNNstHVerVo2tY6ekbeojnU4Q43"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="f1d5b90078c273341f1ab5de41559c4886ed6dd72062eb8d00c1ea989d8c360c">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/f1d5b90078c273341f1ab5de41559c4886ed6dd72062eb8d00c1ea989d8c360c" class="wrap">f1d5b90078c273341f1ab5de41559c4886ed6dd72062eb8d00c1ea989d8c360c</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/2430778039314591529128378610280027608700642324671095224404473568372343963956#f1d5b90078c273341f1ab5de41559c4886ed6dd72062eb8d00c1ea989d8c360c" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="f1d5b90078c273341f1ab5de41559c4886ed6dd72062eb8d00c1ea989d8c360c">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GX3AXu19Aw2EtfckphUeuDgEi2Vctnbgwd</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GX3AXu19Aw2EtfckphUeuDgEi2Vctnbgwd" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GX3AXu19Aw2EtfckphUeuDgEi2Vctnbgwd">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GX3AXu19Aw2EtfckphUeuDgEi2Vctnbgwd"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GR1ervA7qEq1ofMi6C9V3PjvsxNjsG7B1W</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GR1ervA7qEq1ofMi6C9V3PjvsxNjsG7B1W" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GR1ervA7qEq1ofMi6C9V3PjvsxNjsG7B1W">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GR1ervA7qEq1ofMi6C9V3PjvsxNjsG7B1W"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="d5a1b8d1eccf0a90370e116eed13ea0c3e2923ddf28cbe8077f8c4f9f08eb0ec">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/d5a1b8d1eccf0a90370e116eed13ea0c3e2923ddf28cbe8077f8c4f9f08eb0ec" class="wrap">d5a1b8d1eccf0a90370e116eed13ea0c3e2923ddf28cbe8077f8c4f9f08eb0ec</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/2147297215701346581512343701993850289028303735414672015726700035848145921917#d5a1b8d1eccf0a90370e116eed13ea0c3e2923ddf28cbe8077f8c4f9f08eb0ec" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="d5a1b8d1eccf0a90370e116eed13ea0c3e2923ddf28cbe8077f8c4f9f08eb0ec">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GXNUkEt9PnmEakPDY9p5FkjUsfrWwPDWQn</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GXNUkEt9PnmEakPDY9p5FkjUsfrWwPDWQn" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GXNUkEt9PnmEakPDY9p5FkjUsfrWwPDWQn">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GXNUkEt9PnmEakPDY9p5FkjUsfrWwPDWQn"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GVer2NCKvvRdFgq5v9VkHYhSY5ocWq1Neo</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GVer2NCKvvRdFgq5v9VkHYhSY5ocWq1Neo" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GVer2NCKvvRdFgq5v9VkHYhSY5ocWq1Neo">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GVer2NCKvvRdFgq5v9VkHYhSY5ocWq1Neo"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="a2b282fae7e35e4909bde1ed720a4eb47c352e7998eef084f598bd7bc5561297">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/a2b282fae7e35e4909bde1ed720a4eb47c352e7998eef084f598bd7bc5561297" class="wrap">a2b282fae7e35e4909bde1ed720a4eb47c352e7998eef084f598bd7bc5561297</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1635335205321158447951217737341462199546526023603869668005283044175117855509#a2b282fae7e35e4909bde1ed720a4eb47c352e7998eef084f598bd7bc5561297" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="a2b282fae7e35e4909bde1ed720a4eb47c352e7998eef084f598bd7bc5561297">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GaZ5GZLk5HPCMMxhiiKvKELT5fQoULgVVz</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GaZ5GZLk5HPCMMxhiiKvKELT5fQoULgVVz" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GaZ5GZLk5HPCMMxhiiKvKELT5fQoULgVVz">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GaZ5GZLk5HPCMMxhiiKvKELT5fQoULgVVz"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GKXM3UUgPDz9SeHR5gzZCz2FJXcBkP9oic</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GKXM3UUgPDz9SeHR5gzZCz2FJXcBkP9oic" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GKXM3UUgPDz9SeHR5gzZCz2FJXcBkP9oic">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GKXM3UUgPDz9SeHR5gzZCz2FJXcBkP9oic"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="49c18e9baf4cfea45d8db4f053ac1270ea33998dd0f71af32c3f9dae871455ab">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/49c18e9baf4cfea45d8db4f053ac1270ea33998dd0f71af32c3f9dae871455ab" class="wrap">49c18e9baf4cfea45d8db4f053ac1270ea33998dd0f71af32c3f9dae871455ab</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/741351637229221711507948603847220144719307575472816121937766282349174255831#49c18e9baf4cfea45d8db4f053ac1270ea33998dd0f71af32c3f9dae871455ab" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="49c18e9baf4cfea45d8db4f053ac1270ea33998dd0f71af32c3f9dae871455ab">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GMhPdECeZDRe8mjEXkFsxhP5en5w6UdRLf</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GMhPdECeZDRe8mjEXkFsxhP5en5w6UdRLf" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GMhPdECeZDRe8mjEXkFsxhP5en5w6UdRLf">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GMhPdECeZDRe8mjEXkFsxhP5en5w6UdRLf"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GR5GJv5iJaBKHDU8Hfh6hE6MATKehK7FoD</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GR5GJv5iJaBKHDU8Hfh6hE6MATKehK7FoD" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GR5GJv5iJaBKHDU8Hfh6hE6MATKehK7FoD">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GR5GJv5iJaBKHDU8Hfh6hE6MATKehK7FoD"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="1f9eedd24fa28a7c5a3f2923eb4ebbd61657e14ce63e8370151cf8ada51f76c7">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/1f9eedd24fa28a7c5a3f2923eb4ebbd61657e14ce63e8370151cf8ada51f76c7" class="wrap">1f9eedd24fa28a7c5a3f2923eb4ebbd61657e14ce63e8370151cf8ada51f76c7</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/317833367248350416518006257402913358196524789126858100877527833799499890272#1f9eedd24fa28a7c5a3f2923eb4ebbd61657e14ce63e8370151cf8ada51f76c7" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="1f9eedd24fa28a7c5a3f2923eb4ebbd61657e14ce63e8370151cf8ada51f76c7">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GgyGRhLiKdQbCDCnd1vEErnJhEdB2emvMs</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GgyGRhLiKdQbCDCnd1vEErnJhEdB2emvMs" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GgyGRhLiKdQbCDCnd1vEErnJhEdB2emvMs">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GgyGRhLiKdQbCDCnd1vEErnJhEdB2emvMs"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GYtRKvFXWK8GfU3EkMrwLar1E1M9rzakiC</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GYtRKvFXWK8GfU3EkMrwLar1E1M9rzakiC" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GYtRKvFXWK8GfU3EkMrwLar1E1M9rzakiC">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GYtRKvFXWK8GfU3EkMrwLar1E1M9rzakiC"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="35177759cf9577a0de4023b35acbe0151b999e8e8f1ad6fceea294f47907aa3d">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/35177759cf9577a0de4023b35acbe0151b999e8e8f1ad6fceea294f47907aa3d" class="wrap">35177759cf9577a0de4023b35acbe0151b999e8e8f1ad6fceea294f47907aa3d</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/533645381922548322942864607725797675280017919212557961370015174331583412692#35177759cf9577a0de4023b35acbe0151b999e8e8f1ad6fceea294f47907aa3d" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="35177759cf9577a0de4023b35acbe0151b999e8e8f1ad6fceea294f47907aa3d">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GNwWCZtFgD5QBYbjiWYqZCGa1yXRpSSfY1</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GNwWCZtFgD5QBYbjiWYqZCGa1yXRpSSfY1" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GNwWCZtFgD5QBYbjiWYqZCGa1yXRpSSfY1">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GNwWCZtFgD5QBYbjiWYqZCGa1yXRpSSfY1"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GUhnkgec2cHST6rcowxq1LN8WivvGiq8Pm</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GUhnkgec2cHST6rcowxq1LN8WivvGiq8Pm" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GUhnkgec2cHST6rcowxq1LN8WivvGiq8Pm">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GUhnkgec2cHST6rcowxq1LN8WivvGiq8Pm"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="1690ac783ff35d76af33843190a6ac7c9801692981975339a59174c44897f46b">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/1690ac783ff35d76af33843190a6ac7c9801692981975339a59174c44897f46b" class="wrap">1690ac783ff35d76af33843190a6ac7c9801692981975339a59174c44897f46b</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/226811088632444108665105537701303210106650264800104664586529026414694844851#1690ac783ff35d76af33843190a6ac7c9801692981975339a59174c44897f46b" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="1690ac783ff35d76af33843190a6ac7c9801692981975339a59174c44897f46b">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GdKkQPeiZAn5S59wjf5y39gnNscEJWtHuP</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GdKkQPeiZAn5S59wjf5y39gnNscEJWtHuP" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GdKkQPeiZAn5S59wjf5y39gnNscEJWtHuP">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GdKkQPeiZAn5S59wjf5y39gnNscEJWtHuP"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GPuAwrqgarduyoYsB7bhs5yvEpKCa577YE</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GPuAwrqgarduyoYsB7bhs5yvEpKCa577YE" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GPuAwrqgarduyoYsB7bhs5yvEpKCa577YE">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GPuAwrqgarduyoYsB7bhs5yvEpKCa577YE"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="9364d827af97d135fcc12afc0191c8dccebe478de74e06cf763b48b596b8959c">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/9364d827af97d135fcc12afc0191c8dccebe478de74e06cf763b48b596b8959c" class="wrap">9364d827af97d135fcc12afc0191c8dccebe478de74e06cf763b48b596b8959c</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1481514784341309540721368185169027806712293199463435754608766038664836961017#9364d827af97d135fcc12afc0191c8dccebe478de74e06cf763b48b596b8959c" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="9364d827af97d135fcc12afc0191c8dccebe478de74e06cf763b48b596b8959c">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GTGK8swuVoWArNaGSBk3nrW5R4qzG7AX94</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GTGK8swuVoWArNaGSBk3nrW5R4qzG7AX94" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GTGK8swuVoWArNaGSBk3nrW5R4qzG7AX94">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GTGK8swuVoWArNaGSBk3nrW5R4qzG7AX94"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GJXPCCpQKXtZTkWBiA66mtSkpw165vtzYA</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GJXPCCpQKXtZTkWBiA66mtSkpw165vtzYA" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GJXPCCpQKXtZTkWBiA66mtSkpw165vtzYA">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GJXPCCpQKXtZTkWBiA66mtSkpw165vtzYA"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="cc85a81316ca1be28d11b430e9c663ff7d613b99e3a5a02f33163a378a91cf56">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/cc85a81316ca1be28d11b430e9c663ff7d613b99e3a5a02f33163a378a91cf56" class="wrap">cc85a81316ca1be28d11b430e9c663ff7d613b99e3a5a02f33163a378a91cf56</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/2055732706191713978685229427130071331531507731583698912540307752501911355116#cc85a81316ca1be28d11b430e9c663ff7d613b99e3a5a02f33163a378a91cf56" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="cc85a81316ca1be28d11b430e9c663ff7d613b99e3a5a02f33163a378a91cf56">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GbJHTpYjdffakmfDUdPq5ESZELDVnf3tPr</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GbJHTpYjdffakmfDUdPq5ESZELDVnf3tPr" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GbJHTpYjdffakmfDUdPq5ESZELDVnf3tPr">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GbJHTpYjdffakmfDUdPq5ESZELDVnf3tPr"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GNfaGVmPbLhShJw5kv6PqSvshixswaaTdz</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GNfaGVmPbLhShJw5kv6PqSvshixswaaTdz" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GNfaGVmPbLhShJw5kv6PqSvshixswaaTdz">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GNfaGVmPbLhShJw5kv6PqSvshixswaaTdz"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="fabf74d046eba6ec4cd23e3f4f87b043645a8f045244fbafacc4883c4e334557">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/fabf74d046eba6ec4cd23e3f4f87b043645a8f045244fbafacc4883c4e334557" class="wrap">fabf74d046eba6ec4cd23e3f4f87b043645a8f045244fbafacc4883c4e334557</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/2520366358953404555945566709582900533999171461922951244574442205823083611963#fabf74d046eba6ec4cd23e3f4f87b043645a8f045244fbafacc4883c4e334557" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="fabf74d046eba6ec4cd23e3f4f87b043645a8f045244fbafacc4883c4e334557">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GedZuStdX6YoxewBfu4eRJARUXzkqVkjWN</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GedZuStdX6YoxewBfu4eRJARUXzkqVkjWN" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GedZuStdX6YoxewBfu4eRJARUXzkqVkjWN">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GedZuStdX6YoxewBfu4eRJARUXzkqVkjWN"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GenYcbQy2jmBc1CpnaAbNKQS7ME6bSePGu</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GenYcbQy2jmBc1CpnaAbNKQS7ME6bSePGu" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GenYcbQy2jmBc1CpnaAbNKQS7ME6bSePGu">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GenYcbQy2jmBc1CpnaAbNKQS7ME6bSePGu"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="37753002562e50c9d1e3796db59a21a127728856dd98ff801b36bdc5005740ae">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/37753002562e50c9d1e3796db59a21a127728856dd98ff801b36bdc5005740ae" class="wrap">37753002562e50c9d1e3796db59a21a127728856dd98ff801b36bdc5005740ae</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/557427980566203818138882340757110471117519997608611594898231967985044168162#37753002562e50c9d1e3796db59a21a127728856dd98ff801b36bdc5005740ae" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="37753002562e50c9d1e3796db59a21a127728856dd98ff801b36bdc5005740ae">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GeWi6EGCTiK5iKanDja2SFy1efwCJrNGyj</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GeWi6EGCTiK5iKanDja2SFy1efwCJrNGyj" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GeWi6EGCTiK5iKanDja2SFy1efwCJrNGyj">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GeWi6EGCTiK5iKanDja2SFy1efwCJrNGyj"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">Gb4S42pQVPJHPnyRm5guY5hZczpdQuum7G</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/Gb4S42pQVPJHPnyRm5guY5hZczpdQuum7G" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="Gb4S42pQVPJHPnyRm5guY5hZczpdQuum7G">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="Gb4S42pQVPJHPnyRm5guY5hZczpdQuum7G"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="795edb17f462b6215ae6958855fa82b23103685453070abc896a6706766a2ac4">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/795edb17f462b6215ae6958855fa82b23103685453070abc896a6706766a2ac4" class="wrap">795edb17f462b6215ae6958855fa82b23103685453070abc896a6706766a2ac4</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1219943342909553962199262922050965071614366349079572774176096054064861247595#795edb17f462b6215ae6958855fa82b23103685453070abc896a6706766a2ac4" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="795edb17f462b6215ae6958855fa82b23103685453070abc896a6706766a2ac4">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GWSh8gKSe6FUZgi9o1wMAbuRx6puwfhkbk</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GWSh8gKSe6FUZgi9o1wMAbuRx6puwfhkbk" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GWSh8gKSe6FUZgi9o1wMAbuRx6puwfhkbk">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GWSh8gKSe6FUZgi9o1wMAbuRx6puwfhkbk"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GR1pbvMCKYJnGt81cwZM8kTeu58vp8RKRq</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GR1pbvMCKYJnGt81cwZM8kTeu58vp8RKRq" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GR1pbvMCKYJnGt81cwZM8kTeu58vp8RKRq">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GR1pbvMCKYJnGt81cwZM8kTeu58vp8RKRq"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="9770600d88c96e84fbb75638051f9d6e408f01384f484cfddca714c80aa4581c">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/9770600d88c96e84fbb75638051f9d6e408f01384f484cfddca714c80aa4581c" class="wrap">9770600d88c96e84fbb75638051f9d6e408f01384f484cfddca714c80aa4581c</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1522173109774718625005127031082271146080676024083935529887138190535930908719#9770600d88c96e84fbb75638051f9d6e408f01384f484cfddca714c80aa4581c" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="9770600d88c96e84fbb75638051f9d6e408f01384f484cfddca714c80aa4581c">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GgoN1Xz2z6oxLbRHSSJz4GDrsdp23gF6ov</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GgoN1Xz2z6oxLbRHSSJz4GDrsdp23gF6ov" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GgoN1Xz2z6oxLbRHSSJz4GDrsdp23gF6ov">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GgoN1Xz2z6oxLbRHSSJz4GDrsdp23gF6ov"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GcSGzmjMexiWmGVNt6c2yunJYrGTkeEbrG</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GcSGzmjMexiWmGVNt6c2yunJYrGTkeEbrG" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GcSGzmjMexiWmGVNt6c2yunJYrGTkeEbrG">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GcSGzmjMexiWmGVNt6c2yunJYrGTkeEbrG"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                    <tr id="b1ad08a4b458215d335b0788a3d6a82653be7c5a14cfc03c4b7d8146307e5f5e">
+                <td>
+                    <span class="d-flex">
+    <span class="me-1">
+        <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    </span>
+
+    <span class="d-flex flex-column">
+        <span class="hover">
+            <a href="/key/b1ad08a4b458215d335b0788a3d6a82653be7c5a14cfc03c4b7d8146307e5f5e" class="wrap">b1ad08a4b458215d335b0788a3d6a82653be7c5a14cfc03c4b7d8146307e5f5e</a>
+
+            <span class="buttons">
+                <a href="/keys/bitcoin-gold/1785891075463095692953289554430396194104368037916554238338453905924444183117#b1ad08a4b458215d335b0788a3d6a82653be7c5a14cfc03c4b7d8146307e5f5e" title="Navigate" data-bs-toggle="tooltip">
+                    <i class="fas fa-link"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="b1ad08a4b458215d335b0788a3d6a82653be7c5a14cfc03c4b7d8146307e5f5e">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span>
+                    </span>
+    </span>
+</span>
+                </td>
+
+                <td>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (compressed)" data-bs-toggle="tooltip">C</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">GSm4fePYAwnGPkk6ZWzRcYzfEmXJYCWJQi</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/GSm4fePYAwnGPkk6ZWzRcYzfEmXJYCWJQi" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="GSm4fePYAwnGPkk6ZWzRcYzfEmXJYCWJQi">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="GSm4fePYAwnGPkk6ZWzRcYzfEmXJYCWJQi"></span>
+    </span>
+</span>
+                        </div>
+                                            <div>
+                            <span class="d-flex">
+    <span class="me-1">
+                                    <span class="icon" title="Legacy (uncompressed)" data-bs-toggle="tooltip">U</span>
+                        </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">Gbr51poHEWyPzhbjswgFoiiCi7KyTxwHqq</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin-gold/Gbr51poHEWyPzhbjswgFoiiCi7KyTxwHqq" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="Gbr51poHEWyPzhbjswgFoiiCi7KyTxwHqq">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin-gold" data-address="Gbr51poHEWyPzhbjswgFoiiCi7KyTxwHqq"></span>
+    </span>
+</span>
+                        </div>
+                                    </td>
+            </tr>
+                </tbody>
+    </table>
+</div>
+
+        <form method="GET" action="/keys/bitcoin-gold/random" accept-charset="UTF-8" class="row" role="form">
+
+<input type="hidden" name="type" value="">
+
+<p class="text-center">Generate random Bitcoin Gold private keys within a specific range:</p>
+
+<div class="col-md mb-2 mb-md-0">
+    <input class="form-control font-monospace "
+           type="text"
+           name="startKey"
+           value=""
+           placeholder="Start of key range (HEX)" aria-label="Start of key range">
+    <div class="invalid-feedback"></div>
+</div>
+
+<div class="col-md mb-2 mb-md-0">
+    <input class="form-control font-monospace "
+           type="text"
+           name="stopKey"
+           value=""
+           placeholder="End of key range (HEX)" aria-label="End of key range">
+    <div class="invalid-feedback"></div>
+</div>
+
+<div class="col-md-auto">
+    <button class="btn btn-secondary" type="submit">Generate</button>
+</div>
+
+</form>
+    </div>
+</main>
+
+<div class=" container ">
+    <footer class="border-top p-3 mt-4 d-flex flex-column align-items-center text-secondary">
+        <div class="row justify-content-center text-center mb-1">
+            <div class="col-auto">
+                <i class="fas fa-crown text-warning"></i>
+                <a href="/premium" class="link-secondary">Premium</a>
+            </div>
+            <div class="col-auto">
+                ☕️ <a id="link-donate" class="link-secondary" href="/modal/donate">Donate</a>
+            </div>
+            <div class="col-auto">
+                <i class="fab fa-telegram"></i>
+                <a href="https://t.me/bitcoin_keys" class="link-secondary">Telegram Group</a>
+            </div>
+            <div class="col-auto">
+                <i class="fas fa-info-circle"></i>
+                <a href="/privacy-policy" class="link-secondary">Privacy Policy</a>
+            </div>
+            
+            <div class="col-auto">
+                <i class="fas fa-envelope"></i>
+                <a href="/contact" class="link-secondary">Contact</a>
+            </div>
+        </div>
+
+        <div>Copyright &copy; 2017&mdash;2026 PrivateKeys</div>
+    </footer>
+</div>
+
+<link rel="modulepreload" href="/assets/app-DERGi70t.js" /><link rel="modulepreload" href="/assets/theme-DIQzH4rx.js" /><script type="module" src="/assets/app-DERGi70t.js"></script>
+
+</body>
+</html>
