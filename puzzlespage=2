@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Bitcoin Crypto Puzzles - Private Keys Directory</title>
+    <meta name="description" content="The list of all crypto puzzles with solution and private keys">
+    <meta name="keywords" content="bitcoin crypto puzzles database solution private key">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#333333">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#333333">
+    <!-- /favicons -->
+
+    <link rel="preload" as="style" href="/assets/app-F7rovCNy.css" /><link rel="stylesheet" href="/assets/app-F7rovCNy.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    
+    
+    
+    
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-dark">
+    <div class=" container ">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+            <img src="/images/logo.png" alt="Logo" title="PrivateKeys" width="35" height="35"> PrivateKeys
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDirectory" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-database" aria-hidden="true"></i> Directory
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirectory">
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/1" title="Private Keys Directory">
+                                <i class="fas fa-key"></i> All Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/random" title="Random Private Keys Generator">
+                                <i class="fas fa-random"></i> Random Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/search/bitcoin" title="Private Key Search">
+                                <i class="fas fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/brainwallet/bitcoin/1">
+                        <i class="fas fa-brain" aria-hidden="true"></i> Brainwallets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  active " href="/puzzles" title="Crypto Puzzles">
+                        <i class="fas fa-puzzle-piece" aria-hidden="true"></i> Puzzles
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " href="/richest/bitcoin">
+                        <i class="fas fa-trophy" aria-hidden="true"></i> Rich List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/balances">
+                        <i class="fas fa-coins"></i> Balances
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownTools" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-tools" aria-hidden="true"></i> Tools
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownTools">
+                        <li>
+                            <a class="dropdown-item "  href="/bitcoin-puzzle-solver">
+                                Bitcoin Puzzle Solver
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/tx-parser">
+                                Transaction Decoder
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/mnemonic/bitcoin">
+                                Mnemonic Converter
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/calc">
+                                Crypto Calculator
+                            </a>
+                        </li>
+                                                                                            </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/faq">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+    <a href="#" id="bd-theme" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="bi bi-sun"></i> <span class="d-xl-none" id="bd-theme-text">Toggle theme</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button class="dropdown-item active" type="button" data-bs-theme-value="light"><i class="bi bi-sun"></i> Light</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="dark"><i class="bi bi-moon"></i> Dark</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="auto"><i class="bi bi-circle-half"></i> Auto</button></li>
+    </ul>
+</li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="dropdownUser" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i> <span class="d-xl-none" id="bd-theme-text">My Account</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownUser">
+                                                    <li>
+                                <a class="dropdown-item " href="/auth/login">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item " href="/auth/register">
+                                    Register
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+            </ul>
+
+            <form action="/quick-search" class="ms-xl-2" data-bs-theme="dark">
+                <div class="input-group">
+                    <input class="form-control" type="search" name="query" placeholder="Search Private Key" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class=" container ">
+            </div>
+    <div class=" container ">
+            </div>
+
+<main role="main">
+        <div class="container">
+        <h1>Bitcoin Crypto Puzzles</h1>
+
+        <p>A collection of popular cryptocurrency (Bitcoin) puzzles with solutions and private keys.</p>
+
+        <ul class="nav nav-tabs mb-3" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link  active " aria-current="page" href="/puzzles">
+                    All <span class="badge rounded-pill bg-primary">21</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/puzzles?status=unsolved">
+                    Unsolved <span class="badge rounded-pill bg-primary">4</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/puzzles?status=partially-solved">
+                    Partially solved <span class="badge rounded-pill bg-primary">2</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/puzzles?status=solved">
+                    Solved <span class="badge rounded-pill bg-primary">14</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="/puzzles?status=expired">
+                    Expired <span class="badge rounded-pill bg-primary">1</span>
+                </a>
+            </li>
+        </ul>
+
+                    <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        <a href="/puzzles/0.03-btc-coinmonks-puzzle"
+                           title="0.03 BTC Puzzle solution &amp; private key">0.03 BTC Puzzle</a>
+                    </h3>
+                    <div>
+    <span class="fw-bold">Status:</span>
+    <span class="badge bg-success">UNSOLVED</span>
+</div>
+
+            <div>
+            <span class="fw-bold">Prize:</span> 0.03 BTC
+        </div>
+                    <div>
+            <span class="fw-bold">Owner:</span> Trithemius
+        </div>
+                    <div>
+            <span class="fw-bold">Start Date:</span> 2019-02-11
+        </div>
+            
+    <div class="d-flex">
+        <span class="fw-bold">Address:</span>
+        <span class="wrap">
+            <span class="d-flex">
+    <span class="me-1">
+            </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">1K4ezpLybootYF23TM4a8Y4NyP7auysnRo</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin/1K4ezpLybootYF23TM4a8Y4NyP7auysnRo" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="1K4ezpLybootYF23TM4a8Y4NyP7auysnRo">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin" data-address="1K4ezpLybootYF23TM4a8Y4NyP7auysnRo"></span>
+    </span>
+</span>
+        </span>
+    </div>
+
+                </div>
+            </div>
+                    <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        <a href="/puzzles/0.005-btc-lvl5-puzzle"
+                           title="0.005 BTC Level 5 Puzzle by Zden solution &amp; private key">0.005 BTC Level 5 Puzzle by Zden</a>
+                    </h3>
+                    <div>
+    <span class="fw-bold">Status:</span>
+    <span class="badge bg-success">UNSOLVED</span>
+</div>
+
+            <div>
+            <span class="fw-bold">Prize:</span> 0.0055555 BTC
+        </div>
+                <div>
+            <span class="fw-bold">Creator:</span> Zden
+        </div>
+                        <div>
+            <span class="fw-bold">Start Date:</span> 2018-11-09
+        </div>
+            
+    <div class="d-flex">
+        <span class="fw-bold">Address:</span>
+        <span class="wrap">
+            <span class="d-flex">
+    <span class="me-1">
+            </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">1cryptoGeCRiTzVgxBQcKFFjSVydN1GW7</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin/1cryptoGeCRiTzVgxBQcKFFjSVydN1GW7" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="1cryptoGeCRiTzVgxBQcKFFjSVydN1GW7">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin" data-address="1cryptoGeCRiTzVgxBQcKFFjSVydN1GW7"></span>
+    </span>
+</span>
+        </span>
+    </div>
+
+                </div>
+            </div>
+                    <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        <a href="/puzzles/2-btc-rushwallet-puzzle"
+                           title="2 BTC RushWallet Puzzle solution &amp; private key">2 BTC RushWallet Puzzle</a>
+                    </h3>
+                    <div>
+    <span class="fw-bold">Status:</span>
+    <span class="badge bg-warning text-black">PARTIALLY SOLVED</span>
+</div>
+
+            <div>
+            <span class="fw-bold">Prize:</span> 0.01 BTC (was 2 BTC)
+        </div>
+                <div>
+            <span class="fw-bold">Creator:</span> kryptokit.com
+        </div>
+                        <div>
+            <span class="fw-bold">Start Date:</span> 2014-09-23
+        </div>
+            
+    <div class="d-flex">
+        <span class="fw-bold">Address:</span>
+        <span class="wrap">
+            <span class="d-flex">
+    <span class="me-1">
+            </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">13Q8hJqagtd77ojTJcEZPjTz2sBFSsYxyj</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin/13Q8hJqagtd77ojTJcEZPjTz2sBFSsYxyj" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="13Q8hJqagtd77ojTJcEZPjTz2sBFSsYxyj">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin" data-address="13Q8hJqagtd77ojTJcEZPjTz2sBFSsYxyj"></span>
+    </span>
+</span>
+        </span>
+    </div>
+
+                </div>
+            </div>
+                    <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        <a href="/puzzles/100-eth-puzzle"
+                           title="100 ETH Puzzle by CPDProject solution &amp; private key">100 ETH Puzzle by CPDProject</a>
+                    </h3>
+                    <div>
+    <span class="fw-bold">Status:</span>
+    <span class="badge bg-danger">SOLVED</span>
+</div>
+
+            <div>
+            <span class="fw-bold">Prize:</span> 100 ETH
+        </div>
+                    <div>
+            <span class="fw-bold">Owner:</span> CPDProject.com
+        </div>
+                    <div>
+            <span class="fw-bold">Start Date:</span> 2020-04-13
+        </div>
+                <div>
+            <span class="fw-bold">Solve Date:</span> 2020-12-01
+        </div>
+        
+    <div class="d-flex">
+        <span class="fw-bold">Address:</span>
+        <span class="wrap">
+            <span class="d-flex">
+    <span class="me-1">
+            </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">0x812DFd7fB17f148d5F0E85Cb3018f8822Ad89E91</span>
+
+            <span class="buttons">
+                <a href="/address/ethereum/0x812DFd7fB17f148d5F0E85Cb3018f8822Ad89E91" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="0x812DFd7fB17f148d5F0E85Cb3018f8822Ad89E91">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-ethereum" data-address="0x812DFd7fB17f148d5F0E85Cb3018f8822Ad89E91"></span>
+    </span>
+</span>
+        </span>
+    </div>
+
+    <div>
+        <span class="fw-bold">Private Key:</span>
+        <span class="wrap">
+            <span class="hover">
+    <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    <a href="/key/b0b43752d4d54fe3dc4ffe2e37ebba11b73abb12ef8e68ad24ca79f9baaedd71">b0b43752d4d54fe3dc4ffe2e37ebba11b73abb12ef8e68ad24ca79f9baaedd71</a>
+
+    <span class="buttons">
+        <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="b0b43752d4d54fe3dc4ffe2e37ebba11b73abb12ef8e68ad24ca79f9baaedd71">
+    <i class="far fa-copy"></i>
+</button>
+    </span>
+</span>
+        </span>
+    </div>
+                </div>
+            </div>
+                    <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">
+                        <a href="/puzzles/1.1-btc-phemex-puzzle"
+                           title="1.1 BTC Puzzle by Phemex solution &amp; private key">1.1 BTC Puzzle by Phemex</a>
+                    </h3>
+                    <div>
+    <span class="fw-bold">Status:</span>
+    <span class="badge bg-danger">SOLVED</span>
+</div>
+
+            <div>
+            <span class="fw-bold">Prize:</span> 1.1 BTC (2.1 BTC total)
+        </div>
+                    <div>
+            <span class="fw-bold">Owner:</span> Phemex
+        </div>
+                    <div>
+            <span class="fw-bold">Start Date:</span> 2020-01-16
+        </div>
+                <div>
+            <span class="fw-bold">Solve Date:</span> 2020-03-21
+        </div>
+        
+    <div class="d-flex">
+        <span class="fw-bold">Address:</span>
+        <span class="wrap">
+            <span class="d-flex">
+    <span class="me-1">
+            </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">1h8BNZkhsPiu6EKazP19WkGxDw3jHf9aT</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin/1h8BNZkhsPiu6EKazP19WkGxDw3jHf9aT" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="1h8BNZkhsPiu6EKazP19WkGxDw3jHf9aT">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin" data-address="1h8BNZkhsPiu6EKazP19WkGxDw3jHf9aT"></span>
+    </span>
+</span>
+        </span>
+    </div>
+
+    <div>
+        <span class="fw-bold">Private Key:</span>
+        <span class="wrap">
+            <span class="hover">
+    <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    <a href="/key/00000000000000141dc7bec50472bb381be8e18f6d6b397773d71fc5d91d41fb">00000000000000141dc7bec50472bb381be8e18f6d6b397773d71fc5d91d41fb</a>
+
+    <span class="buttons">
+        <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="00000000000000141dc7bec50472bb381be8e18f6d6b397773d71fc5d91d41fb">
+    <i class="far fa-copy"></i>
+</button>
+    </span>
+</span>
+        </span>
+    </div>
+                </div>
+            </div>
+        
+        <nav class="d-flex justify-items-center justify-content-between">
+        <div class="d-flex justify-content-between flex-fill d-sm-none">
+            <ul class="pagination">
+                
+                                    <li class="page-item">
+                        <a class="page-link" href="/puzzles?page=1" rel="prev">&laquo; Previous</a>
+                    </li>
+                
+                
+                                    <li class="page-item">
+                        <a class="page-link" href="/puzzles?page=3" rel="next">Next &raquo;</a>
+                    </li>
+                            </ul>
+        </div>
+
+        <div class="d-none flex-sm-fill d-sm-flex align-items-sm-center justify-content-sm-between">
+            <div>
+                <p class="small text-muted">
+                    Showing
+                    <span class="fw-semibold">6</span>
+                    to
+                    <span class="fw-semibold">10</span>
+                    of
+                    <span class="fw-semibold">21</span>
+                    results
+                </p>
+            </div>
+
+            <div>
+                <ul class="pagination">
+                    
+                                            <li class="page-item">
+                            <a class="page-link" href="/puzzles?page=1" rel="prev" aria-label="&laquo; Previous">&lsaquo;</a>
+                        </li>
+                    
+                    
+                                            
+                        
+                        
+                                                                                                                        <li class="page-item"><a class="page-link" href="/puzzles?page=1">1</a></li>
+                                                                                                                                <li class="page-item active" aria-current="page"><span class="page-link">2</span></li>
+                                                                                                                                <li class="page-item"><a class="page-link" href="/puzzles?page=3">3</a></li>
+                                                                                                                                <li class="page-item"><a class="page-link" href="/puzzles?page=4">4</a></li>
+                                                                                                                                <li class="page-item"><a class="page-link" href="/puzzles?page=5">5</a></li>
+                                                                                                        
+                    
+                                            <li class="page-item">
+                            <a class="page-link" href="/puzzles?page=3" rel="next" aria-label="Next &raquo;">&rsaquo;</a>
+                        </li>
+                                    </ul>
+            </div>
+        </div>
+    </nav>
+
+    </div>
+</main>
+
+<div class=" container ">
+    <footer class="border-top p-3 mt-4 d-flex flex-column align-items-center text-secondary">
+        <div class="row justify-content-center text-center mb-1">
+            <div class="col-auto">
+                <i class="fas fa-crown text-warning"></i>
+                <a href="/premium" class="link-secondary">Premium</a>
+            </div>
+            <div class="col-auto">
+                ☕️ <a id="link-donate" class="link-secondary" href="/modal/donate">Donate</a>
+            </div>
+            <div class="col-auto">
+                <i class="fab fa-telegram"></i>
+                <a href="https://t.me/bitcoin_keys" class="link-secondary">Telegram Group</a>
+            </div>
+            <div class="col-auto">
+                <i class="fas fa-info-circle"></i>
+                <a href="/privacy-policy" class="link-secondary">Privacy Policy</a>
+            </div>
+            
+            <div class="col-auto">
+                <i class="fas fa-envelope"></i>
+                <a href="/contact" class="link-secondary">Contact</a>
+            </div>
+        </div>
+
+        <div>Copyright &copy; 2017&mdash;2026 PrivateKeys</div>
+    </footer>
+</div>
+
+<link rel="modulepreload" href="/assets/app-DERGi70t.js" /><link rel="modulepreload" href="/assets/theme-DIQzH4rx.js" /><script type="module" src="/assets/app-DERGi70t.js"></script>
+
+</body>
+</html>

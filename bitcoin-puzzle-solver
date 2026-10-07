@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>    Bitcoin Puzzle Solver - CPU and GPU Key Search
+</title>
+    <meta name="description" content="    Search Bitcoin Puzzle key ranges directly in your browser using optimized CPU workers or WebGPU compute shaders.
+">
+    <meta name="keywords" content="    bitcoin puzzle solver private key search keyspace CPU GPU
+">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#333333">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#333333">
+    <!-- /favicons -->
+
+    <link rel="preload" as="style" href="/assets/app-F7rovCNy.css" /><link rel="stylesheet" href="/assets/app-F7rovCNy.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    
+    
+    
+    
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-dark">
+    <div class=" container ">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+            <img src="/images/logo.png" alt="Logo" title="PrivateKeys" width="35" height="35"> PrivateKeys
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDirectory" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-database" aria-hidden="true"></i> Directory
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirectory">
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/1" title="Private Keys Directory">
+                                <i class="fas fa-key"></i> All Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/random" title="Random Private Keys Generator">
+                                <i class="fas fa-random"></i> Random Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/search/bitcoin" title="Private Key Search">
+                                <i class="fas fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/brainwallet/bitcoin/1">
+                        <i class="fas fa-brain" aria-hidden="true"></i> Brainwallets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/puzzles" title="Crypto Puzzles">
+                        <i class="fas fa-puzzle-piece" aria-hidden="true"></i> Puzzles
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " href="/richest/bitcoin">
+                        <i class="fas fa-trophy" aria-hidden="true"></i> Rich List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/balances">
+                        <i class="fas fa-coins"></i> Balances
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  active " href="#" id="navbarDropdownTools" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-tools" aria-hidden="true"></i> Tools
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownTools">
+                        <li>
+                            <a class="dropdown-item  active "  href="/bitcoin-puzzle-solver">
+                                Bitcoin Puzzle Solver
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/tx-parser">
+                                Transaction Decoder
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/mnemonic/bitcoin">
+                                Mnemonic Converter
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/calc">
+                                Crypto Calculator
+                            </a>
+                        </li>
+                                                                                            </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/faq">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+    <a href="#" id="bd-theme" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="bi bi-sun"></i> <span class="d-xl-none" id="bd-theme-text">Toggle theme</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button class="dropdown-item active" type="button" data-bs-theme-value="light"><i class="bi bi-sun"></i> Light</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="dark"><i class="bi bi-moon"></i> Dark</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="auto"><i class="bi bi-circle-half"></i> Auto</button></li>
+    </ul>
+</li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="dropdownUser" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i> <span class="d-xl-none" id="bd-theme-text">My Account</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownUser">
+                                                    <li>
+                                <a class="dropdown-item " href="/auth/login">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item " href="/auth/register">
+                                    Register
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+            </ul>
+
+            <form action="/quick-search" class="ms-xl-2" data-bs-theme="dark">
+                <div class="input-group">
+                    <input class="form-control" type="search" name="query" placeholder="Search Private Key" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class=" container ">
+            </div>
+    <div class=" container ">
+            </div>
+
+<main role="main">
+        <div class="container">
+        <h1>Bitcoin Puzzle Solver</h1>
+
+        
+
+        <p>Search the defined private-key ranges of unsolved <a href="/puzzles/bitcoin-puzzle-tx">Bitcoin Puzzles</a>
+            using your CPU or GPU directly in the browser. Choose a puzzle, select a search mode, and contribute your
+            device's computing power toward finding its key.</p>
+
+        <div class="card my-3">
+            <div class="card-body">
+                <form action="#" class="scanner">
+    <script type="application/json" class="scanner-public-key">
+        "-----BEGIN PUBLIC KEY-----\r\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA0f0FnZ9cL4VAkVeh5qVJ\r\ng+xUo9NzNPxTfMVdKX+FhT+rBgQXqdC6WTxlkckvhojPbz5XohWATjCxoIYTOsEr\r\nOt4NfT1ywn2I2BdMjptlbn5PJZea9E6VHKOUgxmZfCioOh7gwI3+y9f4f8s+ATJb\r\nIyb7WE+HN6T5eJlVrZ7Iej6Pbpn6w2w\/odPhTnrqmmobyFi0cjJkYM6Mg7liYHxe\r\noZluYF2yGCb2zFED3n+2uXSKrvyRVC+5RB0qoHszspQz8p6HqcccoMPRCzaf7uvZ\r\n2DXyZlxWxaPf7uyJNGdCnHkgO0lbvJ9F0Zv1qUed3XLiTCDdV3yZWiy3QiD5afva\r\nHYjQwkRWzyToPPHAMW2A3YefSPgJh7B6si507ym\/SRYzSsnfLX0MaLns\/Z2znriq\r\nXeOzz5remPsSrwFL1EIu69BboB0FtWAeCktKWQ6K6GlZi3IjQlynb1eiTBbBpsE1\r\nKy1iweY6xzXRQomF+CjYXxiuxYiAruKsqCULqYbnDdyrAgMBAAE=\r\n-----END PUBLIC KEY-----"
+    </script>
+
+    <fieldset class="scanner-fieldset">
+        <div class="mb-3 row">
+            <label for="address" class="col-sm-2 col-form-label">Payout Address (BTC):</label>
+            <div class="col-sm-10">
+                <input id="address" type="text" name="address" class="scanner-address form-control"
+                       value="1KEYS19ev7xLST4JTZxbpfKyrqgPLvhawr" placeholder="Bitcoin address...">
+            </div>
+        </div>
+
+        <div class="mb-3 row">
+            <label for="preset" class="col-sm-2 col-form-label">Search Target:</label>
+            <div class="col-sm-10">
+                <select id="preset" class="scanner-preset form-control"></select>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label class="col-form-label col-sm-2">Compute Backend:</label>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input scanner-adapter" type="radio" name="adapter" value="webgpu"
+                           id="adapterWebGPU" checked>
+                    <label class="form-check-label" for="adapterWebGPU">WebGPU</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input scanner-adapter" type="radio" name="adapter" value="cpu"
+                           id="adapterCPU">
+                    <label class="form-check-label" for="adapterCPU">CPU</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <label class="col-form-label col-sm-2">Search Method:</label>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input scanner-mode" type="radio" name="mode"
+                           id="modeRandom" value="random" checked>
+                    <label class="form-check-label" for="modeRandom">
+                        Random
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input scanner-mode" type="radio" name="mode"
+                           id="modeSequential" value="sequential">
+                    <label class="form-check-label" for="modeSequential">
+                        Sequential
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div id="advanced" class="collapse mt-3">
+            <div class="mb-3 row">
+                <label for="start-key" class="col-sm-2 col-form-label">Range Start:</label>
+                <div class="col-sm-10">
+                    <div class="input-group">
+                        <input id="start-key" type="text" name="start_key"
+                               class="scanner-start-key form-control font-monospace"
+                               maxlength="64">
+                    </div>
+                    <div class="form-text text-muted">Start key in HEX format.</div>
+                </div>
+            </div>
+
+            <div class="mb-3 row">
+                <label for="start-key" class="col-sm-2 col-form-label">Range End:</label>
+                <div class="col-sm-10">
+                    <div class="input-group">
+                        <input id="start-key" type="text" name="stop_key"
+                               class="scanner-stop-key form-control font-monospace"
+                               maxlength="64">
+                    </div>
+                    <div class="form-text text-muted">End key in HEX format.</div>
+                </div>
+            </div>
+
+            <div class="mb-3 row">
+                <label for="target-address" class="col-sm-2 col-form-label">Target Address:</label>
+                <div class="col-sm-10">
+                    <input id="target-address" type="text" name="target_address"
+                           class="scanner-target-address form-control font-monospace"
+                           placeholder="Bitcoin address (P2PKH; compressed)...">
+                    <div class="form-text text-muted">Target Bitcoin address (P2PKH; compressed).</div>
+                </div>
+            </div>
+
+            <div class="row">
+                <label for="workers" class="col-sm-2 col-form-label">Worker Threads:</label>
+                <div class="col-sm-10">
+                    <input id="workers" type="number" name="workers" class="scanner-workers form-control"
+                           min="1" max="16" value="2">
+                    <div class="form-text text-muted">Number of CPU worker threads from 2 to 16.</div>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+
+    <hr class="border-secondary py-0">
+
+    <div class="mb-3 row">
+        <label class="col-sm-2 col-form-label">Status:</label>
+        <div class="col-sm-10 col-form-label text-primary">
+            <span class="scanner-status">Stopped</span>
+        </div>
+    </div>
+
+    <div class="mb-3 row">
+        <label class="col-sm-2 col-form-label">Scan Speed:</label>
+        <div class="col-sm-10 col-form-label">
+            <span class="scanner-speed">0 key/s</span>
+        </div>
+    </div>
+
+    <div class="mb-3 row">
+        <label class="col-sm-2 col-form-label">Keys Checked:</label>
+        <div class="col-sm-10 col-form-label">
+            <div class="scanner-total">0</div>
+        </div>
+    </div>
+
+    <div class="mb-3 row">
+        <label class="col-sm-2 col-form-label">Current Key:</label>
+        <div class="col-sm-10 col-form-label">
+            <code class="scanner-current-key">N/A</code>
+        </div>
+    </div>
+
+    <div class="mb-3 row">
+        <label class="col-sm-2 col-form-label">Found Keys:</label>
+        <div class="col-sm-10 col-form-label">
+            <div class="scanner-found d-flex flex-column gap-1">None</div>
+        </div>
+    </div>
+
+    <input type="submit" value="Start" class="btn btn-primary me-2">
+
+    <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse"
+            data-bs-target="#advanced" aria-expanded="false" aria-controls="advanced">
+        Advanced Settings
+    </button>
+</form>
+            </div>
+        </div>
+
+        <section class="my-3" aria-labelledby="bitcoin-puzzle-solver-faq">
+    <h2 id="bitcoin-puzzle-solver-faq">Bitcoin Puzzle Solver FAQ</h2>
+
+    <div class="accordion" id="bitcoinPuzzleSolverFaq">
+    <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#bitcoinPuzzleSolverFaq815b14f744" aria-expanded="true" aria-controls="bitcoinPuzzleSolverFaq815b14f744">
+            What is the Bitcoin Puzzle?
+        </button>
+    </h2>
+    <div id="bitcoinPuzzleSolverFaq815b14f744" class="accordion-collapse collapse " data-bs-parent="#bitcoinPuzzleSolverFaq">
+        <div class="accordion-body">
+            <p class="mb-0">The <strong>Bitcoin Puzzle</strong>, also known as the <a
+                    href="/puzzles/bitcoin-puzzle-tx">Bitcoin Transaction Challenge</a>, is a cryptographic
+                challenge created in 2015 to demonstrate how the difficulty of a <strong>brute-force attack</strong>
+                increases with the size of the <strong>keyspace</strong>. It consists of 160 Bitcoin addresses generated
+                from
+                intentionally weak private keys restricted to progressively larger ranges. Each successive puzzle
+                therefore requires searching a larger range and is more resistant to brute-force attacks.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#bitcoinPuzzleSolverFaqdf416405a6" aria-expanded="true" aria-controls="bitcoinPuzzleSolverFaqdf416405a6">
+            How does the Bitcoin Puzzle Solver work?
+        </button>
+    </h2>
+    <div id="bitcoinPuzzleSolverFaqdf416405a6" class="accordion-collapse collapse " data-bs-parent="#bitcoinPuzzleSolverFaq">
+        <div class="accordion-body">
+            <p class="mb-0">The <strong>Bitcoin Puzzle Solver</strong> generates candidate private keys within the
+                selected puzzle range, derives their compressed public keys and <strong>HASH160</strong> values, and
+                compares them with the target address. The <strong>private-key search runs locally in your
+                    browser</strong> using either CPU workers or WebGPU.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#bitcoinPuzzleSolverFaq6c9a9b738e" aria-expanded="true" aria-controls="bitcoinPuzzleSolverFaq6c9a9b738e">
+            How do I choose a puzzle to search?
+        </button>
+    </h2>
+    <div id="bitcoinPuzzleSolverFaq6c9a9b738e" class="accordion-collapse collapse " data-bs-parent="#bitcoinPuzzleSolverFaq">
+        <div class="accordion-body">
+            <p class="mb-0">Select a puzzle from the <strong>Search Target</strong> list to fill in its target address
+                and private-key range automatically. Select <strong>Custom</strong> to enter a target address and
+                range manually.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#bitcoinPuzzleSolverFaqdb06713ad8" aria-expanded="true" aria-controls="bitcoinPuzzleSolverFaqdb06713ad8">
+            What is the difference between Sequential and Random modes?
+        </button>
+    </h2>
+    <div id="bitcoinPuzzleSolverFaqdb06713ad8" class="accordion-collapse collapse " data-bs-parent="#bitcoinPuzzleSolverFaq">
+        <div class="accordion-body">
+            <p class="mb-0"><strong>Sequential mode</strong> checks each key in order from the beginning to the end
+                of the selected range, providing predictable coverage. <strong>Random mode</strong> selects random
+                starting points and checks consecutive keys in chunks. It can revisit a previously searched area, but
+                makes it less likely that independent participants will spend all their time searching the same part
+                of the range.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#bitcoinPuzzleSolverFaqf7269167d6" aria-expanded="true" aria-controls="bitcoinPuzzleSolverFaqf7269167d6">
+            What is the difference between CPU and WebGPU?
+        </button>
+    </h2>
+    <div id="bitcoinPuzzleSolverFaqf7269167d6" class="accordion-collapse collapse " data-bs-parent="#bitcoinPuzzleSolverFaq">
+        <div class="accordion-body">
+            <p class="mb-0">The <strong>CPU backend</strong> runs WebAssembly calculations in browser workers and
+                lets you choose the number of worker threads. The <strong>WebGPU backend</strong> performs the search
+                with GPU compute shaders and is usually much faster on supported dedicated graphics cards. Actual
+                performance depends on your hardware, browser, drivers, and power settings.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#bitcoinPuzzleSolverFaqa31c73980a" aria-expanded="true" aria-controls="bitcoinPuzzleSolverFaqa31c73980a">
+            What happens when a private key is found?
+        </button>
+    </h2>
+    <div id="bitcoinPuzzleSolverFaqa31c73980a" class="accordion-collapse collapse " data-bs-parent="#bitcoinPuzzleSolverFaq">
+        <div class="accordion-body">
+            <p class="mb-0">The solver stops and <strong>encrypts the private key in your browser</strong> with the
+                server's public key before submitting it. Only the corresponding server-side private key can decrypt
+                the result. If delivery fails, the encrypted result is stored in your browser and the solver attempts
+                to submit it again later.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#bitcoinPuzzleSolverFaqceb41e9f58" aria-expanded="true" aria-controls="bitcoinPuzzleSolverFaqceb41e9f58">
+            How is the reward distributed?
+        </button>
+    </h2>
+    <div id="bitcoinPuzzleSolverFaqceb41e9f58" class="accordion-collapse collapse " data-bs-parent="#bitcoinPuzzleSolverFaq">
+        <div class="accordion-body">
+            <p class="mb-0">After a valid private key is confirmed, <strong>80% of the recovered puzzle
+                    balance</strong> is paid to the Bitcoin payout address you entered. The remaining
+                <strong>20% is the service fee</strong>. Payouts are processed manually.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#bitcoinPuzzleSolverFaq5f6346a1c1" aria-expanded="true" aria-controls="bitcoinPuzzleSolverFaq5f6346a1c1">
+            How is the key protected while the prize is being claimed?
+        </button>
+    </h2>
+    <div id="bitcoinPuzzleSolverFaq5f6346a1c1" class="accordion-collapse collapse " data-bs-parent="#bitcoinPuzzleSolverFaq">
+        <div class="accordion-body">
+            <p class="mb-0">Spending a legacy <strong>Pay-to-Public-Key-Hash (P2PKH)</strong> puzzle output reveals
+                its public key in the transaction input. To reduce the risk of another party using that information to
+                compete for the reward before confirmation, the claim transaction is submitted through a
+                <strong>private transaction relay</strong> directly to a participating miner or mining pool instead of
+                first being announced through Bitcoin's public peer-to-peer mempool. This approach is sometimes
+                informally described as using a private mempool.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#bitcoinPuzzleSolverFaq5e617ff3bd" aria-expanded="true" aria-controls="bitcoinPuzzleSolverFaq5e617ff3bd">
+            How likely is it to find a private key?
+        </button>
+    </h2>
+    <div id="bitcoinPuzzleSolverFaq5e617ff3bd" class="accordion-collapse collapse " data-bs-parent="#bitcoinPuzzleSolverFaq">
+        <div class="accordion-body">
+            <p class="mb-0">The <strong>probability of finding a private key</strong> depends on the size of the
+                puzzle range and the number of unique keys searched. If a range contains <var>R</var> possible keys and
+                you check <var>N</var> unique keys, the approximate probability is <var>N</var>/<var>R</var>. Unsolved
+                puzzle ranges are extremely large, so finding a key can take a very long time even with a fast GPU.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#bitcoinPuzzleSolverFaq8fcf14d49f" aria-expanded="true" aria-controls="bitcoinPuzzleSolverFaq8fcf14d49f">
+            Does the server exclude ranges that have already been searched?
+        </button>
+    </h2>
+    <div id="bitcoinPuzzleSolverFaq8fcf14d49f" class="accordion-collapse collapse " data-bs-parent="#bitcoinPuzzleSolverFaq">
+        <div class="accordion-body">
+            <p class="mb-0">No. In <strong>Sequential mode</strong>, previously searched ranges are not coordinated
+                or excluded by the server, so different participants or sessions may check the same keys.
+                <strong>Random mode</strong> can also revisit an area, although the probability of overlap is small
+                relative to the size of the complete puzzle range.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#bitcoinPuzzleSolverFaq0d657b0b7e" aria-expanded="true" aria-controls="bitcoinPuzzleSolverFaq0d657b0b7e">
+            Can I test the solver on a demo puzzle?
+        </button>
+    </h2>
+    <div id="bitcoinPuzzleSolverFaq0d657b0b7e" class="accordion-collapse collapse " data-bs-parent="#bitcoinPuzzleSolverFaq">
+        <div class="accordion-body">
+            <p class="mb-0">Yes. Select <strong>Puzzle #69 Demo (reduced range)</strong>. It uses the real Puzzle #69
+                target with a deliberately reduced private-key range, allowing the solver to find the known key
+                quickly and demonstrate the complete search flow.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#bitcoinPuzzleSolverFaqee3fd29c17" aria-expanded="true" aria-controls="bitcoinPuzzleSolverFaqee3fd29c17">
+            How can I verify that the calculations are correct?
+        </button>
+    </h2>
+    <div id="bitcoinPuzzleSolverFaqee3fd29c17" class="accordion-collapse collapse " data-bs-parent="#bitcoinPuzzleSolverFaq">
+        <div class="accordion-body">
+            <p class="mb-0">The selected backend runs an <strong>automatic cryptographic self-test</strong> before
+                every search. It checks the calculations against known test vectors. If the CPU or WebGPU
+                implementation produces an incorrect result, the search does not start and an error is displayed.</p>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+        <h2 class="mt-3">Statistics</h2>
+
+<div class="table-responsive">
+    <table class="scanner-stats table table-borderless table-striped table-hover">
+        <thead>
+        <tr>
+            <th>Payout Address</th>
+            <th>Search Target</th>
+            <th>Scan Speed</th>
+            <th>Keys Checked</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td colspan="4" class="text-center">No active users found.</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<p class="small">* Statistics refreshes automatically every minute.</p>
+    </div>
+</main>
+
+<div class=" container ">
+    <footer class="border-top p-3 mt-4 d-flex flex-column align-items-center text-secondary">
+        <div class="row justify-content-center text-center mb-1">
+            <div class="col-auto">
+                <i class="fas fa-crown text-warning"></i>
+                <a href="/premium" class="link-secondary">Premium</a>
+            </div>
+            <div class="col-auto">
+                ☕️ <a id="link-donate" class="link-secondary" href="/modal/donate">Donate</a>
+            </div>
+            <div class="col-auto">
+                <i class="fab fa-telegram"></i>
+                <a href="https://t.me/bitcoin_keys" class="link-secondary">Telegram Group</a>
+            </div>
+            <div class="col-auto">
+                <i class="fas fa-info-circle"></i>
+                <a href="/privacy-policy" class="link-secondary">Privacy Policy</a>
+            </div>
+            
+            <div class="col-auto">
+                <i class="fas fa-envelope"></i>
+                <a href="/contact" class="link-secondary">Contact</a>
+            </div>
+        </div>
+
+        <div>Copyright &copy; 2017&mdash;2026 PrivateKeys</div>
+    </footer>
+</div>
+
+<link rel="modulepreload" href="/assets/app-DERGi70t.js" /><link rel="modulepreload" href="/assets/theme-DIQzH4rx.js" /><script type="module" src="/assets/app-DERGi70t.js"></script>
+
+</body>
+</html>

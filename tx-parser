@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Bitcoin Transaction Decoder - Private Keys Directory</title>
+    <meta name="description" content="Decode a Bitcoin raw transaction and inspect P2PKH ECDSA signatures, R, S and Z values, public keys and duplicate nonces">
+    <meta name="keywords" content="bitcoin transaction decoder, raw transaction hex, ECDSA signature, R S Z values, P2PKH, duplicate nonce">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#333333">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#333333">
+    <!-- /favicons -->
+
+    <link rel="preload" as="style" href="/assets/app-F7rovCNy.css" /><link rel="stylesheet" href="/assets/app-F7rovCNy.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    
+    
+    
+    
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-dark">
+    <div class=" container ">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+            <img src="/images/logo.png" alt="Logo" title="PrivateKeys" width="35" height="35"> PrivateKeys
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDirectory" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-database" aria-hidden="true"></i> Directory
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirectory">
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/1" title="Private Keys Directory">
+                                <i class="fas fa-key"></i> All Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/random" title="Random Private Keys Generator">
+                                <i class="fas fa-random"></i> Random Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/search/bitcoin" title="Private Key Search">
+                                <i class="fas fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/brainwallet/bitcoin/1">
+                        <i class="fas fa-brain" aria-hidden="true"></i> Brainwallets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/puzzles" title="Crypto Puzzles">
+                        <i class="fas fa-puzzle-piece" aria-hidden="true"></i> Puzzles
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " href="/richest/bitcoin">
+                        <i class="fas fa-trophy" aria-hidden="true"></i> Rich List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/balances">
+                        <i class="fas fa-coins"></i> Balances
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  active " href="#" id="navbarDropdownTools" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-tools" aria-hidden="true"></i> Tools
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownTools">
+                        <li>
+                            <a class="dropdown-item "  href="/bitcoin-puzzle-solver">
+                                Bitcoin Puzzle Solver
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item  active " href="/tx-parser">
+                                Transaction Decoder
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/mnemonic/bitcoin">
+                                Mnemonic Converter
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/calc">
+                                Crypto Calculator
+                            </a>
+                        </li>
+                                                                                            </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/faq">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+    <a href="#" id="bd-theme" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="bi bi-sun"></i> <span class="d-xl-none" id="bd-theme-text">Toggle theme</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button class="dropdown-item active" type="button" data-bs-theme-value="light"><i class="bi bi-sun"></i> Light</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="dark"><i class="bi bi-moon"></i> Dark</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="auto"><i class="bi bi-circle-half"></i> Auto</button></li>
+    </ul>
+</li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="dropdownUser" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i> <span class="d-xl-none" id="bd-theme-text">My Account</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownUser">
+                                                    <li>
+                                <a class="dropdown-item " href="/auth/login">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item " href="/auth/register">
+                                    Register
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+            </ul>
+
+            <form action="/quick-search" class="ms-xl-2" data-bs-theme="dark">
+                <div class="input-group">
+                    <input class="form-control" type="search" name="query" placeholder="Search Private Key" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class=" container ">
+            </div>
+    <div class=" container ">
+            </div>
+
+<main role="main">
+        <div class="container">
+        <h1>Bitcoin Transaction Decoder</h1>
+
+        <p>Decode a <strong>Bitcoin transaction</strong> by entering its transaction hash or raw transaction hex.
+            The tool analyzes supported legacy P2PKH inputs and checks their <strong>ECDSA signatures</strong> for
+            repeated R-values that may indicate nonce reuse.</p>
+
+                    <div class="card my-3">
+                <div class="card-body">
+                    <form method="POST" action="/tx-parser" accept-charset="UTF-8" role="form"><input name="_token" type="hidden" value="ZI1szJMm3baK1o1gfpFLpmIqmNTZzLz6I0r25pOa">
+
+<div class="mb-3">
+    <label class="col-form-label" for="txid">Transaction Hash:</label>
+    <input id="txid" class="form-control" name="txid" type="text" value="9ec4bc49e828d924af1d1029cacf709431abbde46d59554b62bc270e3b29c4b1">
+    <div class="text-danger"></div>
+</div>
+
+<div class="mb-3">
+    or
+</div>
+
+<div class="mb-3">
+    <label class="col-form-label" for="hex">Transaction Hex:</label>
+    <textarea id="hex" rows="10" class="form-control font-monospace" name="hex" cols="50"></textarea>
+    <div class="text-danger"></div>
+</div>
+
+<div class="mb-3">
+        <script src="https://www.google.com/recaptcha/api.js?" async defer></script>
+
+        <div data-sitekey="6LeC-5UUAAAAAIyHQ1kBCgCBNAIAQGI0kP9AUUXL" class="g-recaptcha"></div>
+        <div class="text-danger"></div>
+    </div>
+
+<input class="btn btn-primary" type="submit" value="Decode Transaction">
+
+</form>
+                </div>
+            </div>
+        
+        <section class="my-3" aria-labelledby="transaction-decoder-faq">
+    <h2 id="transaction-decoder-faq">Transaction Decoder FAQ</h2>
+
+    <div class="accordion" id="transactionDecoderFaq">
+    <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#transactionDecoderFaq3d01b10152" aria-expanded="true" aria-controls="transactionDecoderFaq3d01b10152">
+            What does the Bitcoin Transaction Decoder extract?
+        </button>
+    </h2>
+    <div id="transactionDecoderFaq3d01b10152" class="accordion-collapse collapse " data-bs-parent="#transactionDecoderFaq">
+        <div class="accordion-body">
+            <p>For each supported legacy P2PKH input, the decoder displays:</p>
+
+            <ul class="mb-0">
+                <li>The DER-encoded ECDSA signature.</li>
+                <li>The signature's <strong>R, S, and Z values</strong>.</li>
+                <li>The public key and public-key hash.</li>
+                <li>A warning when the same R-value appears more than once.</li>
+                <li>The recovered private key and signature nonce when duplicate R-values make recovery possible.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#transactionDecoderFaq03e267820b" aria-expanded="true" aria-controls="transactionDecoderFaq03e267820b">
+            What is ECDSA?
+        </button>
+    </h2>
+    <div id="transactionDecoderFaq03e267820b" class="accordion-collapse collapse " data-bs-parent="#transactionDecoderFaq">
+        <div class="accordion-body">
+            <p>The <a href="https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm"
+                      title="Elliptic Curve Digital Signature Algorithm"><strong>Elliptic Curve Digital Signature
+                        Algorithm (ECDSA)</strong></a> is a cryptographic algorithm used to create and verify digital
+                signatures. Bitcoin uses ECDSA with the <strong>secp256k1 elliptic curve</strong> to prove that the
+                owner of a private key authorized a transaction without revealing that private key.</p>
+
+            <p class="mb-0">A wallet signs a transaction hash with its private key, producing an ECDSA signature
+                containing two integers: <strong>R</strong> and <strong>S</strong>. Bitcoin nodes verify the signature
+                with the corresponding public key. <strong>Z</strong> is the integer representation of the transaction
+                hash being signed.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#transactionDecoderFaq4681d89d1c" aria-expanded="true" aria-controls="transactionDecoderFaq4681d89d1c">
+            What is DER encoding?
+        </button>
+    </h2>
+    <div id="transactionDecoderFaq4681d89d1c" class="accordion-collapse collapse " data-bs-parent="#transactionDecoderFaq">
+        <div class="accordion-body">
+            <p><strong>Distinguished Encoding Rules (DER)</strong> is a strict binary format for encoding data
+                structures defined with Abstract Syntax Notation One (ASN.1). In Bitcoin, DER encodes an
+                <strong>ECDSA signature</strong> as a sequence containing the two signature integers,
+                <strong>R</strong> and <strong>S</strong>, so nodes can parse and validate them consistently.</p>
+
+            <p class="mb-0">A Bitcoin transaction signature normally has a one-byte signature hash type, such as
+                <code>0x01</code> for <strong>SIGHASH_ALL</strong>, appended after the DER-encoded signature. This byte
+                is not part of DER; it specifies which parts of the transaction the signature commits to.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#transactionDecoderFaq1aefeba65b" aria-expanded="true" aria-controls="transactionDecoderFaq1aefeba65b">
+            What is the ECDSA weak-signature vulnerability?
+        </button>
+    </h2>
+    <div id="transactionDecoderFaq1aefeba65b" class="accordion-collapse collapse " data-bs-parent="#transactionDecoderFaq">
+        <div class="accordion-body">
+            <p>Each <strong>ECDSA signature</strong> requires a secret per-signature nonce. The nonce must be unique and
+                unpredictable. Reusing the same nonce for two different transaction hashes produces the same R-value
+                and can expose both the nonce and the private key:</p>
+
+            <pre class="code-block"><button class="copy" title="Copy" data-bs-toggle="tooltip"><i class="far fa-copy"></i></button><code>private key = (z1 * s2 - z2 * s1) / (r * (s1 - s2)) mod n</code></pre>
+
+            <p>A correctly generated signature does not reveal its private key. This decoder checks for duplicate
+                R-values among supported inputs in the submitted transaction and attempts recovery only when the
+                required signature data is available.</p>
+
+            <p class="mb-0">Weak random-number generation has caused real-world Bitcoin wallet vulnerabilities. For
+                example, a 2013 <a href="https://bitcoin.org/en/alert/2013-08-11-android">Android security
+                    vulnerability</a> required affected wallets to generate new keys and move their funds.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#transactionDecoderFaq708348c302" aria-expanded="true" aria-controls="transactionDecoderFaq708348c302">
+            Which Bitcoin transaction input types are supported?
+        </button>
+    </h2>
+    <div id="transactionDecoderFaq708348c302" class="accordion-collapse collapse " data-bs-parent="#transactionDecoderFaq">
+        <div class="accordion-body">
+            <p class="mb-0">The decoder currently supports legacy <strong>Pay-to-Public-Key-Hash (P2PKH)</strong>
+                inputs containing an ECDSA signature and public key in the input script. Coinbase, SegWit, Taproot, and
+                other non-P2PKH inputs use different script or witness structures and are not currently supported.</p>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+    </div>
+</main>
+
+<div class=" container ">
+    <footer class="border-top p-3 mt-4 d-flex flex-column align-items-center text-secondary">
+        <div class="row justify-content-center text-center mb-1">
+            <div class="col-auto">
+                <i class="fas fa-crown text-warning"></i>
+                <a href="/premium" class="link-secondary">Premium</a>
+            </div>
+            <div class="col-auto">
+                ☕️ <a id="link-donate" class="link-secondary" href="/modal/donate">Donate</a>
+            </div>
+            <div class="col-auto">
+                <i class="fab fa-telegram"></i>
+                <a href="https://t.me/bitcoin_keys" class="link-secondary">Telegram Group</a>
+            </div>
+            <div class="col-auto">
+                <i class="fas fa-info-circle"></i>
+                <a href="/privacy-policy" class="link-secondary">Privacy Policy</a>
+            </div>
+            
+            <div class="col-auto">
+                <i class="fas fa-envelope"></i>
+                <a href="/contact" class="link-secondary">Contact</a>
+            </div>
+        </div>
+
+        <div>Copyright &copy; 2017&mdash;2026 PrivateKeys</div>
+    </footer>
+</div>
+
+<link rel="modulepreload" href="/assets/app-DERGi70t.js" /><link rel="modulepreload" href="/assets/theme-DIQzH4rx.js" /><script type="module" src="/assets/app-DERGi70t.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>    Crypto Calculator - Private Keys Directory
+</title>
+    <meta name="description" content="Convert Bitcoin and Ethereum private keys, public keys, WIF, addresses, hashes, Base58Check and number formats in your browser">
+    <meta name="keywords" content="crypto calculator, bitcoin private key converter, ethereum address, public key, WIF, Hash160, Base58Check, SHA-256, Keccak-256">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#333333">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#333333">
+    <!-- /favicons -->
+
+    <link rel="preload" as="style" href="/assets/app-F7rovCNy.css" /><link rel="stylesheet" href="/assets/app-F7rovCNy.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    
+    
+    
+    
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-dark">
+    <div class=" container ">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+            <img src="/images/logo.png" alt="Logo" title="PrivateKeys" width="35" height="35"> PrivateKeys
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDirectory" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-database" aria-hidden="true"></i> Directory
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirectory">
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/1" title="Private Keys Directory">
+                                <i class="fas fa-key"></i> All Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/random" title="Random Private Keys Generator">
+                                <i class="fas fa-random"></i> Random Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/search/bitcoin" title="Private Key Search">
+                                <i class="fas fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/brainwallet/bitcoin/1">
+                        <i class="fas fa-brain" aria-hidden="true"></i> Brainwallets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/puzzles" title="Crypto Puzzles">
+                        <i class="fas fa-puzzle-piece" aria-hidden="true"></i> Puzzles
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " href="/richest/bitcoin">
+                        <i class="fas fa-trophy" aria-hidden="true"></i> Rich List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/balances">
+                        <i class="fas fa-coins"></i> Balances
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  active " href="#" id="navbarDropdownTools" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-tools" aria-hidden="true"></i> Tools
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownTools">
+                        <li>
+                            <a class="dropdown-item "  href="/bitcoin-puzzle-solver">
+                                Bitcoin Puzzle Solver
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/tx-parser">
+                                Transaction Decoder
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/mnemonic/bitcoin">
+                                Mnemonic Converter
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item  active " href="/calc">
+                                Crypto Calculator
+                            </a>
+                        </li>
+                                                                        <li>
+                            <a class="dropdown-item " href="/wallet-parser">
+                                Wallet Viewer
+                            </a>
+                        </li>
+                                                                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/faq">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+    <a href="#" id="bd-theme" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="bi bi-sun"></i> <span class="d-xl-none" id="bd-theme-text">Toggle theme</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button class="dropdown-item active" type="button" data-bs-theme-value="light"><i class="bi bi-sun"></i> Light</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="dark"><i class="bi bi-moon"></i> Dark</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="auto"><i class="bi bi-circle-half"></i> Auto</button></li>
+    </ul>
+</li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="dropdownUser" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i> <span class="d-xl-none" id="bd-theme-text">My Account</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownUser">
+                                                    <li>
+                                <a class="dropdown-item " href="/auth/account">
+                                    Account
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item " href="/auth/orders">
+                                    Orders
+                                </a>
+                            </li>
+                            
+                                                        <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <form action="/auth/logout" method="POST" class="form-inline">
+                                    <input type="hidden" name="_token" value="Gmqz2Qtnt4CDNzchvNdvkY0xnMXTadL1Kz0nPsTl" autocomplete="off">                                    <a class="dropdown-item" href="/auth/logout" onclick="this.closest('form').submit();return false;">
+                                        Logout
+                                    </a>
+                                </form>
+                            </li>
+                                            </ul>
+                </li>
+            </ul>
+
+            <form action="/quick-search" class="ms-xl-2" data-bs-theme="dark">
+                <div class="input-group">
+                    <input class="form-control" type="search" name="query" placeholder="Search Private Key" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class=" container ">
+            </div>
+    <div class=" container ">
+            </div>
+
+<main role="main">
+        <div class="container">
+        <h1>Crypto Calculator</h1>
+
+        <p>Convert and inspect Bitcoin and Ethereum private keys, public keys, addresses, WIF, hashes, Base58Check, and
+            numeric or text encodings. Calculations run locally in your browser, and you can process multiple values by
+            placing each input on a separate line.</p>
+
+        <div class="calc card bg-body-tertiary mb-3">
+    <div class="card-body">
+        <div class="mb-3">
+            <textarea class="form-control font-monospace" rows="5" autofocus></textarea>
+            <small class="form-text text-muted">Place each input on a new line.</small>
+            <div class="text-danger"></div>
+        </div>
+
+        
+
+        <div class="d-flex flex-wrap gap-2">
+            <div class="d-flex flex-column flex-fill gap-2">
+                <button data-fn="dec2hex" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert Decimal to Hex" data-bs-toggle="tooltip">Dec → Hex</button>
+                <button data-fn="hex2dec" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert Hex to Decimal" data-bs-toggle="tooltip">Hex → Dec</button>
+                <button data-fn="bin2hex" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert Binary to Hex" data-bs-toggle="tooltip">Bin → Hex</button>
+                <button data-fn="hex2bin" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert Hex to Binary" data-bs-toggle="tooltip">Hex → Bin</button>
+                <button data-fn="ascii2hex" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert ASCII to Hex" data-bs-toggle="tooltip">ASCII → Hex</button>
+                <button data-fn="hex2ascii" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert Hex to ASCII" data-bs-toggle="tooltip">Hex → ASCII</button>
+            </div>
+
+            <div class="d-flex flex-column  flex-fill gap-2">
+                <button data-fn="priv2pubc" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert private key to public key (compressed)" data-bs-toggle="tooltip">Priv → Pub<sub>C</sub></button>
+                <button data-fn="priv2pubu" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert private key to public key (uncompressed)" data-bs-toggle="tooltip">Priv → Pub<sub>U</sub></button>
+                <button data-fn="priv2addrbtcc" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert private key to Bitcoin address (compressed)" data-bs-toggle="tooltip">Priv → Addr<sub>C</sub></button>
+                <button data-fn="priv2addrbtcu" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert private key to Bitcoin address (uncompressed)" data-bs-toggle="tooltip">Priv → Addr<sub>U</sub></button>
+                <button data-fn="priv2addreth" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert private key to Ethereum address" data-bs-toggle="tooltip">Priv → Addr<sub>E</sub></button>
+            </div>
+
+            <div class="d-flex flex-column  flex-fill gap-2">
+                <button data-fn="pub2pubc" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Compress public key" data-bs-toggle="tooltip">Pub → Pub<sub>C</sub></button>
+                <button data-fn="pub2pubu" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Decompress public key" data-bs-toggle="tooltip">Pub → Pub<sub>U</sub></button>
+                <button data-fn="pub2addrbtc" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert public key to Bitcoin address" data-bs-toggle="tooltip">Pub → Addr</button>
+                <button data-fn="pub2addreth" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert public key to Ethereum address" data-bs-toggle="tooltip">Pub → Addr<sub>E</sub></button>
+            </div>
+
+            <div class="d-flex flex-column  flex-fill gap-2">
+                <button data-fn="priv2wifc" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert private key to WIF (compressed)" data-bs-toggle="tooltip">Priv → WIF<sub>C</sub></button>
+                <button data-fn="priv2wifu" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert private key to WIF (uncompressed)" data-bs-toggle="tooltip">Priv → WIF<sub>U</sub></button>
+                <button data-fn="wif2priv" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert WIF to private key" data-bs-toggle="tooltip">WIF → Priv</button>
+                <button data-fn="hash1602addrbtc" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert Hash 160 to Bitcoin address" data-bs-toggle="tooltip">Hash-160 → Addr</button>
+                <button data-fn="addrbtc2hash160" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Convert Bitcoin address to Hash 160" data-bs-toggle="tooltip">Addr → Hash-160</button>
+            </div>
+
+            <div class="d-flex flex-column  flex-fill gap-2">
+                <button data-fn="sha256" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Calculate SHA-256 hash of input" data-bs-toggle="tooltip">SHA-256</button>
+                <button data-fn="ripemd160" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Calculate RIPEMD-160 hash of input" data-bs-toggle="tooltip">RIPEMD-160</button>
+                <button data-fn="hash160" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Calculate Hash-160 (SHA-256 + RIPEMD-160) hash of input" data-bs-toggle="tooltip">Hash-160</button>
+                <button data-fn="keccak256" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Calculate Keccak-256 hash of input" data-bs-toggle="tooltip">Keccak-256</button>
+            </div>
+
+            <div class="d-flex flex-column  flex-fill gap-2">
+                <button data-fn="base58enc" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Base58 encode input" data-bs-toggle="tooltip">Base58 Enc</button>
+                <button data-fn="base58dec" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Base58 decode input" data-bs-toggle="tooltip">Base58 Dec</button>
+                <button data-fn="base58checkenc" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Base58 with checksum encode input" data-bs-toggle="tooltip">Base58Check Enc</button>
+                <button data-fn="base58checkdec" class="btn bg-secondary-subtle text-nowrap flex-fill" title="Base58 with checksum decode input" data-bs-toggle="tooltip">Base58Check Dec</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <section class="my-3" aria-labelledby="crypto-calculator-faq">
+    <h2 id="crypto-calculator-faq">Crypto Calculator FAQ</h2>
+
+    <div class="accordion" id="cryptoCalculatorFaq">
+    <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#cryptoCalculatorFaq8d22e6c209" aria-expanded="true" aria-controls="cryptoCalculatorFaq8d22e6c209">
+            How do I convert a private key to WIF?
+        </button>
+    </h2>
+    <div id="cryptoCalculatorFaq8d22e6c209" class="accordion-collapse collapse " data-bs-parent="#cryptoCalculatorFaq">
+        <div class="accordion-body">
+            <ol class="mb-0">
+                <li>
+                    Take a private key in hexadecimal format:<br>
+                    <code>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</code>
+                </li>
+                <li>
+                    Add the <code>0x80</code> version byte for Bitcoin mainnet or <code>0xef</code> for testnet:<br>
+                    <code>80e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</code>
+                </li>
+                <li>
+                    Append <code>0x01</code> if wallets should derive a compressed public key:<br>
+                    <code>80e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b85501</code>
+                </li>
+                <li>
+                    Perform <a href="https://en.bitcoin.it/wiki/Base58Check_encoding">Base58Check encoding</a>:<br>
+                    <code>L4rK1yDtCWekvXuE6oXD9jCYfFNV2cWRpVuPLBcCU2z8TrisoyY1</code>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#cryptoCalculatorFaq80c08eafc7" aria-expanded="true" aria-controls="cryptoCalculatorFaq80c08eafc7">
+            How do I convert WIF to a private key?
+        </button>
+    </h2>
+    <div id="cryptoCalculatorFaq80c08eafc7" class="accordion-collapse collapse " data-bs-parent="#cryptoCalculatorFaq">
+        <div class="accordion-body">
+            <ol class="mb-0">
+                <li>
+                    Take a <a href="https://en.bitcoin.it/wiki/Wallet_import_format">Wallet Import Format (WIF)</a>
+                    string:<br>
+                    <code>L4rK1yDtCWekvXuE6oXD9jCYfFNV2cWRpVuPLBcCU2z8TrisoyY1</code>
+                </li>
+                <li>
+                    Perform Base58Check decoding and verify its checksum:<br>
+                    <code>80e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b85501</code>
+                </li>
+                <li>
+                    Remove the version byte (<code>0x80</code> for Bitcoin mainnet):<br>
+                    <code>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b85501</code>
+                </li>
+                <li>
+                    If present, remove the final <code>0x01</code> compressed-public-key marker:<br>
+                    <code>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</code>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#cryptoCalculatorFaq4e6f52b058" aria-expanded="true" aria-controls="cryptoCalculatorFaq4e6f52b058">
+            How do I derive a legacy Bitcoin address from a private key?
+        </button>
+    </h2>
+    <div id="cryptoCalculatorFaq4e6f52b058" class="accordion-collapse collapse " data-bs-parent="#cryptoCalculatorFaq">
+        <div class="accordion-body">
+            <ol class="mb-0">
+                <li>
+                    Start with a private key in hexadecimal format:<br>
+                    <code>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</code>
+                </li>
+                <li>
+                    Derive the corresponding public key. This example uses the compressed form:<br>
+                    <code>03a34b99f22c790c4e36b2b3c2c35a36db06226e41c692fc82b8b56ac1c540c5bd</code>
+                </li>
+                <li>
+                    Perform SHA-256 hashing:<br>
+                    <code>4c0b2d2f119a09b607cb273a745b2b0430d5192e0c4e536f932be5d1a6be5883</code>
+                </li>
+                <li>
+                    Perform RIPEMD-160 hashing:<br>
+                    <code>9a1c78a507689f6f54b847ad1cef1e614ee23f1e</code>
+                </li>
+                <li>
+                    Add the <code>0x00</code> P2PKH version byte for Bitcoin mainnet:<br>
+                    <code>009a1c78a507689f6f54b847ad1cef1e614ee23f1e</code>
+                </li>
+                <li>
+                    Perform Base58Check encoding to produce the legacy P2PKH address:<br>
+                    <code>1F3sAm6ZtwLAUnj7d38pGFxtP3RVEvtsbV</code>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#cryptoCalculatorFaq2cc9e80cb6" aria-expanded="true" aria-controls="cryptoCalculatorFaq2cc9e80cb6">
+            How do I convert a legacy Bitcoin address into a Dogecoin address?
+        </button>
+    </h2>
+    <div id="cryptoCalculatorFaq2cc9e80cb6" class="accordion-collapse collapse " data-bs-parent="#cryptoCalculatorFaq">
+        <div class="accordion-body">
+            <ol class="mb-0">
+                <li>
+                    Start with a legacy Bitcoin P2PKH address:<br>
+                    <code>1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH</code>
+                </li>
+                <li>
+                    Perform Base58Check decoding:<br>
+                    <code>00751e76e8199196d454941c45d1b3a323f1433bd6</code>
+                </li>
+                <li>
+                    Remove the <code>0x00</code> Bitcoin version byte to obtain the public-key hash:<br>
+                    <code>751e76e8199196d454941c45d1b3a323f1433bd6</code>
+                </li>
+                <li>
+                    Add the <code>0x1e</code> Dogecoin P2PKH version byte:<br>
+                    <code>1e751e76e8199196d454941c45d1b3a323f1433bd6</code>
+                </li>
+                <li>
+                    Perform Base58Check encoding:<br>
+                    <code>DFpN6QqFfUm3gKNaxN6tNcab1FArL9cZLE</code>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#cryptoCalculatorFaq24b76a6f83" aria-expanded="true" aria-controls="cryptoCalculatorFaq24b76a6f83">
+            How do I convert a private key into an Ethereum address?
+        </button>
+    </h2>
+    <div id="cryptoCalculatorFaq24b76a6f83" class="accordion-collapse collapse " data-bs-parent="#cryptoCalculatorFaq">
+        <div class="accordion-body">
+            <ol class="mb-0">
+                <li>
+                    Start with a private key in hexadecimal format:<br>
+                    <code>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</code>
+                </li>
+                <li>
+                    Derive the corresponding public key (uncompressed):<br>
+                    <code>04a34b99f22c790c4e36b2b3c2c35a36db06226e41c692fc82b8b56ac1c540c5bd5b8dec5235a0fa8722476c7709c02559e3aa73aa03918ba2d492eea75abea235</code>
+                </li>
+                <li>
+                    Remove the first byte (0x04):<br>
+                    <code>a34b99f22c790c4e36b2b3c2c35a36db06226e41c692fc82b8b56ac1c540c5bd5b8dec5235a0fa8722476c7709c02559e3aa73aa03918ba2d492eea75abea235</code>
+                </li>
+                <li>
+                    Perform Keccak-256 hashing:<br>
+                    <code>a3c7b15596359456ea3b05ea41ad2bc63a2059f9b623533d87fe99887d794847</code>
+                </li>
+                <li>
+                    Take the last 20 bytes:<br>
+                    <code>41ad2bc63a2059f9b623533d87fe99887d794847</code>
+                </li>
+                <li>
+                    Add the <code>0x</code> prefix:<br>
+                    <code>0x41ad2bc63a2059f9b623533d87fe99887d794847</code>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+    </div>
+</main>
+
+<div class=" container ">
+    <footer class="border-top p-3 mt-4 d-flex flex-column align-items-center text-secondary">
+        <div class="row justify-content-center text-center mb-1">
+            <div class="col-auto">
+                <i class="fas fa-crown text-warning"></i>
+                <a href="/premium" class="link-secondary">Premium</a>
+            </div>
+            <div class="col-auto">
+                ☕️ <a id="link-donate" class="link-secondary" href="/modal/donate">Donate</a>
+            </div>
+            <div class="col-auto">
+                <i class="fab fa-telegram"></i>
+                <a href="https://t.me/bitcoin_keys" class="link-secondary">Telegram Group</a>
+            </div>
+            <div class="col-auto">
+                <i class="fas fa-info-circle"></i>
+                <a href="/privacy-policy" class="link-secondary">Privacy Policy</a>
+            </div>
+            
+            <div class="col-auto">
+                <i class="fas fa-envelope"></i>
+                <a href="/contact" class="link-secondary">Contact</a>
+            </div>
+        </div>
+
+        <div>Copyright &copy; 2017&mdash;2026 PrivateKeys</div>
+    </footer>
+</div>
+
+<link rel="modulepreload" href="/assets/app-DERGi70t.js" /><link rel="modulepreload" href="/assets/theme-DIQzH4rx.js" /><script type="module" src="/assets/app-DERGi70t.js"></script>
+
+</body>
+</html>
