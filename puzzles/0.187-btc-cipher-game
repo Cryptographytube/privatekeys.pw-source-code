@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>    0.187 BTC Bitcoin-Cipher Game - Private Keys Directory
+</title>
+    <meta name="description" content="    0.187 BTC Bitcoin-Cipher Game description, solution and private key
+">
+    <meta name="keywords" content="    0.187 btc bitcoin-cipher game solution private key
+">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#333333">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#333333">
+    <!-- /favicons -->
+
+    <link rel="preload" as="style" href="/assets/app-F7rovCNy.css" /><link rel="stylesheet" href="/assets/app-F7rovCNy.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    
+    
+    
+    
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-dark">
+    <div class=" container ">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+            <img src="/images/logo.png" alt="Logo" title="PrivateKeys" width="35" height="35"> PrivateKeys
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDirectory" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-database" aria-hidden="true"></i> Directory
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirectory">
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/1" title="Private Keys Directory">
+                                <i class="fas fa-key"></i> All Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/random" title="Random Private Keys Generator">
+                                <i class="fas fa-random"></i> Random Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/search/bitcoin" title="Private Key Search">
+                                <i class="fas fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/brainwallet/bitcoin/1">
+                        <i class="fas fa-brain" aria-hidden="true"></i> Brainwallets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  active " href="/puzzles" title="Crypto Puzzles">
+                        <i class="fas fa-puzzle-piece" aria-hidden="true"></i> Puzzles
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " href="/richest/bitcoin">
+                        <i class="fas fa-trophy" aria-hidden="true"></i> Rich List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/balances">
+                        <i class="fas fa-coins"></i> Balances
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownTools" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-tools" aria-hidden="true"></i> Tools
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownTools">
+                        <li>
+                            <a class="dropdown-item "  href="/bitcoin-puzzle-solver">
+                                Bitcoin Puzzle Solver
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/tx-parser">
+                                Transaction Decoder
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/mnemonic/bitcoin">
+                                Mnemonic Converter
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/calc">
+                                Crypto Calculator
+                            </a>
+                        </li>
+                                                                                            </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/faq">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+    <a href="#" id="bd-theme" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="bi bi-sun"></i> <span class="d-xl-none" id="bd-theme-text">Toggle theme</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button class="dropdown-item active" type="button" data-bs-theme-value="light"><i class="bi bi-sun"></i> Light</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="dark"><i class="bi bi-moon"></i> Dark</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="auto"><i class="bi bi-circle-half"></i> Auto</button></li>
+    </ul>
+</li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="dropdownUser" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i> <span class="d-xl-none" id="bd-theme-text">My Account</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownUser">
+                                                    <li>
+                                <a class="dropdown-item " href="/auth/login">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item " href="/auth/register">
+                                    Register
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+            </ul>
+
+            <form action="/quick-search" class="ms-xl-2" data-bs-theme="dark">
+                <div class="input-group">
+                    <input class="form-control" type="search" name="query" placeholder="Search Private Key" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class=" container ">
+            </div>
+    <div class=" container ">
+            </div>
+
+<main role="main">
+        <div class=" container ">
+        <h1>0.187 BTC Bitcoin-Cipher Game</h1>
+
+        <div class="border rounded p-3 mb-3">
+            <div>
+    <span class="fw-bold">Status:</span>
+    <span class="badge bg-danger">SOLVED</span>
+</div>
+
+            <div>
+            <span class="fw-bold">Prize:</span> 0.18665328 BTC
+        </div>
+                    <div>
+            <span class="fw-bold">Owner:</span> AZBookmakers
+        </div>
+                <div>
+            <span class="fw-bold">Solver:</span> bzide
+        </div>
+                <div>
+            <span class="fw-bold">Start Date:</span> 2018-08-08
+        </div>
+                <div>
+            <span class="fw-bold">Solve Date:</span> 2018-10-31
+        </div>
+        
+    <div class="d-flex">
+        <span class="fw-bold">Address:</span>
+        <span class="wrap">
+            <span class="d-flex">
+    <span class="me-1">
+            </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">16BuyP1jH6iiqK3q4pwdJ5zwa8LEAmDZgx</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin/16BuyP1jH6iiqK3q4pwdJ5zwa8LEAmDZgx" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="16BuyP1jH6iiqK3q4pwdJ5zwa8LEAmDZgx">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin" data-address="16BuyP1jH6iiqK3q4pwdJ5zwa8LEAmDZgx"></span>
+    </span>
+</span>
+        </span>
+    </div>
+
+    <div>
+        <span class="fw-bold">Private Key:</span>
+        <span class="wrap">
+            <span class="hover">
+    <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    <a href="/key/2dee71ba5ec80a4cb97d43d8265495041afc524ade9fa9c553476cb7e79c1414">2dee71ba5ec80a4cb97d43d8265495041afc524ade9fa9c553476cb7e79c1414</a>
+
+    <span class="buttons">
+        <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="2dee71ba5ec80a4cb97d43d8265495041afc524ade9fa9c553476cb7e79c1414">
+    <i class="far fa-copy"></i>
+</button>
+    </span>
+</span>
+        </span>
+    </div>
+        </div>
+
+            <h3>Description</h3>
+
+    <p><img src="/images/puzzles/0.187-btc-cipher-game.jpg" class="w-100" alt="0.187 Bitcoin-Cipher game">
+    </p>
+
+    <p>What you see in the picture above is our Bitcoin-Cipher Game.</p>
+
+    <p>Twelve words are hidden beneath these numbers. With these words, you can open a blockchain wallet where we’ve
+        deposited 0.18665328 BTC, which was worth $1,200 at the time of writing.</p>
+
+    <p>You can check the wallet balance here:<br>
+        https://blockchain.info/address/16BuyP1jH6iiqK3q4pwdJ5zwa8LEAmDZgx<br>
+        Everyone who understands and decrypts the 12 words is FREE to get into the wallet and take the money.</p>
+
+    <p>After finding the 12 words, go to https://blockchain.info/wallet/#/recover and follow the instructions
+        to recover the funds.</p>
+
+    <h4>Cipher Hint</h4>
+
+    <p>If you decrypt the text here, you’ll be one step closer to solving the Cipher Game:</p>
+
+    <pre class="code-block"><button class="copy" title="Copy" data-bs-toggle="tooltip"><i class="far fa-copy"></i></button><code>step order enmity raven
+gazette angry habit
+city runner rehabilitation
+alphabet tequila orrery
+nullity injection coffee
+thanks aluminium saw
+oax ray session
+each waist naked stop</code></pre>
+
+    <h4>Here Is the Cipher Transcript</h4>
+
+    <pre class="code-block"><button class="copy" title="Copy" data-bs-toggle="tooltip"><i class="far fa-copy"></i></button><code>5199109198198809256200212281219820512
+2201501061199304251200208141220130429
+520010407220101204820091005119851024
+1196701214196111021120030620220120622
+6200408077198108171320060723720171106
+1219480106220051213419710509319950420
+120150106920120619319970706720080930
+119961004820011028419960107320110910
+419500701619870126919860320519560124
+1119580402119500701319550403119440526
+6194707019196702277195106211219820512
+4199304151420021228520050730519550403
+1019861122219921231820151203619890808
+220120619420030414219810817819390405
+8194403027193509131219480106419310811
+12196805121119730403219501209220070726
+319880520719840105119900429</code></pre>
+
+    <h3>Solution</h3>
+
+    <p>"I split the numbers into index number/date pairs and looked up each year in the list of Oscar winners. The
+        day/month belongs to the birthday of either the actor or actress who won the award that year. I extracted one
+        character from their names corresponding to the position given by their index number. Since none of these values
+        went over any of the total character length of each name I figured I was probably on the right track here, so
+        the only thing left was to find a way to arrange these letters into twelve words. I tried looking for common
+        links between each film/actor/year using WRAP and ESCAPE as a reference. In the end, I was able to find the
+        groups I needed by pairing up every entry with the birthday month of the director behind each film. This gives
+        you 12 sets of characters which you can then unscramble to match one of the words in the list here:
+        <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt">https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt</a>."
+    </p>
+
+    <p>The 12 Words:</p>
+
+    <pre class="code-block"><button class="copy" title="Copy" data-bs-toggle="tooltip"><i class="far fa-copy"></i></button><code>lobster found prosper depend start escape involve maid drop slam hedgehog wrap</code></pre>
+
+    <h3>Links</h3>
+
+    <ul>
+        <li><a href="https://www.reddit.com/r/Bitcoin/comments/95yd7o/solve_our_bitcoin_puzzle_and_get_018665328_btc/">Reddit
+                post</a></li>
+        <li><a href="https://azbookmakers.com/bitcoin-cipher-game">Original page</a></li>
+        <li><a href="https://www.reddit.com/r/Bitcoin/comments/95yd7o/comment/e8txyk5/">Post with the solution</a></li>
+    </ul>
+    </div>
+</main>
+
+<div class=" container ">
+    <footer class="border-top p-3 mt-4 d-flex flex-column align-items-center text-secondary">
+        <div class="row justify-content-center text-center mb-1">
+            <div class="col-auto">
+                <i class="fas fa-crown text-warning"></i>
+                <a href="/premium" class="link-secondary">Premium</a>
+            </div>
+            <div class="col-auto">
+                ☕️ <a id="link-donate" class="link-secondary" href="/modal/donate">Donate</a>
+            </div>
+            <div class="col-auto">
+                <i class="fab fa-telegram"></i>
+                <a href="https://t.me/bitcoin_keys" class="link-secondary">Telegram Group</a>
+            </div>
+            <div class="col-auto">
+                <i class="fas fa-info-circle"></i>
+                <a href="/privacy-policy" class="link-secondary">Privacy Policy</a>
+            </div>
+            
+            <div class="col-auto">
+                <i class="fas fa-envelope"></i>
+                <a href="/contact" class="link-secondary">Contact</a>
+            </div>
+        </div>
+
+        <div>Copyright &copy; 2017&mdash;2026 PrivateKeys</div>
+    </footer>
+</div>
+
+<link rel="modulepreload" href="/assets/app-DERGi70t.js" /><link rel="modulepreload" href="/assets/theme-DIQzH4rx.js" /><script type="module" src="/assets/app-DERGi70t.js"></script>
+
+</body>
+</html>

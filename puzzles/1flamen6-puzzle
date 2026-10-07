@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>    4.87 BTC 1FLAMEN6 Puzzle - Private Keys Directory
+</title>
+    <meta name="description" content="    4.87 BTC 1FLAMEN6 Puzzle description, solution and private key
+">
+    <meta name="keywords" content="    4.87 btc 1flamen6 puzzle solution private key
+">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#333333">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#333333">
+    <!-- /favicons -->
+
+    <link rel="preload" as="style" href="/assets/app-F7rovCNy.css" /><link rel="stylesheet" href="/assets/app-F7rovCNy.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    
+    
+    
+    
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-dark">
+    <div class=" container ">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+            <img src="/images/logo.png" alt="Logo" title="PrivateKeys" width="35" height="35"> PrivateKeys
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDirectory" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-database" aria-hidden="true"></i> Directory
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirectory">
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/1" title="Private Keys Directory">
+                                <i class="fas fa-key"></i> All Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/random" title="Random Private Keys Generator">
+                                <i class="fas fa-random"></i> Random Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/search/bitcoin" title="Private Key Search">
+                                <i class="fas fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/brainwallet/bitcoin/1">
+                        <i class="fas fa-brain" aria-hidden="true"></i> Brainwallets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  active " href="/puzzles" title="Crypto Puzzles">
+                        <i class="fas fa-puzzle-piece" aria-hidden="true"></i> Puzzles
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " href="/richest/bitcoin">
+                        <i class="fas fa-trophy" aria-hidden="true"></i> Rich List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/balances">
+                        <i class="fas fa-coins"></i> Balances
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownTools" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-tools" aria-hidden="true"></i> Tools
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownTools">
+                        <li>
+                            <a class="dropdown-item "  href="/bitcoin-puzzle-solver">
+                                Bitcoin Puzzle Solver
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/tx-parser">
+                                Transaction Decoder
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/mnemonic/bitcoin">
+                                Mnemonic Converter
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/calc">
+                                Crypto Calculator
+                            </a>
+                        </li>
+                                                                                            </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/faq">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+    <a href="#" id="bd-theme" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="bi bi-sun"></i> <span class="d-xl-none" id="bd-theme-text">Toggle theme</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button class="dropdown-item active" type="button" data-bs-theme-value="light"><i class="bi bi-sun"></i> Light</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="dark"><i class="bi bi-moon"></i> Dark</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="auto"><i class="bi bi-circle-half"></i> Auto</button></li>
+    </ul>
+</li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="dropdownUser" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i> <span class="d-xl-none" id="bd-theme-text">My Account</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownUser">
+                                                    <li>
+                                <a class="dropdown-item " href="/auth/login">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item " href="/auth/register">
+                                    Register
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+            </ul>
+
+            <form action="/quick-search" class="ms-xl-2" data-bs-theme="dark">
+                <div class="input-group">
+                    <input class="form-control" type="search" name="query" placeholder="Search Private Key" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class=" container ">
+            </div>
+    <div class=" container ">
+            </div>
+
+<main role="main">
+        <div class=" container ">
+        <h1>4.87 BTC 1FLAMEN6 Puzzle</h1>
+
+        <div class="border rounded p-3 mb-3">
+            <div>
+    <span class="fw-bold">Status:</span>
+    <span class="badge bg-danger">SOLVED</span>
+</div>
+
+            <div>
+            <span class="fw-bold">Prize:</span> 4.87 BTC
+        </div>
+                <div>
+            <span class="fw-bold">Creator:</span> coin_artist
+        </div>
+                        <div>
+            <span class="fw-bold">Start Date:</span> 2015-04-03
+        </div>
+                <div>
+            <span class="fw-bold">Solve Date:</span> 2018-02-01
+        </div>
+        
+    <div class="d-flex">
+        <span class="fw-bold">Address:</span>
+        <span class="wrap">
+            <span class="d-flex">
+    <span class="me-1">
+            </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">1FLAMEN6rq2BqMnkUmsJBqCGWdwgVKcegd</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin/1FLAMEN6rq2BqMnkUmsJBqCGWdwgVKcegd" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="1FLAMEN6rq2BqMnkUmsJBqCGWdwgVKcegd">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin" data-address="1FLAMEN6rq2BqMnkUmsJBqCGWdwgVKcegd"></span>
+    </span>
+</span>
+        </span>
+    </div>
+
+    <div>
+        <span class="fw-bold">Private Key:</span>
+        <span class="wrap">
+            <span class="hover">
+    <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    <a href="/key/ac928bf050d1292b8a3a1ef1139fd1e74cefc50005f29720d6bf309169537452">ac928bf050d1292b8a3a1ef1139fd1e74cefc50005f29720d6bf309169537452</a>
+
+    <span class="buttons">
+        <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="ac928bf050d1292b8a3a1ef1139fd1e74cefc50005f29720d6bf309169537452">
+    <i class="far fa-copy"></i>
+</button>
+    </span>
+</span>
+        </span>
+    </div>
+        </div>
+
+            <h3>Description</h3>
+
+    <p>There is 4.87 BTC contained within the image shown below via private key. Follow through this thread to help
+        navigate yourself through the start to finish of this elaborate puzzle! There are a lot of cool crypto
+        techniques used during this journey...</p>
+
+    <p><img src="/images/puzzles/1flamen6-puzzle.jpg" class="w-100" alt="4.87 BTC 1FLAMEN6 Puzzle"></p>
+
+    <h3>Solution</h3>
+
+    <p>In the painting, the six ribbons tied around the key serve as a six-bit cipher that unlocks the rest of the
+        puzzle. The ribbons come in two types: short and long, which correspond to the binary values 0 and 1,
+        respectively. Thus, the cipher hidden in the key is 011010.</p>
+
+    <p>The private key to the Bitcoin wallet, encoded in the Wallet Import Format, is concealed in the flames. First,
+        each character of the private key is translated into its binary equivalent. Then, additional data is added to
+        the binary string, such as the phrase "b34u7y, truth, and rarity" at the beginning to indicate that the Bitcoin
+        key has been found. The resulting 608-bit binary string is divided into 6-bit chunks, each of which is subjected
+        to an XOR operation.</p>
+
+    <p>An XOR operation takes two binary inputs and produces a new string based on the comparison of the bits. If the
+        input bits match, the output is 0. If they do not match, the output is 1. In this puzzle, the XOR operation is
+        applied to the six-bit cipher derived from the ribbons on the key and each of the 6-bit chunks from the 608-bit
+        string encoded in the flames. After the XOR operation is applied to the entire string, the resulting string is
+        divided into 4-bit chunks.</p>
+
+    <p>Each 4-bit chunk represents a single flame in the photo, with each bit in the chunk corresponding to a specific
+        characteristic of the flame. The characteristics are short (0) or tall (1), red (0) or yellow (1) border, narrow
+        (0) or wide (1), and purple (0) or green (1) interior, in that order. For instance, a 4-bit chunk with the value
+        0110 represents a short (0), yellow border (1), wide (1), purple interior (0) flame in the painting. Once the
+        four-bit value of each flame has been determined, they are arranged as one long string. The flames are read
+        starting from the inner left of the painting's border in a clockwise direction and then the outer flames are
+        read in a counterclockwise direction.</p>
+
+    <h3>Links</h3>
+
+    <ul>
+        <li>
+            <a href="https://web.archive.org/web/20150531174914/https://twitter.com/coin_artist/status/583979278238359552/">Original
+                post (archived)</a></li>
+        <li><a href="https://bitcointalk.org/index.php?topic=766000.0">BitcoinTalk topic</a></li>
+        <li>
+            <a href="https://www.vice.com/en/article/kzpqzz/heres-the-solution-to-the-3-year-old-dollar50000-bitcoin-puzzle">Post
+                with the solution</a></li>
+        <li><a href="https://github.com/ynohtna92/1FLAMEN6">1FLAMEN6 Bitcoin Puzzle Decoder</a></li>
+    </ul>
+    </div>
+</main>
+
+<div class=" container ">
+    <footer class="border-top p-3 mt-4 d-flex flex-column align-items-center text-secondary">
+        <div class="row justify-content-center text-center mb-1">
+            <div class="col-auto">
+                <i class="fas fa-crown text-warning"></i>
+                <a href="/premium" class="link-secondary">Premium</a>
+            </div>
+            <div class="col-auto">
+                ☕️ <a id="link-donate" class="link-secondary" href="/modal/donate">Donate</a>
+            </div>
+            <div class="col-auto">
+                <i class="fab fa-telegram"></i>
+                <a href="https://t.me/bitcoin_keys" class="link-secondary">Telegram Group</a>
+            </div>
+            <div class="col-auto">
+                <i class="fas fa-info-circle"></i>
+                <a href="/privacy-policy" class="link-secondary">Privacy Policy</a>
+            </div>
+            
+            <div class="col-auto">
+                <i class="fas fa-envelope"></i>
+                <a href="/contact" class="link-secondary">Contact</a>
+            </div>
+        </div>
+
+        <div>Copyright &copy; 2017&mdash;2026 PrivateKeys</div>
+    </footer>
+</div>
+
+<link rel="modulepreload" href="/assets/app-DERGi70t.js" /><link rel="modulepreload" href="/assets/theme-DIQzH4rx.js" /><script type="module" src="/assets/app-DERGi70t.js"></script>
+
+</body>
+</html>

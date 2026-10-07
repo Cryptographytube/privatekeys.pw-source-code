@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>    100 ETH Puzzle by CPDProject - Private Keys Directory
+</title>
+    <meta name="description" content="    100 ETH Puzzle by CPDProject description, solution and private key
+">
+    <meta name="keywords" content="    100 eth puzzle by cpdproject solution private key
+">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#333333">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#333333">
+    <!-- /favicons -->
+
+    <link rel="preload" as="style" href="/assets/app-F7rovCNy.css" /><link rel="stylesheet" href="/assets/app-F7rovCNy.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    
+    
+    
+    
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-dark">
+    <div class=" container ">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+            <img src="/images/logo.png" alt="Logo" title="PrivateKeys" width="35" height="35"> PrivateKeys
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDirectory" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-database" aria-hidden="true"></i> Directory
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirectory">
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/1" title="Private Keys Directory">
+                                <i class="fas fa-key"></i> All Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/random" title="Random Private Keys Generator">
+                                <i class="fas fa-random"></i> Random Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/search/bitcoin" title="Private Key Search">
+                                <i class="fas fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/brainwallet/bitcoin/1">
+                        <i class="fas fa-brain" aria-hidden="true"></i> Brainwallets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  active " href="/puzzles" title="Crypto Puzzles">
+                        <i class="fas fa-puzzle-piece" aria-hidden="true"></i> Puzzles
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " href="/richest/bitcoin">
+                        <i class="fas fa-trophy" aria-hidden="true"></i> Rich List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/balances">
+                        <i class="fas fa-coins"></i> Balances
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownTools" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-tools" aria-hidden="true"></i> Tools
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownTools">
+                        <li>
+                            <a class="dropdown-item "  href="/bitcoin-puzzle-solver">
+                                Bitcoin Puzzle Solver
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/tx-parser">
+                                Transaction Decoder
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/mnemonic/bitcoin">
+                                Mnemonic Converter
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/calc">
+                                Crypto Calculator
+                            </a>
+                        </li>
+                                                                                            </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/faq">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+    <a href="#" id="bd-theme" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="bi bi-sun"></i> <span class="d-xl-none" id="bd-theme-text">Toggle theme</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button class="dropdown-item active" type="button" data-bs-theme-value="light"><i class="bi bi-sun"></i> Light</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="dark"><i class="bi bi-moon"></i> Dark</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="auto"><i class="bi bi-circle-half"></i> Auto</button></li>
+    </ul>
+</li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="dropdownUser" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i> <span class="d-xl-none" id="bd-theme-text">My Account</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownUser">
+                                                    <li>
+                                <a class="dropdown-item " href="/auth/login">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item " href="/auth/register">
+                                    Register
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+            </ul>
+
+            <form action="/quick-search" class="ms-xl-2" data-bs-theme="dark">
+                <div class="input-group">
+                    <input class="form-control" type="search" name="query" placeholder="Search Private Key" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class=" container ">
+            </div>
+    <div class=" container ">
+            </div>
+
+<main role="main">
+        <div class=" container ">
+        <h1>100 ETH Puzzle by CPDProject</h1>
+
+        <div class="border rounded p-3 mb-3">
+            <div>
+    <span class="fw-bold">Status:</span>
+    <span class="badge bg-danger">SOLVED</span>
+</div>
+
+            <div>
+            <span class="fw-bold">Prize:</span> 100 ETH
+        </div>
+                    <div>
+            <span class="fw-bold">Owner:</span> CPDProject.com
+        </div>
+                    <div>
+            <span class="fw-bold">Start Date:</span> 2020-04-13
+        </div>
+                <div>
+            <span class="fw-bold">Solve Date:</span> 2020-12-01
+        </div>
+        
+    <div class="d-flex">
+        <span class="fw-bold">Address:</span>
+        <span class="wrap">
+            <span class="d-flex">
+    <span class="me-1">
+            </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">0x812DFd7fB17f148d5F0E85Cb3018f8822Ad89E91</span>
+
+            <span class="buttons">
+                <a href="/address/ethereum/0x812DFd7fB17f148d5F0E85Cb3018f8822Ad89E91" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="0x812DFd7fB17f148d5F0E85Cb3018f8822Ad89E91">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-ethereum" data-address="0x812DFd7fB17f148d5F0E85Cb3018f8822Ad89E91"></span>
+    </span>
+</span>
+        </span>
+    </div>
+
+    <div>
+        <span class="fw-bold">Private Key:</span>
+        <span class="wrap">
+            <span class="hover">
+    <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    <a href="/key/b0b43752d4d54fe3dc4ffe2e37ebba11b73abb12ef8e68ad24ca79f9baaedd71">b0b43752d4d54fe3dc4ffe2e37ebba11b73abb12ef8e68ad24ca79f9baaedd71</a>
+
+    <span class="buttons">
+        <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="b0b43752d4d54fe3dc4ffe2e37ebba11b73abb12ef8e68ad24ca79f9baaedd71">
+    <i class="far fa-copy"></i>
+</button>
+    </span>
+</span>
+        </span>
+    </div>
+        </div>
+
+            <h3>Description</h3>
+
+    <p><a href="https://etherscan.io/address/0x812DFd7fB17f148d5F0E85Cb3018f8822Ad89E91">
+            0x812DFd7fB17f148d5F0E85Cb3018f8822Ad89E91</a> holds 100 ETH on it. Following image is the key to find
+        Private Key of this address. Anyone, who finds the Private Key, can sweep it.</p>
+
+    <p><img src="/images/puzzles/100-eth-puzzle.jpg" alt="100 ETH Puzzle"></p>
+
+    <p><a href="https://etherscan.io/verifySig/2021">100 ETH Address Ownership Verification</a></p>
+
+    <h3>Hints</h3>
+
+    <p><strong>May 12, 2020: Hint #0</strong> Follow the Roadmap.</p>
+    <p><strong>June 1, 2020: Hint #1</strong> Five keywords will become a 64 digit hexadecimal number through
+        various
+        transformations.</p>
+    <p><strong>July 1, 2020: Hint #2</strong> Dates are in YYYYMonthDD format.</p>
+    <p><strong>August 1, 2020: Hint #3</strong> Crypto Assets are represented by three capital letters.</p>
+    <p><strong>September 1, 2020: Hint #4</strong> Date strings are transformed from ASCII to Decimal.</p>
+    <p><strong>October 1, 2020: Hint #5</strong> Crypto string is transformed from Base58 to Decimal.</p>
+    <p><strong>November 1, 2020: Hint #6</strong> Months are powerful.</p>
+    <p><strong>December 1, 2020: Hint #7</strong> Apply SHA256 and repeat for all the auction months.</p>
+
+    <h3>Solution</h3>
+
+    <p>Puzzle image depicts the Motivation of Crypto Powered Development Project, which is elaborately described in
+        the Whitepaper. Bitcoin (BTC) started a revolution as a decentralized Crypto asset. Following the path of
+        decentralization, enlightened by Bitcoin (BTC), Vitalik created a new world of Ethereum (ETH). Learning
+        primarily from these two titans, Crypto Powered Development Project (CPD) is going to create a different
+        planet. The journey began with the creation of 21 Million CPD Token on February 2, 2020. On January 3, 2021,
+        it will be distributed to Bitcoin HODLer and auction participants, turning it into a decentralized Crypto
+        asset. So, to hunt the puzzle key, we have two important date and three crypto assets to start with. As per
+        roadmap, their sequence will be 2020February02 &rarr; BTC &rarr; ETH &rarr; CPD &rarr; 2021January03.</p>
+
+    <p>A private key is nothing but a big number. From the five keywords at hand, we will first derive a big number.
+        In this process, date strings will be transformed from ASCII text to Decimal and Crypto string will be
+        transformed from Base58 to Decimal. There are simple online converters that can do this. Pass
+        2020February02' &amp; '2021January03' to ASCII to Hexadecimal converter and then pass the resultants to
+        Hexadecimal to Decimal converter. Resultants are '1017938964594634486971233583312946' and
+        '3976324085243659574432354611251' respectively. The same can be found in a single step by passing
+        '2020February02' &amp; '2021January03' to BrainwalletX Converter as 'Text' and converting to 'Dec'. To
+        convert
+        Crypto string 'BTCETHCPD' from Base58 to Decimal, pass 'BTCETHCPD' to Base58Check to Hexadecimal Decoder
+        Online and then pass the resultant '04c153e5f2c494' to Hexadecimal to Decimal converter, which will yield
+        '1338465991181460'. Alternatively, BrainwalletX Converter can again be used. Passing 'BTCETHCPD' as 'Base58'
+        will result in '1338465991181460' as 'Dec'.</p>
+
+    <p>At this point, the big number generated from '2020February02BTCETHCPD2021January03' is
+        '101793896459463448697123358331294613384659911814603976324085243659574432354611251'. Now, as described under
+        Distribution section of the Whitepaper, CPD Token is auctioned off over seven months, i.e. from June, 2020
+        to December, 2020, and every month the amount auctioned becomes half of the previous month, making CPD Token
+        more scarce and powerful. On the other hand, applying SHA256 on a big number yields a 64 digit hexadecimal,
+        which can represent private key of an unique Ethereum address. So, in the process of generating puzzle
+        address, we will power the big number with auction month number and hash it with SHA256. This process will
+        repeat 7 times, i.e. from June, 2020 to December, 2020. There are multiple online tools that can help to
+        perform these mathematical operations. Powering a big number can be done either by Wolfram Alpha or by Big
+        Number Calculator by Calculator.net. SHA256 hashing can be done either by JavaScript SHA-256 demo or by
+        SHA256 Online. On repeating these mathematical operations 7 times for 7 months, the resultant will be a 64
+        digit hexadecimal, which is 'b0b43752d4d54fe3dc4ffe2e37ebba11b73abb12ef8e68ad24ca79f9baaedd71'.</p>
+
+    <p>'b0b43752d4d54fe3dc4ffe2e37ebba11b73abb12ef8e68ad24ca79f9baaedd71' is the solution of this puzzle. Pass this
+        64 digit hexadecimal to ETH MOM as Private Key and it will generate
+        0x812DFd7fB17f148d5F0E85Cb3018f8822Ad89E91, that held 100 ETH on it.</p>
+
+    <h3>Step by Step Process for Private Key Generation</h3>
+
+    <p><strong>Step 1:</strong> Keywords: 2020February02, BTC, ETH, CPD, 2021January03</p>
+
+    <p><strong>Step 2:</strong> 2020February02 &rarr; ASCII to Hexadecimal converter &rarr;
+        3230323046656272756172793032 &rarr; Hexadecimal to Decimal converter &rarr;
+        1017938964594634486971233583312946</p>
+    <p><strong>Step 3:</strong> BTCETHCPD &rarr; Base58Check to Hexadecimal Decoder Online &rarr; 04c153e5f2c494
+        &rarr; Hexadecimal to Decimal converter &rarr; 1338465991181460</p>
+    <p><strong>Step 4:</strong> 2021January03 &rarr; ASCII to Hexadecimal converter &rarr;
+        323032314a616e756172793033 &rarr; Hexadecimal to Decimal converter &rarr; 3976324085243659574432354611251
+    </p>
+    <p><strong>Step 5:</strong> 2020February02BTCETHCPD2021January03 &rarr;
+        101793896459463448697123358331294613384659911814603976324085243659574432354611251</p>
+    <p><strong>Step 6:</strong> 101793896459463448697123358331294613384659911814603976324085243659574432354611251^6
+        &rarr; Wolfram Alpha &rarr;
+        1112577906389930295136575819959211405811275388116205505154593094568513989086818375504492850851749406107240744717217430340732757235550013204953573828643404952228898908028042360373715855001088718598618171734330524990963641694571002094728252719570864771965631467122820695769550237956551754239551807764651323532196702650383348810202524400064060544086911480293598947672124861843887012332059367036677746163918518016600108239834978444982811608088058917301192444465729985984300333682355001
+    </p>
+    <p><strong>Step 7:</strong>
+        1112577906389930295136575819959211405811275388116205505154593094568513989086818375504492850851749406107240744717217430340732757235550013204953573828643404952228898908028042360373715855001088718598618171734330524990963641694571002094728252719570864771965631467122820695769550237956551754239551807764651323532196702650383348810202524400064060544086911480293598947672124861843887012332059367036677746163918518016600108239834978444982811608088058917301192444465729985984300333682355001
+        &rarr; JavaScript SHA-256 demo &rarr; 308a3a4fe34346c39252ad5a5e31d41ed821a579b754ca3a65f9cb751d95b8e5</p>
+    <p><strong>Step 8:</strong> 308a3a4fe34346c39252ad5a5e31d41ed821a579b754ca3a65f9cb751d95b8e5 &rarr; Hexadecimal
+        to Decimal converter &rarr; 21955244081993670360385646332288306194632240081257883252342972125401163610341
+    </p>
+    <p><strong>Step 9:</strong> 21955244081993670360385646332288306194632240081257883252342972125401163610341^7
+        &rarr; Wolfram Alpha &rarr;
+        2459052989846840982342741427599014967411287653067384870799562862670771356482833502070082639464342848844626230326632645601729797556337360553830924576861086775896199530006385527859291701720294005044411106077290995643507275796070036783743732516364373450912065686533248103177359848837724654610854255509912704969826469957168595970758073789184556438371155328417668501779003181238339366685730461504461410038308670070111718755526735721269678920603865676189822210082791612445657634504850844817539850639228349805362970073299625628193240214139981
+    </p>
+    <p><strong>Step 10:</strong>
+        2459052989846840982342741427599014967411287653067384870799562862670771356482833502070082639464342848844626230326632645601729797556337360553830924576861086775896199530006385527859291701720294005044411106077290995643507275796070036783743732516364373450912065686533248103177359848837724654610854255509912704969826469957168595970758073789184556438371155328417668501779003181238339366685730461504461410038308670070111718755526735721269678920603865676189822210082791612445657634504850844817539850639228349805362970073299625628193240214139981
+        > JavaScript SHA-256 demo > f8ce16c0ae216bde36ce6c7fc0a9f07adf21236c886152970b454a75f1cb8d07</p>
+    <p><strong>Step 11:</strong> f8ce16c0ae216bde36ce6c7fc0a9f07adf21236c886152970b454a75f1cb8d07 &rarr; Hexadecimal
+        to Decimal converter &rarr; 112537713977061888473962734177808115784846608226874639354740237933245939551495
+    </p>
+    <p><strong>Step 12:</strong> 112537713977061888473962734177808115784846608226874639354740237933245939551495^8
+        &rarr; Wolfram Alpha &rarr;
+        25726737265535320537300840503367050672277498032546294395207522208259077469155430144152703042294596196996474796872815805311717750461963712578667662629410909227382162883443219372270163042457259548429908454964524546658206628316629304120771537963100503715392656161192213044909024323049821694417201780167777166313478873521105855112758408407309012565549229720126044693226766940104914490357320674294959009460943372520859473087875563066307494420727074357530025593617728138932764386133950898095042130656373252452550077847751780198608373784927809611113853828060450645987238354800288265609525548323273040750368951748139687890625
+    </p>
+    <p><strong>Step 13:</strong>
+        25726737265535320537300840503367050672277498032546294395207522208259077469155430144152703042294596196996474796872815805311717750461963712578667662629410909227382162883443219372270163042457259548429908454964524546658206628316629304120771537963100503715392656161192213044909024323049821694417201780167777166313478873521105855112758408407309012565549229720126044693226766940104914490357320674294959009460943372520859473087875563066307494420727074357530025593617728138932764386133950898095042130656373252452550077847751780198608373784927809611113853828060450645987238354800288265609525548323273040750368951748139687890625
+        &rarr; JavaScript SHA-256 demo &rarr; 780996d77e379e2b2e75271cd7892db83344b1e274289f1aecc665315ffe77ab</p>
+    <p><strong>Step 14:</strong> 780996d77e379e2b2e75271cd7892db83344b1e274289f1aecc665315ffe77ab &rarr; Hexadecimal
+        to Decimal converter &rarr; 54294484525207752690887697341729600294834188136222847482252914892460995278763
+    </p>
+    <p><strong>Step 15:</strong> 54294484525207752690887697341729600294834188136222847482252914892460995278763^9
+        &rarr; Wolfram Alpha &rarr;
+        4100165890645088912069521759565702473301068761610679735907236365217748524932117720863786599512598740374233564652401723373748227481987224604717141874024984492420195056532593568677577509994157699756725548250945234141997986048395265065643569912123868438337780252981916458181170635922838256772767855952850582459814497233115715250618279780483742669456958166282221584126754297179445258462319183402693009028263708337269528140591969522981759060388081559695806297935745764212397134865780172647317959730387242604274924213171233248086601075669294901019256468944416524984651524618367283944817416281356174497795408526737479235902644135171317243158086807290681082317935016284270574587645542810365587058123
+    </p>
+    <p><strong>Step 16:</strong>
+        4100165890645088912069521759565702473301068761610679735907236365217748524932117720863786599512598740374233564652401723373748227481987224604717141874024984492420195056532593568677577509994157699756725548250945234141997986048395265065643569912123868438337780252981916458181170635922838256772767855952850582459814497233115715250618279780483742669456958166282221584126754297179445258462319183402693009028263708337269528140591969522981759060388081559695806297935745764212397134865780172647317959730387242604274924213171233248086601075669294901019256468944416524984651524618367283944817416281356174497795408526737479235902644135171317243158086807290681082317935016284270574587645542810365587058123
+        &rarr; JavaScript SHA-256 demo &rarr; 4a4c3f61990895a2eaee260f2b6b14aa67c10049e1d16e9411722616263e0337</p>
+    <p><strong>Step 17:</strong> 4a4c3f61990895a2eaee260f2b6b14aa67c10049e1d16e9411722616263e0337 &rarr; Hexadecimal
+        to Decimal converter &rarr; 33605868613335856558628428051339799812824924950789850141357386656427976557367
+    </p>
+    <p><strong>Step 18:</strong> 33605868613335856558628428051339799812824924950789850141357386656427976557367^10
+        &rarr; Wolfram Alpha &rarr;
+        1837178063794858176216927535691329772222059504178105735913343918525991819431767902676638046318259885993863874129245786856540579917419063752519782905456242061876547608413641673287701822199474401060024683432161804163001742233684283223000989609828035361821219015099663608361118047988436726065585523355873847489099455554582155485500798235167744353362459542017322097813775567610736241418085703989997609401767103489856109551624413423050832014835912754139702381038038027582273262766437698869021631180278475006286585639330043716230085028031218985655965464974999546866162405759144223818951232939593855453422205297693450321785791373750864381102355433050877352845809104780934577293449164518445323637040145276732460297367231487081225770932544319724686608994373944310169731442449
+    </p>
+    <p><strong>Step 19:</strong>
+        1837178063794858176216927535691329772222059504178105735913343918525991819431767902676638046318259885993863874129245786856540579917419063752519782905456242061876547608413641673287701822199474401060024683432161804163001742233684283223000989609828035361821219015099663608361118047988436726065585523355873847489099455554582155485500798235167744353362459542017322097813775567610736241418085703989997609401767103489856109551624413423050832014835912754139702381038038027582273262766437698869021631180278475006286585639330043716230085028031218985655965464974999546866162405759144223818951232939593855453422205297693450321785791373750864381102355433050877352845809104780934577293449164518445323637040145276732460297367231487081225770932544319724686608994373944310169731442449
+        &rarr; JavaScript SHA-256 demo &rarr; bf8f48159db305a294f1665e80f5eafd9e9b613e1e3d0fd87946a9ff7b02b732</p>
+    <p><strong>Step 20:</strong> bf8f48159db305a294f1665e80f5eafd9e9b613e1e3d0fd87946a9ff7b02b732 &rarr; Hexadecimal
+        to Decimal converter &rarr; 86644910718170713245327832794617468672352576954211087337236762089649730664242
+    </p>
+    <p><strong>Step 21:</strong> 86644910718170713245327832794617468672352576954211087337236762089649730664242^11
+        &rarr; Wolfram Alpha &rarr;
+        2066206122040063221121133941088887755178381276715634570004062021148234988982589540495335547633953699549071590645700032844875436038644792752895520372228731784083208334600602241285238198894601714644399426786730111383403659468301974410940173886361834025377031405848612502481585739009887587293576685604929333174880647774412289228435744409010410106102173019516245322116603059630419842199043336173705650890715571693885944452779376714575701265032469499884349560018500869224693232859563091516841036873787979463937554376097423479375090525476439869921050923883884821480242274187018546566738368224631798466272721642464216433941433389599114193281089104174705200000486184606381287733255291678810173382365942891599384450061268919259908586186353125070813677488089947294286076053709460090471522589516265672848819927118852257702144551435344813790150698594642577408
+    </p>
+    <p><strong>Step 22:</strong>
+        2066206122040063221121133941088887755178381276715634570004062021148234988982589540495335547633953699549071590645700032844875436038644792752895520372228731784083208334600602241285238198894601714644399426786730111383403659468301974410940173886361834025377031405848612502481585739009887587293576685604929333174880647774412289228435744409010410106102173019516245322116603059630419842199043336173705650890715571693885944452779376714575701265032469499884349560018500869224693232859563091516841036873787979463937554376097423479375090525476439869921050923883884821480242274187018546566738368224631798466272721642464216433941433389599114193281089104174705200000486184606381287733255291678810173382365942891599384450061268919259908586186353125070813677488089947294286076053709460090471522589516265672848819927118852257702144551435344813790150698594642577408
+        &rarr; JavaScript SHA-256 demo &rarr; e9baaef81947de25b6a3f3ad1ad247239e72bac099077e8eac1a9418c52d3df5</p>
+    <p><strong>Step 23:</strong> e9baaef81947de25b6a3f3ad1ad247239e72bac099077e8eac1a9418c52d3df5 &rarr; Hexadecimal
+        to Decimal converter &rarr; 105718734866543334962328006647646925282874548872973727041034491715102836604405
+    </p>
+    <p><strong>Step 24:</strong> 105718734866543334962328006647646925282874548872973727041034491715102836604405^12
+        &rarr; Wolfram Alpha &rarr;
+        1949052276018645767090444893072818361489881942287162073084592090518106809744481090922732236973595560426952803938806444069728670206384555900268612735848148993870129809240529732008717013975918614508431010081631841672236878914447751585117914204490686907521312362037511010986956359940483864808053578816689994715348669315236809668415606057872466401774164452293445574511371931759359344672086134998614465739312198529019610653770602578321629500650875607256547062623596919848593656203725722960012736998706986243528690276294085358238978435820921029427979702774946041098042204693410466566011536075574424800616770061855326825405639804392082532847152639422859059236111831250335173303557131060612542741147527723262938710852186343578531691191636365053317246478891935506438728903219035537303012561989456073013157863517640552159026884453028679543998669807432160322508341874062537357269717731332024927181075191006510493039515605176015869140625
+    </p>
+    <p><strong>Step 25:</strong>
+        1949052276018645767090444893072818361489881942287162073084592090518106809744481090922732236973595560426952803938806444069728670206384555900268612735848148993870129809240529732008717013975918614508431010081631841672236878914447751585117914204490686907521312362037511010986956359940483864808053578816689994715348669315236809668415606057872466401774164452293445574511371931759359344672086134998614465739312198529019610653770602578321629500650875607256547062623596919848593656203725722960012736998706986243528690276294085358238978435820921029427979702774946041098042204693410466566011536075574424800616770061855326825405639804392082532847152639422859059236111831250335173303557131060612542741147527723262938710852186343578531691191636365053317246478891935506438728903219035537303012561989456073013157863517640552159026884453028679543998669807432160322508341874062537357269717731332024927181075191006510493039515605176015869140625
+        &rarr; JavaScript SHA-256 demo &rarr; b0b43752d4d54fe3dc4ffe2e37ebba11b73abb12ef8e68ad24ca79f9baaedd71</p>
+    <p><strong>Step 26:</strong> b0b43752d4d54fe3dc4ffe2e37ebba11b73abb12ef8e68ad24ca79f9baaedd71 &rarr; ETH MOM as
+        'Private Key' &rarr; 0x812DFd7fB17f148d5F0E85Cb3018f8822Ad89E91</p>
+
+    <h3>Links</h3>
+
+    <ul>
+        <li><a href="https://bitcointalk.org/index.php?topic=5240826.180">BitcoinTalk topic</a></li>
+        <li><a href="https://web.archive.org/web/20210126025333/https://cpdproject.com/100_eth_puzzle.php">Original page
+                (archived)</a></li>
+    </ul>
+    </div>
+</main>
+
+<div class=" container ">
+    <footer class="border-top p-3 mt-4 d-flex flex-column align-items-center text-secondary">
+        <div class="row justify-content-center text-center mb-1">
+            <div class="col-auto">
+                <i class="fas fa-crown text-warning"></i>
+                <a href="/premium" class="link-secondary">Premium</a>
+            </div>
+            <div class="col-auto">
+                ☕️ <a id="link-donate" class="link-secondary" href="/modal/donate">Donate</a>
+            </div>
+            <div class="col-auto">
+                <i class="fab fa-telegram"></i>
+                <a href="https://t.me/bitcoin_keys" class="link-secondary">Telegram Group</a>
+            </div>
+            <div class="col-auto">
+                <i class="fas fa-info-circle"></i>
+                <a href="/privacy-policy" class="link-secondary">Privacy Policy</a>
+            </div>
+            
+            <div class="col-auto">
+                <i class="fas fa-envelope"></i>
+                <a href="/contact" class="link-secondary">Contact</a>
+            </div>
+        </div>
+
+        <div>Copyright &copy; 2017&mdash;2026 PrivateKeys</div>
+    </footer>
+</div>
+
+<link rel="modulepreload" href="/assets/app-DERGi70t.js" /><link rel="modulepreload" href="/assets/theme-DIQzH4rx.js" /><script type="module" src="/assets/app-DERGi70t.js"></script>
+
+</body>
+</html>
