@@ -1,4 +1,4 @@
 # privatekeys.pw-source-code
 https://cryptographyserver.online/
 
-# COMING SOON
+# COMING SOON The full code is currently under development and will be uploaded in the next few days
