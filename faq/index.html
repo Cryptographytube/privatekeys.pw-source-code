@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>FAQ - Private Keys Directory</title>
+    <meta name="description" content="Frequently asked questions about Bitcoin private keys, addresses, WIF, seed phrases, brainwallets and wallet.dat files">
+    <meta name="keywords" content="bitcoin private key, bitcoin address, public key, WIF, mnemonic phrase, seed phrase, BIP39 passphrase, brainwallet, wallet.dat, secp256k1">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#333333">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#333333">
+    <!-- /favicons -->
+
+    <link rel="preload" as="style" href="/assets/app-F7rovCNy.css" /><link rel="stylesheet" href="/assets/app-F7rovCNy.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    
+    
+    
+    
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-dark">
+    <div class=" container ">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+            <img src="/images/logo.png" alt="Logo" title="PrivateKeys" width="35" height="35"> PrivateKeys
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDirectory" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-database" aria-hidden="true"></i> Directory
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirectory">
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/1" title="Private Keys Directory">
+                                <i class="fas fa-key"></i> All Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/random" title="Random Private Keys Generator">
+                                <i class="fas fa-random"></i> Random Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/search/bitcoin" title="Private Key Search">
+                                <i class="fas fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/brainwallet/bitcoin/1">
+                        <i class="fas fa-brain" aria-hidden="true"></i> Brainwallets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/puzzles" title="Crypto Puzzles">
+                        <i class="fas fa-puzzle-piece" aria-hidden="true"></i> Puzzles
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " href="/richest/bitcoin">
+                        <i class="fas fa-trophy" aria-hidden="true"></i> Rich List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/balances">
+                        <i class="fas fa-coins"></i> Balances
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownTools" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-tools" aria-hidden="true"></i> Tools
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownTools">
+                        <li>
+                            <a class="dropdown-item "  href="/bitcoin-puzzle-solver">
+                                Bitcoin Puzzle Solver
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/tx-parser">
+                                Transaction Decoder
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/mnemonic/bitcoin">
+                                Mnemonic Converter
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/calc">
+                                Crypto Calculator
+                            </a>
+                        </li>
+                                                                                            </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  active " href="/faq">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+    <a href="#" id="bd-theme" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="bi bi-sun"></i> <span class="d-xl-none" id="bd-theme-text">Toggle theme</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button class="dropdown-item active" type="button" data-bs-theme-value="light"><i class="bi bi-sun"></i> Light</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="dark"><i class="bi bi-moon"></i> Dark</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="auto"><i class="bi bi-circle-half"></i> Auto</button></li>
+    </ul>
+</li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="dropdownUser" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i> <span class="d-xl-none" id="bd-theme-text">My Account</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownUser">
+                                                    <li>
+                                <a class="dropdown-item " href="/auth/login">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item " href="/auth/register">
+                                    Register
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+            </ul>
+
+            <form action="/quick-search" class="ms-xl-2" data-bs-theme="dark">
+                <div class="input-group">
+                    <input class="form-control" type="search" name="query" placeholder="Search Private Key" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class=" container ">
+            </div>
+    <div class=" container ">
+            </div>
+
+<main role="main">
+        <div class="container">
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="accordion" id="accordion">
+    <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItemf7f9329550" aria-expanded="true" aria-controls="accordionItemf7f9329550">
+            What is this site for?
+        </button>
+    </h2>
+    <div id="accordionItemf7f9329550" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p class="mb-0"><strong>PrivateKeys.pw</strong> allows you to browse the complete range of possible
+                    <strong>Bitcoin and Ethereum private keys</strong>, derive their corresponding addresses, and check
+                    known address balances.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem1f8bc47749" aria-expanded="true" aria-controls="accordionItem1f8bc47749">
+            What is Bitcoin?
+        </button>
+    </h2>
+    <div id="accordionItem1f8bc47749" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p class="mb-0"><strong>Bitcoin</strong> is a decentralized digital currency that allows users to send
+                    payments without a central authority. Its peer-to-peer network collectively validates transactions
+                    and maintains the public blockchain.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem4905177c55" aria-expanded="true" aria-controls="accordionItem4905177c55">
+            What is a private key?
+        </button>
+    </h2>
+    <div id="accordionItem4905177c55" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p class="mb-0">A <strong>cryptocurrency private key</strong> is a secret number used to authorize
+                    transactions. A wallet derives public keys and addresses from its private keys. Anyone who obtains
+                    a private key can control the associated funds, so it must always be kept secret and securely
+                    backed up.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem040a14786e" aria-expanded="true" aria-controls="accordionItem040a14786e">
+            What is the range of private keys?
+        </button>
+    </h2>
+    <div id="accordionItem040a14786e" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>A valid <strong>Bitcoin private key</strong> is an integer between <code>1</code> and
+                    <code>115792089237316195423570985008687907852837564279074904382605163141518161494336</code> or in
+                    hexadecimal from <code>0000000000000000000000000000000000000000000000000000000000000001</code> to
+                    <code>FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364140</code>.</p>
+
+                <p class="mb-0">This range is defined by the order of the <a
+                        href="https://en.bitcoin.it/wiki/Secp256k1">secp256k1</a> elliptic curve used by Bitcoin's
+                    <a
+                        href="https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm"
+                        title="Elliptic Curve Digital Signature Algorithm">Elliptic Curve Digital Signature Algorithm
+                        (ECDSA)</a> implementation.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem754efe00f3" aria-expanded="true" aria-controls="accordionItem754efe00f3">
+            Can the same private key be used for Bitcoin and Ethereum?
+        </button>
+    </h2>
+    <div id="accordionItem754efe00f3" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p class="mb-0">Yes. Bitcoin and Ethereum both use the <strong>secp256k1 elliptic curve</strong>, so the
+                    same valid
+                    256-bit private key can produce keys and addresses for either network. However, each network derives
+                    and encodes its addresses differently, so a Bitcoin address and an Ethereum address generated from
+                    the same private key will not look alike.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItemcb121f0452" aria-expanded="true" aria-controls="accordionItemcb121f0452">
+            What are the odds of guessing a Bitcoin private key?
+        </button>
+    </h2>
+    <div id="accordionItemcb121f0452" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>The <strong>odds of guessing a Bitcoin private key</strong> are approximately 1 in 2<sup>256</sup>
+                    for a specific key. The following image puts the enormous size of this search space into
+                    perspective:</p>
+
+                <img src="/images/puzzles/bitcoin-puzzle-tx.jpg"
+                     alt="Odds of guessing a Bitcoin private key"
+                     class="w-75"/>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem4a6d75ec22" aria-expanded="true" aria-controls="accordionItem4a6d75ec22">
+            What is WIF?
+        </button>
+    </h2>
+    <div id="accordionItem4a6d75ec22" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p><a href="https://en.bitcoin.it/wiki/Wallet_import_format"><strong>Wallet Import Format
+                            (WIF)</strong></a> is a Base58Check encoding of a private key. It includes a network prefix,
+                    an optional compressed-public-key marker, and a checksum that helps detect typing errors.</p>
+
+                <p>A private key can have two WIF representations:</p>
+
+                <ul>
+                    <li class="mb-3"><strong>Compressed WIF</strong> starts with <code>K</code> or <code>L</code> on
+                        Bitcoin mainnet and indicates that the wallet should derive a compressed public key.<br>
+                        Example: <code>KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU73sVHnoWn</code>.
+                    </li>
+                    <li><strong>Uncompressed WIF</strong> starts with <code>5</code> on Bitcoin mainnet and indicates an
+                        uncompressed public key.<br>
+                        Example: <code>5HpHagT65TZzG1PH3CSu63k8DbpvD8s5ip4nEB3kEsreAnchuDf</code>.
+                    </li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionIteme1aae94be1" aria-expanded="true" aria-controls="accordionIteme1aae94be1">
+            What is the mini private key format?
+        </button>
+    </h2>
+    <div id="accordionIteme1aae94be1" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>A <strong>mini private key</strong>, or minikey, is a compact private-key representation designed for
+                    places with limited space. It was first used on <a
+                        href="https://en.bitcoin.it/wiki/Casascius_physical_bitcoins">Casascius physical bitcoins</a>
+                    and is also suitable for <abbr title="Quick Response">QR</abbr> codes. Its built-in check helps
+                    detect some typing errors.</p>
+
+                <p class="mb-0">Example: <code>S6c56bnXQiBjk9mqSYE7ykVQ7NzrRy</code>.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem8ae2c5410f" aria-expanded="true" aria-controls="accordionItem8ae2c5410f">
+            What is a public key?
+        </button>
+    </h2>
+    <div id="accordionItem8ae2c5410f" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>A <strong>public key</strong> is derived mathematically from a private key and does not need to
+                    remain
+                    secret. It is used to verify digital signatures without revealing the private key. Deriving the
+                    private key from its public key is computationally infeasible.</p>
+
+                <p><strong>Bitcoin public keys</strong> are encoded in one of two forms:</p>
+
+                <ul>
+                    <li class="mb-3"><strong>Compressed public keys</strong> are 33 bytes long. They contain a
+                        <code>0x02</code> or <code>0x03</code> prefix followed by the 32-byte x-coordinate. The prefix
+                        identifies which of the two possible y-coordinates to use.<br>
+                        Example: <code>0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798</code>.
+                    </li>
+                    <li><strong>Uncompressed public keys</strong> are 65 bytes long. They contain a <code>0x04</code>
+                        prefix followed by the 32-byte x-coordinate and 32-byte y-coordinate.<br>
+                        Example: <code>0479be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8</code>.
+                    </li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem58090f6e76" aria-expanded="true" aria-controls="accordionItem58090f6e76">
+            What is a public key hash (HASH160, RIPEMD-160)?
+        </button>
+    </h2>
+    <div id="accordionItem58090f6e76" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>A <strong>public key hash (HASH160)</strong> is the 20-byte fingerprint
+                    Bitcoin calculates from a public key by applying <a
+                        href="https://en.wikipedia.org/wiki/SHA-2" title="Secure Hash Algorithm (256 bit)">SHA-256</a>
+                    first and then <a href="https://en.wikipedia.org/wiki/RIPEMD"
+                                      title="RACE Integrity Primitives Evaluation Message Digest (160 bit)">RIPEMD-160</a>:
+                    <code>RIPEMD-160(SHA-256(public key))</code>. A legacy <strong>P2PKH Bitcoin address</strong>
+                    encodes this hash together with a network prefix and checksum.</p>
+
+                <p>For example, the <strong>Bitcoin private key 1</strong> produces the following HASH160 when its
+                    compressed public key is used:</p>
+
+                <ol class="mb-0">
+                    <li>
+                        Write private key <code>1</code> as a 32-byte hexadecimal value:<br>
+                        <code>0000000000000000000000000000000000000000000000000000000000000001</code>
+                    </li>
+                    <li>
+                        Derive its compressed secp256k1 public key:<br>
+                        <code>0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798</code>
+                    </li>
+                    <li>
+                        Apply SHA-256 to the public key:<br>
+                        <code>0f715baf5d4c2ed329785cef29e562f73488c8a2bb9dbc5700b361d54b9b0554</code>
+                    </li>
+                    <li>
+                        Apply RIPEMD-160 to the SHA-256 result to obtain the <strong>HASH160</strong>:<br>
+                        <code>751e76e8199196d454941c45d1b3a323f1433bd6</code>
+                    </li>
+                </ol>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem32150e8758" aria-expanded="true" aria-controls="accordionItem32150e8758">
+            What is a Bitcoin address?
+        </button>
+    </h2>
+    <div id="accordionItem32150e8758" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>A <strong>Bitcoin address</strong> identifies a destination for a Bitcoin payment. Depending on its
+                    type, a mainnet address begins with <code>1</code>, <code>3</code>, or <code>bc1</code>. A wallet
+                    derives addresses from public keys or scripts and uses the corresponding private keys to authorize
+                    spending.</p>
+
+                <p class="mb-0">Different address types use different encodings and payloads. For example, a legacy
+                    P2PKH address uses <a href="https://en.bitcoin.it/wiki/Base58Check_encoding">Base58Check</a> to
+                    encode a
+                    20-byte public-key hash together with a network prefix and checksum.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem503e53905e" aria-expanded="true" aria-controls="accordionItem503e53905e">
+            I have a Bitcoin address, can I get a private key for it?
+        </button>
+    </h2>
+    <div id="accordionItem503e53905e" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p class="mb-0">No. A <strong>Bitcoin address</strong> does not contain enough information to
+                    reconstruct its <strong>private key</strong>. Reversing the cryptographic operations or searching
+                    the full private-key space is computationally infeasible.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem0fc1aabf96" aria-expanded="true" aria-controls="accordionItem0fc1aabf96">
+            What are Bitcoin address types?
+        </button>
+    </h2>
+    <div id="accordionItem0fc1aabf96" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>Bitcoin supports several <strong>Bitcoin address types</strong>, each representing a different output
+                    script and encoding:</p>
+
+                <h5>
+                    Legacy address
+                    <span class="badge bg-secondary" title="Legacy (compressed)"
+                          data-bs-toggle="tooltip"><small>C</small></span>
+                    <span class="badge bg-secondary" title="Legacy (uncompressed)"
+                          data-bs-toggle="tooltip"><small>U</small></span>
+                </h5>
+
+                <ul>
+                    <li>Legacy addresses use the <strong>Pay-to-Public-Key-Hash (P2PKH)</strong> format.</li>
+                    <li>They start with <code>1</code> on Bitcoin mainnet and use <strong>Base58Check</strong>
+                        encoding.
+                    </li>
+                    <li>
+                        A P2PKH address can be derived from either form of a public key:
+                        <ul>
+                            <li><strong>Uncompressed:</strong> 65-byte public keys that produce larger transaction
+                                inputs.
+                            </li>
+                            <li><strong>Compressed:</strong> 33-byte public keys that produce smaller transaction
+                                inputs.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Legacy addresses remain widely supported but are less space-efficient than native SegWit
+                        addresses.
+                    </li>
+                    <li>Example: <code>1BgGZ9tcN4rm9KBzDn7KprQz87SZ26SAMH</code>.</li>
+                </ul>
+
+                <h5>
+                    Script address
+                    <span class="badge bg-secondary" title="Script" data-bs-toggle="tooltip"><small>S</small></span>
+                </h5>
+
+                <ul>
+                    <li>Script addresses use the <strong>Pay-to-Script-Hash (P2SH)</strong> format and can represent
+                        multisignature, timelock, wrapped SegWit, and other scripts.
+                    </li>
+                    <li>They start with <code>3</code> on Bitcoin mainnet and use <strong>Base58Check</strong>
+                        encoding.
+                    </li>
+                    <li>Example: <code>3JvL6Ymt8MVWiCNHC7oWU6nLeHNJKLZGLN</code>.</li>
+                </ul>
+
+                <h5>
+                    SegWit address
+                    <span class="badge bg-secondary" title="SegWit" data-bs-toggle="tooltip"><small>W</small></span>
+                    <span class="badge bg-secondary" title="SegWit Script"
+                          data-bs-toggle="tooltip"><small>WS</small></span>
+                </h5>
+
+                <ul>
+                    <li>Native <strong>Segregated Witness (SegWit)</strong> addresses use version 0 witness
+                        programs.
+                    </li>
+                    <li>They reduce transaction weight and avoid third-party transaction malleability.</li>
+                    <li>They start with <code>bc1q</code> on Bitcoin mainnet and use <strong>Bech32</strong>
+                        encoding.
+                    </li>
+                    <li>
+                        The two common variants are:
+                        <ul>
+                            <li><strong>Pay-to-Witness-Public-Key-Hash (P2WPKH):</strong> for single-key payments.</li>
+                            <li><strong>Pay-to-Witness-Script-Hash (P2WSH):</strong> for scripts such as
+                                multisignature wallets.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Example: <code>bc1qw508d6qejxtdg4y5r3zarvary0c5xw7kv8f3t4</code>.</li>
+                </ul>
+
+                <h5>
+                    Taproot address
+                    <span class="badge bg-secondary" title="Taproot" data-bs-toggle="tooltip"><small>T</small></span>
+                </h5>
+
+                <ul>
+                    <li><strong>Pay-to-Taproot (P2TR)</strong> uses version 1 witness programs and <a
+                            href="https://en.wikipedia.org/wiki/Schnorr_signature">Schnorr signatures</a>.
+                    </li>
+                    <li>Taproot addresses start with <code>bc1p</code> on Bitcoin mainnet and use
+                        <strong>Bech32m</strong> encoding.
+                    </li>
+                    <li>Taproot can improve the efficiency and privacy of complex spending conditions.</li>
+                    <li>Example: <code>bc1pmfr3p9j00pfxjh0zmgp99y8zftmd3s5pmedqhyptwy6lm87hf5sspknck9</code>.</li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem68f62ba3ec" aria-expanded="true" aria-controls="accordionItem68f62ba3ec">
+            Why are the Bitcoin P2TR addresses generated from the first and last private keys the same?
+        </button>
+    </h2>
+    <div id="accordionItem68f62ba3ec" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>The first and last valid private keys produce public-key points that are negatives of each other:</p>
+
+                <p><strong>First private key:</strong>
+                    <code>0000000000000000000000000000000000000000000000000000000000000001</code><br>
+                    <strong>Last private key:</strong>
+                    <code>FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364140</code></p>
+
+                <p>Their compressed public keys use different prefixes but share the same x-coordinate:</p>
+
+                <p><strong>First compressed public key:</strong>
+                    <code>0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798</code><br>
+                    <strong>Last compressed public key:</strong>
+                    <code>0379be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798</code></p>
+
+                <p class="mb-0">Taproot uses an x-only public key with an even y-coordinate. Both points therefore
+                    normalize to the same Taproot key and produce the same <strong>P2TR address</strong>:
+                    <code>bc1pmfr3p9j00pfxjh0zmgp99y8zftmd3s5pmedqhyptwy6lm87hf5sspknck9</code>.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem9331f7cba4" aria-expanded="true" aria-controls="accordionItem9331f7cba4">
+            What is a brainwallet?
+        </button>
+    </h2>
+    <div id="accordionItem9331f7cba4" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>A <strong>Bitcoin brainwallet</strong> generates a private key from a memorized passphrase, usually
+                    by
+                    applying a hash or key-derivation function such as <a
+                        href="https://en.wikipedia.org/wiki/SHA-2" title="Secure Hash Algorithm (256 bit)">SHA-256</a>.
+                    Unlike a wallet recovery phrase, a traditional brainwallet often relies on words chosen by the
+                    user.</p>
+
+                <p>This method is insecure and should not be used. Human-generated phrases usually contain too little
+                    entropy and can be guessed with dictionaries and leaked-password databases.</p>
+
+                <p>Examples of famous brainwallets:</p>
+
+                <ul>
+                    <li><strong>bitcoin is awesome</strong> (501 BTC).</li>
+                    <li><strong>how much wood could a woodchuck chuck if a woodchuck could chuck wood</strong> (500 BTC).
+                    </li>
+                    <li><strong>correct horse battery staple</strong> (37 BTC).</li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem533b7b4dc5" aria-expanded="true" aria-controls="accordionItem533b7b4dc5">
+            What is a mnemonic (12-word seed phrase)?
+        </button>
+    </h2>
+    <div id="accordionItem533b7b4dc5" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>A <strong>mnemonic phrase</strong>, also known as a <strong>recovery phrase or seed phrase</strong>,
+                    is
+                    an ordered list of words used to back up and restore a cryptocurrency wallet. A common
+                    <a href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki"><strong>Bitcoin Improvement
+                            Proposal 39 (BIP39) mnemonic</strong></a> is a <strong>12-word seed phrase</strong>,
+                    although
+                    15, 18, 21, and 24-word phrases are also supported. The wallet uses the phrase to derive a seed and
+                    generate a hierarchy of private keys and addresses.</p>
+
+                <p>An optional <strong>BIP39 passphrase</strong> is not one of the mnemonic words. It is an additional
+                    secret combined with the mnemonic, and every different passphrase produces a different wallet. A
+                    lost passphrase cannot be recovered, even if the original 12 words are known.</p>
+
+                <p class="mb-0">Anyone who knows your mnemonic and passphrase can control your funds, so never share
+                    them or enter them on an untrusted device. Our <a
+                        href="/mnemonic/bitcoin"><strong>mnemonic
+                            converter</strong></a> can derive
+                    private keys and addresses from a test seed phrase.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItembfef19367f" aria-expanded="true" aria-controls="accordionItembfef19367f">
+            What is a wallet.dat file?
+        </button>
+    </h2>
+    <div id="accordionItembfef19367f" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>A <strong>wallet.dat file</strong> is a Bitcoin Core wallet database. Depending on the wallet type
+                    and software version, it can contain private and public keys, scripts, labels, key metadata, a
+                    hierarchical deterministic (HD) seed, and related transaction records.</p>
+
+                <p class="mb-0">The file is stored in the Bitcoin Core data directory and can be encrypted with a
+                    wallet passphrase. Legacy wallet.dat files use Berkeley DB; newer Bitcoin Core wallets may use
+                    SQLite.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem94067dd3a7" aria-expanded="true" aria-controls="accordionItem94067dd3a7">
+            Where is the wallet.dat file located?
+        </button>
+    </h2>
+    <div id="accordionItem94067dd3a7" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>By default, Bitcoin Core stores its data directory in the following location. A
+                    <strong>wallet.dat file</strong> is usually located directly in this directory or inside its
+                    <code>wallets</code> subdirectory:</p>
+
+                <ul>
+                    <li><strong>Windows:</strong> <code>%LOCALAPPDATA%\Bitcoin\wallets\</code>. Older installations may
+                        use
+                        <code>%APPDATA%\Bitcoin\</code>.
+                    </li>
+                    <li><strong>macOS:</strong> <code>~/Library/Application Support/Bitcoin/wallets/</code>.</li>
+                    <li><strong>Linux:</strong> <code>~/.bitcoin/wallets/</code>.</li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem541670a414" aria-expanded="true" aria-controls="accordionItem541670a414">
+            What is the difference between a private key, seed phrase, passphrase, and wallet password?
+        </button>
+    </h2>
+    <div id="accordionItem541670a414" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <ul>
+                    <li><strong>Private key:</strong> A secret number that authorizes transactions for a specific
+                        cryptocurrency account or set of related addresses.
+                    </li>
+                    <li><strong>Seed phrase:</strong> An ordered list of words from which a hierarchical deterministic
+                        wallet derives many private keys and addresses.
+                    </li>
+                    <li><strong>BIP39 passphrase:</strong> An optional secret combined with a seed phrase. Every
+                        passphrase creates a different wallet, and the original wallet cannot be recovered without the
+                        exact passphrase.
+                    </li>
+                    <li><strong>Wallet password:</strong> A password that encrypts or locks a wallet file, device, or
+                        application. It usually protects access to stored keys but does not generate or replace the
+                        underlying seed phrase and private keys.
+                    </li>
+                </ul>
+
+                <p class="mb-0">A private key or seed phrase can directly restore access to funds. A wallet password
+                    normally works only with the wallet data it was created to protect.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItemb5ea1da2ad" aria-expanded="true" aria-controls="accordionItemb5ea1da2ad">
+            How can this site display every Bitcoin private key, and is it safe?
+        </button>
+    </h2>
+    <div id="accordionItemb5ea1da2ad" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>The site does not store every private key. The <strong>Bitcoin private-key space</strong> contains
+                    nearly 10<sup>77</sup> possible values, so storing them all would be impractical. Instead, each page
+                    generates a small range of keys on demand from its page number.</p>
+
+                <p>Every valid Bitcoin private key is already a number in the publicly known secp256k1 key range. The
+                    site therefore does not reveal a hidden database of wallet keys; it displays values from that
+                    mathematical range and derives their addresses.</p>
+
+                <p class="mb-0">Security comes from the enormous size of the key space. If a wallet generates its key
+                    with secure randomness, the probability that someone independently finds the same key is
+                    negligible. Keys created from weak passwords, poor randomness, or deliberately small puzzle ranges
+                    do not have the same protection.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem488672a3d1" aria-expanded="true" aria-controls="accordionItem488672a3d1">
+            How do you get a list of addresses that use the same private key without knowing the private key
+                    itself?
+        </button>
+    </h2>
+    <div id="accordionItem488672a3d1" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p class="mb-0">Compatible Bitcoin-based networks can encode the same public-key hash with different
+                    network prefixes. By decoding an address to obtain its hash and re-encoding that hash with another
+                    network's prefix, matching addresses can be identified without knowing the private key. This method
+                    only applies to compatible address formats.</p>
+        </div>
+    </div>
+</div>
+
+            <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#accordionItem77c7d15a40" aria-expanded="true" aria-controls="accordionItem77c7d15a40">
+            Is it safe to enter my private key, seed phrase, or wallet password on this website?
+        </button>
+    </h2>
+    <div id="accordionItem77c7d15a40" class="accordion-collapse collapse " data-bs-parent="#accordion">
+        <div class="accordion-body">
+            <p>No. Never enter secrets from a real wallet into any website. Anyone who obtains a private key or
+                    seed phrase can control the associated funds. A wallet password may also expose an encrypted wallet
+                    backup if both are compromised.</p>
+
+                <p class="mb-0">Use only test values with online tools. For a real wallet, use trusted wallet software
+                    in a secure environment and follow the wallet provider's official recovery procedure.</p>
+        </div>
+    </div>
+</div>
+</div>
+    </div>
+</main>
+
+<div class=" container ">
+    <footer class="border-top p-3 mt-4 d-flex flex-column align-items-center text-secondary">
+        <div class="row justify-content-center text-center mb-1">
+            <div class="col-auto">
+                <i class="fas fa-crown text-warning"></i>
+                <a href="/premium" class="link-secondary">Premium</a>
+            </div>
+            <div class="col-auto">
+                ☕️ <a id="link-donate" class="link-secondary" href="/modal/donate">Donate</a>
+            </div>
+            <div class="col-auto">
+                <i class="fab fa-telegram"></i>
+                <a href="https://t.me/bitcoin_keys" class="link-secondary">Telegram Group</a>
+            </div>
+            <div class="col-auto">
+                <i class="fas fa-info-circle"></i>
+                <a href="/privacy-policy" class="link-secondary">Privacy Policy</a>
+            </div>
+            
+            <div class="col-auto">
+                <i class="fas fa-envelope"></i>
+                <a href="/contact" class="link-secondary">Contact</a>
+            </div>
+        </div>
+
+        <div>Copyright &copy; 2017&mdash;2026 PrivateKeys</div>
+    </footer>
+</div>
+
+<link rel="modulepreload" href="/assets/app-DERGi70t.js" /><link rel="modulepreload" href="/assets/theme-DIQzH4rx.js" /><script type="module" src="/assets/app-DERGi70t.js"></script>
+
+</body>
+</html>
