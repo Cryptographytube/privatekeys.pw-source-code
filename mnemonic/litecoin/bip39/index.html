@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>    Litecoin Mnemonic Converter - Private Keys Directory
+</title>
+    <meta name="description" content="    Convert a Litecoin BIP-39 mnemonic seed phrase into private keys and addresses using standard HD wallet derivation paths.
+">
+    <meta name="keywords" content="    litecoin mnemonic converter, BIP-39 seed phrase, HD wallet, derivation path, private keys, addresses
+">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#333333">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#333333">
+    <!-- /favicons -->
+
+    <link rel="preload" as="style" href="/assets/app-F7rovCNy.css" /><link rel="stylesheet" href="/assets/app-F7rovCNy.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    
+    
+    
+    
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-dark">
+    <div class=" container ">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+            <img src="/images/logo.png" alt="Logo" title="PrivateKeys" width="35" height="35"> PrivateKeys
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDirectory" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-database" aria-hidden="true"></i> Directory
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirectory">
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/1" title="Private Keys Directory">
+                                <i class="fas fa-key"></i> All Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/random" title="Random Private Keys Generator">
+                                <i class="fas fa-random"></i> Random Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/search/bitcoin" title="Private Key Search">
+                                <i class="fas fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/brainwallet/bitcoin/1">
+                        <i class="fas fa-brain" aria-hidden="true"></i> Brainwallets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/puzzles" title="Crypto Puzzles">
+                        <i class="fas fa-puzzle-piece" aria-hidden="true"></i> Puzzles
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " href="/richest/bitcoin">
+                        <i class="fas fa-trophy" aria-hidden="true"></i> Rich List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/balances">
+                        <i class="fas fa-coins"></i> Balances
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle  active " href="#" id="navbarDropdownTools" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-tools" aria-hidden="true"></i> Tools
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownTools">
+                        <li>
+                            <a class="dropdown-item "  href="/bitcoin-puzzle-solver">
+                                Bitcoin Puzzle Solver
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/tx-parser">
+                                Transaction Decoder
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item  active " href="/mnemonic/bitcoin">
+                                Mnemonic Converter
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/calc">
+                                Crypto Calculator
+                            </a>
+                        </li>
+                                                                                            </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/faq">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+    <a href="#" id="bd-theme" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="bi bi-sun"></i> <span class="d-xl-none" id="bd-theme-text">Toggle theme</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button class="dropdown-item active" type="button" data-bs-theme-value="light"><i class="bi bi-sun"></i> Light</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="dark"><i class="bi bi-moon"></i> Dark</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="auto"><i class="bi bi-circle-half"></i> Auto</button></li>
+    </ul>
+</li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="dropdownUser" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i> <span class="d-xl-none" id="bd-theme-text">My Account</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownUser">
+                                                    <li>
+                                <a class="dropdown-item " href="/auth/login">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item " href="/auth/register">
+                                    Register
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+            </ul>
+
+            <form action="/quick-search" class="ms-xl-2" data-bs-theme="dark">
+                <div class="input-group">
+                    <input class="form-control" type="search" name="query" placeholder="Search Private Key" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class=" container ">
+            </div>
+    <div class=" container ">
+            </div>
+
+<main role="main">
+        <div class="container">
+        <ul class="nav nav-underline mb-3">
+            <li class="nav-item">
+            <a class="nav-link " href="/mnemonic/bitcoin/bip39">
+                Bitcoin
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/mnemonic/bitcoin-testnet/bip39">
+                Bitcoin Testnet
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/mnemonic/bitcoin-cash/bip39">
+                Bitcoin Cash
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/mnemonic/bitcoin-sv/bip39">
+                Bitcoin SV
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/mnemonic/bitcoin-gold/bip39">
+                Bitcoin Gold
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link  active " href="/mnemonic/litecoin/bip39">
+                Litecoin
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/mnemonic/dogecoin/bip39">
+                Dogecoin
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/mnemonic/dash/bip39">
+                Dash
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/mnemonic/zcash/bip39">
+                Zcash
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/mnemonic/clams/bip39">
+                Clams
+            </a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " href="/mnemonic/ethereum/bip39">
+                Ethereum
+            </a>
+        </li>
+    </ul>
+
+        <h1>Litecoin Mnemonic Converter</h1>
+
+        <p>
+            Convert a Litecoin <abbr title="Hierarchical Deterministic">HD</abbr> wallet
+            <strong>mnemonic</strong> into private keys. A mnemonic is also known as a <strong>seed phrase</strong>,
+            backup phrase, or recovery phrase and usually contains 12 words.
+        </p>
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+            <a class="nav-link  active " aria-current="page" href="/mnemonic/litecoin/bip39">BIP-39</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/mnemonic/litecoin/bip39-electrum">BIP-39 (Electrum)</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/mnemonic/litecoin/bip32">BIP-32</a>
+        </li>
+            <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/mnemonic/litecoin/electrum">Electrum (legacy)</a>
+        </li>
+    </ul>
+
+        <div class="card my-3">
+            <div class="card-body">
+                
+                <form method="GET" action="/mnemonic/litecoin/bip39" accept-charset="UTF-8" role="form">
+
+    <div class="mb-3">
+        <label for="mnemonic" class="form-label">Mnemonic (seed phrase)</label>
+        <input class="form-control" placeholder="Mnemonic..." name="mnemonic" type="text" id="mnemonic">
+        <div class="text-danger"></div>
+    </div>
+
+    <div class="mb-3">
+        <label for="passphrase" class="form-label">Passphrase (optional)</label>
+        <input class="form-control" name="passphrase" type="text" id="passphrase">
+        <div class="text-danger"></div>
+    </div>
+
+    <div class="mb-3">
+        <label for="path" class="form-label">Base Derivation Path</label>
+        <input class="form-control mb-1" placeholder="" name="path" type="text" value="m/44&#039;/2&#039;/0&#039;/0" id="path">
+        <div class="d-flex flex-wrap gap-1">
+                            <a href="#" class="btn btn-sm btn-secondary derivation-path" title="BIP-44 (blockchain.info)"
+                   data-bs-toggle="tooltip">m/44&#039;/2&#039;/0&#039;</a>
+                            <a href="#" class="btn btn-sm btn-secondary derivation-path" title="BIP-44 (Jaxx, Metamask, Exodus, Trezor)"
+                   data-bs-toggle="tooltip">m/44&#039;/2&#039;/0&#039;/0</a>
+                            <a href="#" class="btn btn-sm btn-secondary derivation-path" title="BIP-49 (P2WPKH-nested-in-P2SH)"
+                   data-bs-toggle="tooltip">m/49&#039;/2&#039;/0&#039;/0</a>
+                            <a href="#" class="btn btn-sm btn-secondary derivation-path" title="BIP-84 (P2WPKH)"
+                   data-bs-toggle="tooltip">m/84&#039;/2&#039;/0&#039;/0</a>
+                            <a href="#" class="btn btn-sm btn-secondary derivation-path" title="BIP-86 (P2TR)"
+                   data-bs-toggle="tooltip">m/86&#039;/2&#039;/0&#039;/0</a>
+                    </div>
+        <div class="text-danger"></div>
+    </div>
+
+    <div class="mb-3 form-check">
+        <input name="hardened" type="hidden" value="0">
+        <input id="hardened" class="form-check-input" name="hardened" type="checkbox" value="1">
+        <label for="hardened" class="form-check-label">Use hardened children</label>
+    </div>
+
+<input name="type" type="hidden">
+<input class="btn btn-primary" type="submit" value="Convert">
+
+</form>
+            </div>
+        </div>
+
+        
+        <section class="my-3" aria-labelledby="mnemonic-faq">
+    <h2 id="mnemonic-faq">Mnemonic Converter FAQ</h2>
+
+    <div class="accordion" id="mnemonicFaqAccordion">
+    <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#mnemonicFaqAccordion9d57d8c22d" aria-expanded="true" aria-controls="mnemonicFaqAccordion9d57d8c22d">
+            What is an HD wallet?
+        </button>
+    </h2>
+    <div id="mnemonicFaqAccordion9d57d8c22d" class="accordion-collapse collapse " data-bs-parent="#mnemonicFaqAccordion">
+        <div class="accordion-body">
+            <p>An <strong>HD wallet</strong>, or hierarchical deterministic wallet, derives a tree of private keys,
+                public keys, and addresses from a single master seed. Because the keys are generated deterministically,
+                the same seed, optional passphrase, and derivation paths recreate the same wallet.</p>
+
+            <p class="mb-0">HD wallets make it possible to back up many accounts and addresses with one seed phrase.
+                They also support extended keys: an extended public key can generate and monitor addresses without
+                spending funds, while an extended private key can derive the private keys for its branch and must be
+                protected like the seed phrase.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#mnemonicFaqAccordione40493faa8" aria-expanded="true" aria-controls="mnemonicFaqAccordione40493faa8">
+            What is a mnemonic seed phrase?
+        </button>
+    </h2>
+    <div id="mnemonicFaqAccordione40493faa8" class="accordion-collapse collapse " data-bs-parent="#mnemonicFaqAccordion">
+        <div class="accordion-body">
+            <p>A <strong>mnemonic phrase</strong>, also called a seed phrase or recovery phrase, is an ordered list of
+                words used to back up a cryptocurrency wallet. A <a
+                    href="https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki">BIP-39 mnemonic</a> usually
+                contains 12 or 24 words, but 15, 18, and 21-word phrases are also valid.</p>
+
+            <p class="mb-0">Strictly speaking, the mnemonic is the human-readable backup. Wallet software combines it
+                with an optional passphrase to create a binary <strong>seed</strong>, then derives the wallet's master
+                key, private keys, and addresses from that seed.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#mnemonicFaqAccordion7debc9dcac" aria-expanded="true" aria-controls="mnemonicFaqAccordion7debc9dcac">
+            Which mnemonic and seed types does this converter support?
+        </button>
+    </h2>
+    <div id="mnemonicFaqAccordion7debc9dcac" class="accordion-collapse collapse " data-bs-parent="#mnemonicFaqAccordion">
+        <div class="accordion-body">
+            <p>This converter supports four input modes:</p>
+
+            <ul class="mb-0">
+                <li><strong>BIP-39:</strong> Standard mnemonic phrases with an optional BIP-39 passphrase.</li>
+                <li><strong>BIP-39 (Electrum):</strong> <a
+                        href="https://electrum.readthedocs.io/en/latest/seedphrase.html">Electrum seed phrases</a> with
+                    automatic or custom derivation paths.</li>
+                <li><strong>BIP-32:</strong> A raw hexadecimal seed used to derive a <a
+                        href="https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki">hierarchical deterministic
+                        wallet</a>.</li>
+                <li><strong>Electrum (legacy):</strong> Legacy Electrum mnemonic phrases and their deterministic key
+                    sequence.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#mnemonicFaqAccordion2a890e9f14" aria-expanded="true" aria-controls="mnemonicFaqAccordion2a890e9f14">
+            What is a derivation path?
+        </button>
+    </h2>
+    <div id="mnemonicFaqAccordion2a890e9f14" class="accordion-collapse collapse " data-bs-parent="#mnemonicFaqAccordion">
+        <div class="accordion-body">
+            <p>A <strong>derivation path</strong> tells a hierarchical deterministic wallet which branch of its key
+                tree to use. A path such as <code>m/84'/0'/0'/0</code> identifies the purpose, coin type, account, and
+                change branch. The converter appends an address index to the selected base path.</p>
+
+            <p class="mb-0">Common standards include <a
+                    href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki">BIP-44</a> for legacy
+                addresses, <a href="https://github.com/bitcoin/bips/blob/master/bip-0049.mediawiki">BIP-49</a> for
+                wrapped SegWit, <a href="https://github.com/bitcoin/bips/blob/master/bip-0084.mediawiki">BIP-84</a> for
+                native SegWit, and <a href="https://github.com/bitcoin/bips/blob/master/bip-0086.mediawiki">BIP-86</a>
+                for Taproot. An apostrophe after a path level, such as <code>84'</code>, marks that level as hardened.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#mnemonicFaqAccordionf9ec11c9f4" aria-expanded="true" aria-controls="mnemonicFaqAccordionf9ec11c9f4">
+            What is hardened derivation?
+        </button>
+    </h2>
+    <div id="mnemonicFaqAccordionf9ec11c9f4" class="accordion-collapse collapse " data-bs-parent="#mnemonicFaqAccordion">
+        <div class="accordion-body">
+            <p><strong>Hardened derivation</strong> is a BIP-32 method for deriving a child key that requires the parent
+                private key. Unlike a normal, non-hardened child, a hardened child cannot be derived from the parent
+                extended public key. Hardened levels are written with an apostrophe or <code>h</code>, for example
+                <code>m/44'/0'/0'</code> or <code>m/44h/0h/0h</code>.</p>
+
+            <p class="mb-0">Hardened derivation isolates branches of an HD wallet and prevents a parent extended
+                private key from being reconstructed from its extended public key and an exposed child private key.
+                The tradeoff is that a watch-only wallet cannot derive addresses below a hardened level unless it is
+                given an extended public key from a point after that level.</p>
+        </div>
+    </div>
+</div>
+
+        <div class="accordion-item">
+    <h2 class="accordion-header">
+        <button class="accordion-button  collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#mnemonicFaqAccordion67d582c923" aria-expanded="true" aria-controls="mnemonicFaqAccordion67d582c923">
+            Why can the same mnemonic phrase generate different addresses?
+        </button>
+    </h2>
+    <div id="mnemonicFaqAccordion67d582c923" class="accordion-collapse collapse " data-bs-parent="#mnemonicFaqAccordion">
+        <div class="accordion-body">
+            <p class="mb-0">A mnemonic does not map to only one address. The selected cryptocurrency network,
+                mnemonic type, optional passphrase, derivation path, address index, and address format all affect the
+                result. To restore the same wallet, use the same phrase, passphrase, derivation standard, and network
+                settings that the original wallet used.</p>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+    </div>
+</main>
+
+<div class=" container ">
+    <footer class="border-top p-3 mt-4 d-flex flex-column align-items-center text-secondary">
+        <div class="row justify-content-center text-center mb-1">
+            <div class="col-auto">
+                <i class="fas fa-crown text-warning"></i>
+                <a href="/premium" class="link-secondary">Premium</a>
+            </div>
+            <div class="col-auto">
+                ☕️ <a id="link-donate" class="link-secondary" href="/modal/donate">Donate</a>
+            </div>
+            <div class="col-auto">
+                <i class="fab fa-telegram"></i>
+                <a href="https://t.me/bitcoin_keys" class="link-secondary">Telegram Group</a>
+            </div>
+            <div class="col-auto">
+                <i class="fas fa-info-circle"></i>
+                <a href="/privacy-policy" class="link-secondary">Privacy Policy</a>
+            </div>
+            
+            <div class="col-auto">
+                <i class="fas fa-envelope"></i>
+                <a href="/contact" class="link-secondary">Contact</a>
+            </div>
+        </div>
+
+        <div>Copyright &copy; 2017&mdash;2026 PrivateKeys</div>
+    </footer>
+</div>
+
+<link rel="modulepreload" href="/assets/app-DERGi70t.js" /><link rel="modulepreload" href="/assets/theme-DIQzH4rx.js" /><script type="module" src="/assets/app-DERGi70t.js"></script>
+
+</body>
+</html>
