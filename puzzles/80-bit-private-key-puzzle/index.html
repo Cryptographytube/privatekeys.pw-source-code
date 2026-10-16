@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>    80-bit Private Key Puzzle - Private Keys Directory
+</title>
+    <meta name="description" content="    80-bit Private Key Puzzle description, solution and private key
+">
+    <meta name="keywords" content="    80-bit private key puzzle solution private key
+">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#333333">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#333333">
+    <!-- /favicons -->
+
+    <link rel="preload" as="style" href="/assets/app-F7rovCNy.css" /><link rel="stylesheet" href="/assets/app-F7rovCNy.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/monzanifabio/cryptofont/cryptofont.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    
+    
+    
+    
+    
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-xl navbar-dark fixed-top bg-dark">
+    <div class=" container ">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="/">
+            <img src="/images/logo.png" alt="Logo" title="PrivateKeys" width="35" height="35"> PrivateKeys
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDirectory" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-database" aria-hidden="true"></i> Directory
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownDirectory">
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/1" title="Private Keys Directory">
+                                <i class="fas fa-key"></i> All Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/keys/bitcoin/random" title="Random Private Keys Generator">
+                                <i class="fas fa-random"></i> Random Private Keys
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/search/bitcoin" title="Private Key Search">
+                                <i class="fas fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/brainwallet/bitcoin/1">
+                        <i class="fas fa-brain" aria-hidden="true"></i> Brainwallets
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  active " href="/puzzles" title="Crypto Puzzles">
+                        <i class="fas fa-puzzle-piece" aria-hidden="true"></i> Puzzles
+                    </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " href="/richest/bitcoin">
+                        <i class="fas fa-trophy" aria-hidden="true"></i> Rich List
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/balances">
+                        <i class="fas fa-coins"></i> Balances
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownTools" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-tools" aria-hidden="true"></i> Tools
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownTools">
+                        <li>
+                            <a class="dropdown-item "  href="/bitcoin-puzzle-solver">
+                                Bitcoin Puzzle Solver
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/tx-parser">
+                                Transaction Decoder
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/mnemonic/bitcoin">
+                                Mnemonic Converter
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item " href="/calc">
+                                Crypto Calculator
+                            </a>
+                        </li>
+                                                                                            </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/faq">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i> FAQ
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+    <a href="#" id="bd-theme" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="bi bi-sun"></i> <span class="d-xl-none" id="bd-theme-text">Toggle theme</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end">
+        <li><button class="dropdown-item active" type="button" data-bs-theme-value="light"><i class="bi bi-sun"></i> Light</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="dark"><i class="bi bi-moon"></i> Dark</button></li>
+        <li><button class="dropdown-item" type="button" data-bs-theme-value="auto"><i class="bi bi-circle-half"></i> Auto</button></li>
+    </ul>
+</li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="#" id="dropdownUser" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i> <span class="d-xl-none" id="bd-theme-text">My Account</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownUser">
+                                                    <li>
+                                <a class="dropdown-item " href="/auth/login">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item " href="/auth/register">
+                                    Register
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+            </ul>
+
+            <form action="/quick-search" class="ms-xl-2" data-bs-theme="dark">
+                <div class="input-group">
+                    <input class="form-control" type="search" name="query" placeholder="Search Private Key" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class=" container ">
+            </div>
+    <div class=" container ">
+            </div>
+
+<main role="main">
+        <div class=" container ">
+        <h1>80-bit Private Key Puzzle</h1>
+
+        <div class="border rounded p-3 mb-3">
+            <div>
+    <span class="fw-bold">Status:</span>
+    <span class="badge bg-danger">SOLVED</span>
+</div>
+
+            <div>
+            <span class="fw-bold">Prize:</span> 0.005 BTC
+        </div>
+                <div>
+            <span class="fw-bold">Creator:</span> kTimesG
+        </div>
+                        <div>
+            <span class="fw-bold">Start Date:</span> 2024-11-01
+        </div>
+                <div>
+            <span class="fw-bold">Solve Date:</span> 2024-11-02
+        </div>
+        
+    <div class="d-flex">
+        <span class="fw-bold">Address:</span>
+        <span class="wrap">
+            <span class="d-flex">
+    <span class="me-1">
+            </span>
+
+    <span class="d-flex flex-wrap">
+        <span class="hover me-1">
+            <span class="wrap">1ECDLP8osCZHBB1LH5PVAUfFegeMgFb52q</span>
+
+            <span class="buttons">
+                <a href="/address/bitcoin/1ECDLP8osCZHBB1LH5PVAUfFegeMgFb52q" title="Info" data-bs-toggle="tooltip">
+                    <i class="fas fa-info"></i>
+                </a>
+
+                <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="1ECDLP8osCZHBB1LH5PVAUfFegeMgFb52q">
+    <i class="far fa-copy"></i>
+</button>
+            </span>
+        </span>
+
+        <span class="js-balance-bitcoin" data-address="1ECDLP8osCZHBB1LH5PVAUfFegeMgFb52q"></span>
+    </span>
+</span>
+        </span>
+    </div>
+
+    <div>
+        <span class="fw-bold">Private Key:</span>
+        <span class="wrap">
+            <span class="hover">
+    <i class="fas fa-key" aria-hidden="true" title="Private Key" data-bs-toggle="tooltip"></i>
+    <a href="/key/b40e7d34265ab9533a64622bd1a188fb8abb8829af545169abad49b46be5fe56">b40e7d34265ab9533a64622bd1a188fb8abb8829af545169abad49b46be5fe56</a>
+
+    <span class="buttons">
+        <button class="copy" title="Copy" data-bs-toggle="tooltip" data-clipboard-text="b40e7d34265ab9533a64622bd1a188fb8abb8829af545169abad49b46be5fe56">
+    <i class="far fa-copy"></i>
+</button>
+    </span>
+</span>
+        </span>
+    </div>
+        </div>
+
+            <h3>Description</h3>
+
+    <p>Given an Bitcoin address, associated with an 80-bit secure private key:</p>
+
+    <pre class="code-block"><button class="copy" title="Copy" data-bs-toggle="tooltip"><i class="far fa-copy"></i></button><code>BTC Address(c): 1ECDLP8osCZHBB1LH5PVAUfFegeMgFb52q
+
+minKey = 0x659756abf6c17ca70e0000000000000000000140be6ddd93e441f8d4b4a85653b20b4cdcc5c748207a0daa16191d07a425d8080c276f9412472e0429e61bc355
+maxKey = 0x659756abf6c17ca70fffffffffffffffffffff40be6ddd93e441f8d4b4a85653b20b4cdcc5c748207a0daa16191d07a425d8080c276f9412472e0429e61bc355</code></pre>
+
+    <p>Between 20 and 28 hours after the puzzle is published, the outgoing TX will be pushed.</p>
+
+    <p>SHA-256 of correct solve steps:</p>
+
+    <pre class="code-block"><button class="copy" title="Copy" data-bs-toggle="tooltip"><i class="far fa-copy"></i></button><code>a6c39217128593909a1fcc0fd92c07a6f5abd32c36a8e7cf4e91f1a8f0651db0</code></pre>
+
+    <h3>Hints</h3>
+
+    <figure class="border rounded p-3">
+    <blockquote class="blockquote fs-6">
+        <p><p>"The challenge involves correctly extracting pubkey from the raw TX, otherwise it's a no brainer.</p>
+
+        <p>What is a good way to set sat/vB such that it's both not stuck but also not urgent, e.g. mined in the block after
+            next one? The challenge is not about "let's see if a 80 bit key can be cracked in less than 6 hours", we already
+            have an answer to that."</p></p>
+    </blockquote>
+            <figcaption class="blockquote-footer m-0">
+            kTimesG on BitcoinTalk
+        </figcaption>
+    </figure>
+
+    <h3>Original solution by kTimesG</h3>
+
+    <pre class="code-block"><button class="copy" title="Copy" data-bs-toggle="tooltip"><i class="far fa-copy"></i></button><code>minKey = 0x659756abf6c17ca70e0000000000000000000140be6ddd93e441f8d4b4a85653b20b4cdcc5c748207a0daa16191d07a425d8080c276f9412472e0429e61bc355
+maxKey = 0x659756abf6c17ca70fffffffffffffffffffff40be6ddd93e441f8d4b4a85653b20b4cdcc5c748207a0daa16191d07a425d8080c276f9412472e0429e61bc355
+
+# PubKey:
+#  X: a61fc84b6429f07fc0edf25265ef7a0ced3cd9a0edea85e9f58b50b5d73f66e7
+#  Y: 1203ad05355adda4bb954e52adb62aaccbdbee069610cb20e566e26e9102b565
+# BTC Address(c): 1ECDLP8osCZHBB1LH5PVAUfFegeMgFb52q
+
+# Step 1: determine position and size of the middle (unknown) bits
+
+range_mask = min_key ^ max_key          # every 1 bit in result = input bits differed
+
+# get number of zeroes
+shift = range_mask.bit_length() - range_mask.bit_count()
+
+# remove the right zeros
+range_mask &gt;&gt;= shift
+
+# if at least one 0 is still present, the mask is invalid (and we shifted at least one 1 as well)
+if range_mask.bit_count() != range_mask.bit_length():
+    raise ValueError(&#039;Invalid mask&#039;)
+
+assert range_mask.bit_length() &lt;= 80
+
+assert shift == 361
+
+# Step 2: normalize private key search interval to [1, max]
+
+min_elem = min_key * G
+
+# check that the middle (unknown) bits are not all 0
+if min_elem == public_key:
+    # if hidden bits are all 0, key normalization would result in PAI -&gt; unsolvable
+    private_key = min_key
+    return
+
+# subtract min_key from unknown private_key
+elem = public_key - min_elem    # guaranteed to be a valid point
+
+# right-shift the unknown subtracted key (&quot;divide&quot; by the nth power of two)
+# because we know the number of even bits, it&#039;s guaranteed the keyspace is reduced by 2**shift
+shift_inv = pow(1 &lt;&lt; shift, -1, secp256k1.N)    # == inv(2**shift)
+elem = shift_inv * elem
+
+# IDLP PubKey:
+#  X: 0x34a20e64c9a70138783b125ad81196c76585403905dda56a644ac83ac9620045
+#  Y: 0x6f7db39f0310d65e68dc83fe9c538c4a62ef8e70db4b0d44adbabd5245dd23ff
+
+# Step 3: solve the key, as it resides in the [1, 2**range_len - 1] interval
+# this would be the input to kangaroo, BSGS, etc. which could internally adjust,
+# if needed, the public key, working interval, etc.
+idlp_key = solve_ecdlp(elem, 1, range_mask)
+
+# reverse steps: left-shift the key, fill back subtracted value
+private_key = min_key | (idlp_key &lt;&lt; shift)
+
+# if the solved key is correct, then the original key must also be correct
+assert (private_key * G) == public_key      # X0 == X1 and Y0 == Y1
+
+# for brevity
+assert idlp_key == 0x2d56cbf370cbeef9e80a
+assert private_key == 0x659756abf6c17ca70e5aad97e6e197ddf3d01540be6ddd93e441f8d4b4a85653b20b4cdcc5c748207a0daa16191d07a425d8080c276f9412472e0429e61bc355
+assert private_key % secp256k1.N == 0xb40e7d34265ab9533a64622bd1a188fb8abb8829af545169abad49b46be5fe56</code></pre>
+
+    <h3>Solution by albert0bsd</h3>
+
+    <p>Take original public key: <code>03a61fc84b6429f07fc0edf25265ef7a0ced3cd9a0edea85e9f58b50b5d73f66e7</code></p>
+
+    <pre class="code-block"><button class="copy" title="Copy" data-bs-toggle="tooltip"><i class="far fa-copy"></i></button><code>./keymath 03a61fc84b6429f07fc0edf25265ef7a0ced3cd9a0edea85e9f58b50b5d73f66e7 - 0x20b4cdcc5c748207a0daa16191d07a425d8080c276f9412472e0429e61bc355
+Result: 036f778728f5a13be638ffb3935e4cc629b92c69612f7bb7921811a97b51bd8b66
+
+./keymath  036f778728f5a13be638ffb3935e4cc629b92c69612f7bb7921811a97b51bd8b66 / 0x1000000000000000000000000000000000000000000000000000000000000000
+Result: 034c32bfc4e92bfdd9dcb7b6cd1c88da23cc588c0718440e10a297296da3b2713e
+
+./keymath  034c32bfc4e92bfdd9dcb7b6cd1c88da23cc588c0718440e10a297296da3b2713e - 0x40be6ddd93e441f8d4b4a85653b
+Result: 03595f999c25e5afdd1ae1bfb1710924b26698eb51d3e2c131749fb54c018d896c
+
+./keymath  03595f999c25e5afdd1ae1bfb1710924b26698eb51d3e2c131749fb54c018d896c / 0x1000000000000000000000000000
+Result: 0228239ee788ae6784f825e96e31110097929ef0b4348cd6041f5335a542d47f18
+
+./keymath  0228239ee788ae6784f825e96e31110097929ef0b4348cd6041f5335a542d47f18 - 0x659756abf6c17ca70000000000000000000000
+Result: 02bfc064566b29109fa93495d1a47cd499889cd708674e0200a2cd5db57138741e
+
+./keymath  02bfc064566b29109fa93495d1a47cd499889cd708674e0200a2cd5db57138741e - 0xe00000000000000000000
+Result: 03a4134422eef408a6f8cb1aa8256bfd20cb0852d1fa4a06de5f3e8134e87b3271
+
+./keymath  03a4134422eef408a6f8cb1aa8256bfd20cb0852d1fa4a06de5f3e8134e87b3271 - 1
+Result: 03a1708bbb4e9b81a738eaca200d2b06a8f1d351aa3b07c8e255850500bef5ec2b
+
+./keymath  03a1708bbb4e9b81a738eaca200d2b06a8f1d351aa3b07c8e255850500bef5ec2b / 2
+Result: 0334a20e64c9a70138783b125ad81196c76585403905dda56a644ac83ac9620045</code></pre>
+
+    <p>This last is the transformed/rotated key: <code>0334a20e64c9a70138783b125ad81196c76585403905dda56a644ac83ac9620045</code></p>
+
+    <p>Once that you solve that key now we do modmath operations in backwards order:</p>
+
+    <pre class="code-block"><button class="copy" title="Copy" data-bs-toggle="tooltip"><i class="far fa-copy"></i></button><code>./modmath 0x2d56cbf370cbeef9e80a x 2
+Result: 5aad97e6e197ddf3d014
+
+./modmath 0x5aad97e6e197ddf3d014 + 1
+Result: 5aad97e6e197ddf3d015
+
+./modmath 0x5aad97e6e197ddf3d015 + 0xe00000000000000000000
+Result: e5aad97e6e197ddf3d015
+
+./modmath 0xe5aad97e6e197ddf3d015 + 0x659756abf6c17ca70000000000000000000000
+Result: 659756abf6c17ca70e5aad97e6e197ddf3d015
+
+./modmath 0x659756abf6c17ca70e5aad97e6e197ddf3d015 x 0x1000000000000000000000000000
+Result: 59756abf6c17ca70e5aad97e6e197de6dce82297e44c3e998111c8b31eba787a
+
+./modmath 0x59756abf6c17ca70e5aad97e6e197de6dce82297e44c3e998111c8b31eba787a + 0x40be6ddd93e441f8d4b4a85653b
+Result: 59756abf6c17ca70e5aad97e6e197de6dce826a3cb2a17d7c53155fe693fddb5
+
+./modmath 0x59756abf6c17ca70e5aad97e6e197de6dce826a3cb2a17d7c53155fe693fddb5 x 0x1000000000000000000000000000000000000000000000000000000000000000
+Result: b203305760937132c056b815b884815764e3801d87e4bd57647f458a85ca3b01
+
+./modmath 0xb203305760937132c056b815b884815764e3801d87e4bd57647f458a85ca3b01 + 0x20b4cdcc5c748207a0daa16191d07a425d8080c276f9412472e0429e61bc355
+Result: b40e7d34265ab9533a64622bd1a188fb8abb8829af545169abad49b46be5fe56</code></pre>
+
+    <pre class="code-block"><button class="copy" title="Copy" data-bs-toggle="tooltip"><i class="far fa-copy"></i></button><code>Original key: b40e7d34265ab9533a64622bd1a188fb8abb8829af545169abad49b46be5fe56
+Extended key: 0x659756abf6c17ca70e5aad97e6e197ddf3d01540be6ddd93e441f8d4b4a85653b20b4cdcc5c748207a0daa16191d07a425d8080c276f9412472e0429e61bc355</code></pre>
+
+    <h3>Solution by Etar</h3>
+
+    <pre class="code-block"><button class="copy" title="Copy" data-bs-toggle="tooltip"><i class="far fa-copy"></i></button><code>03a61fc84b6429f07fc0edf25265ef7a0ced3cd9a0edea85e9f58b50b5d73f66e7 - minrange = 03634641685eca3f8284bcd4ddf233dac92a551bb5ff74a0b3fd587d4da7c13eea
+03634641685eca3f8284bcd4ddf233dac92a551bb5ff74a0b3fd587d4da7c13eea / (2^361) = 0334a20e64c9a70138783b125ad81196c76585403905dda56a644ac83ac9620045
+0334a20e64c9a70138783b125ad81196c76585403905dda56a644ac83ac9620045 in range 1..2^80
+The private key from the kangaroo was 0x2d56cbf370cbeef9e80a
+(0x2d56cbf370cbeef9e80a * (2^361) +  minrange) % N = 0xb40e7d34265ab9533a64622bd1a188fb8abb8829af545169abad49b46be5fe56</code></pre>
+
+    <p>Here is an example of a script that will allow you to learn how to work with points:</p>
+
+    <pre class="code-block"><button class="copy" title="Copy" data-bs-toggle="tooltip"><i class="far fa-copy"></i></button><code># (Gx,Gy)  is the secp256k1 generator point
+Gx=0x79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798
+Gy=0x483ADA7726A3C4655DA4FBFC0E1108A8FD17B448A68554199C47D08FFB10D4B8
+n=0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141
+p = 2**256 - 2**32 - 977
+import operator
+import math
+
+def inverse(x, p):
+    &quot;&quot;&quot;
+    Calculate the modular inverse of x ( mod p )
+    the modular inverse is a number such that:
+    (inverse(x, p) * x) % p  ==  1
+    you could think of this as: 1/x
+    &quot;&quot;&quot;
+    inv1 = 1
+    inv2 = 0
+    n=1
+    while p != 1 and p!=0:
+        quotient = x // p
+        inv1, inv2 = inv2, inv1 - inv2 * quotient
+        x, p = p, x % p
+        n = n+1
+
+    return inv2
+
+def dblpt(pt, p):
+    &quot;&quot;&quot;
+    Calculate pt+pt = 2*pt
+    &quot;&quot;&quot;
+    if pt is None:
+        return None
+    (x,y)= pt
+    if y==0:
+        return None
+
+    slope= 3*pow(x,2,p)*pow(2*y,p-2,p)
+    xsum= pow(slope,2,p)-2*x
+    ysum= slope*(x-xsum)-y
+
+    return (xsum%p, ysum%p)
+
+def addpt(p1,p2, p):
+    &quot;&quot;&quot;
+    Calculate p1+p2
+    &quot;&quot;&quot;
+    if p1 is None or p2 is None:
+        return None
+    (x1,y1)= p1
+    (x2,y2)= p2
+    if x1==x2:
+        return dblpt(p1, p)
+
+    # calculate (y1-y2)/(x1-x2)  modulus p
+
+    slope=(y1-y2)*pow(x1-x2,p-2,p)
+    xsum= pow(slope,2,p)-(x1+x2)
+    ysum= slope*(x1-xsum)-y1
+
+
+    return (xsum%p, ysum%p)
+
+def ptmul(pt,a, p):
+    &quot;&quot;&quot;
+    Scalar multiplication: calculate pt*a
+    basically adding pt to itself a times
+    &quot;&quot;&quot;
+    scale= pt
+    acc=None
+    while a:
+        if a&amp;1:
+            if acc is None:
+                acc= scale
+            else:
+                acc= addpt(acc,scale, p)
+
+        scale= dblpt(scale, p)
+        a &gt;&gt;= 1
+    return acc
+
+def ptdiv(pt,a,p,n):
+    divpt=inverse(a, n)%n
+    return ptmul(pt, divpt, p)
+
+
+def isoncurve(pt,p):
+    &quot;&quot;&quot;
+    returns True when pt is on the secp256k1 curve
+    &quot;&quot;&quot;
+    (x,y)= pt
+    return (y**2 - x**3 - 7)%p == 0
+
+
+def getuncompressedpub(compressed_key):
+    &quot;&quot;&quot;
+    returns uncompressed public key
+    &quot;&quot;&quot;
+    y_parity = int(compressed_key[:2]) - 2
+    if y_parity&gt;1:
+      #it is uncompresse dpub
+      x = int(compressed_key[2:66], 16)
+      y = int(compressed_key[66:130], 16)
+      return (x,y)
+
+    x = int(compressed_key[2:], 16)
+    a = (pow(x, 3, p) + 7) % p
+    y = pow(a, (p+1)//4, p)
+    if y % 2 != y_parity:
+        y = -y % p
+    return (x,y)
+
+def compresspub(uncompressed_key):
+    &quot;&quot;&quot;
+    returns uncompressed public key
+    &quot;&quot;&quot;
+    (x,y)=uncompressed_key
+    y_parity = y&amp;1
+    head=&#039;02&#039;
+    if y_parity ==1:
+        head=&#039;03&#039;
+    compressed_key = head+&#039;{:064x}&#039;.format(x)
+    return compressed_key
+
+
+rangeBegin = 0x659756abf6c17ca70e0000000000000000000140be6ddd93e441f8d4b4a85653b20b4cdcc5c748207a0daa16191d07a425d8080c276f9412472e0429e61bc355
+rangeEnd =   0x659756abf6c17ca70fffffffffffffffffffff40be6ddd93e441f8d4b4a85653b20b4cdcc5c748207a0daa16191d07a425d8080c276f9412472e0429e61bc355
+pub_compressed = &#039;03a61fc84b6429f07fc0edf25265ef7a0ced3cd9a0edea85e9f58b50b5d73f66e7&#039;
+Bits = 361
+
+(pubx,puby) = getuncompressedpub(pub_compressed)
+(x,y) = ptmul((Gx,Gy),rangeBegin,p)
+#substract rangeBegin from public key
+(Shiftpubx,Shiftpuby) = addpt((pubx,puby), (x,(p-y)%p), p)
+print (&quot;Shifted pub&gt; &quot;,compresspub((Shiftpubx,Shiftpuby)))
+#pub / (2**361)
+(SPubx,SPuby) = ptdiv((Shiftpubx,Shiftpuby),2**361,p,n)
+print (&quot;Pub&gt; &quot;,compresspub((SPubx,SPuby)))
+
+#Convert private key
+kangarooPrivKey=0x2d56cbf370cbeef9e80a
+RealPrivKey = (kangarooPrivKey * (2**361) + rangeBegin ) % n
+print (&quot;Key&gt; %x&quot;% RealPrivKey)</code></pre>
+
+    <h3>Links</h3>
+
+    <ul>
+        <li><a href="https://bitcointalk.org/index.php?topic=1306983.msg64639847#msg64639847">BitcoinTalk announce</a></li>
+        <li><a href="https://bitcointalk.org/index.php?topic=1306983.msg64691846#msg64691846">BitcoinTalk post</a></li>
+    </ul>
+    </div>
+</main>
+
+<div class=" container ">
+    <footer class="border-top p-3 mt-4 d-flex flex-column align-items-center text-secondary">
+        <div class="row justify-content-center text-center mb-1">
+            <div class="col-auto">
+                <i class="fas fa-crown text-warning"></i>
+                <a href="/premium" class="link-secondary">Premium</a>
+            </div>
+            <div class="col-auto">
+                ☕️ <a id="link-donate" class="link-secondary" href="/modal/donate">Donate</a>
+            </div>
+            <div class="col-auto">
+                <i class="fab fa-telegram"></i>
+                <a href="https://t.me/bitcoin_keys" class="link-secondary">Telegram Group</a>
+            </div>
+            <div class="col-auto">
+                <i class="fas fa-info-circle"></i>
+                <a href="/privacy-policy" class="link-secondary">Privacy Policy</a>
+            </div>
+            
+            <div class="col-auto">
+                <i class="fas fa-envelope"></i>
+                <a href="/contact" class="link-secondary">Contact</a>
+            </div>
+        </div>
+
+        <div>Copyright &copy; 2017&mdash;2026 PrivateKeys</div>
+    </footer>
+</div>
+
+<link rel="modulepreload" href="/assets/app-DERGi70t.js" /><link rel="modulepreload" href="/assets/theme-DIQzH4rx.js" /><script type="module" src="/assets/app-DERGi70t.js"></script>
+
+</body>
+</html>
