@@ -1,4 +1,4 @@
 # privatekeys.pw-source-code
-https://cryptographyserver.online/
-
+Cpanel demo  : https://cryptographyserver.online/
+Github demo  : https://cryptographytube.github.io/privatekeys.pw-source-code/
 # COMING SOON The full code is currently under development and will be uploaded in the next few days. It will support both GitHub and cPanel hosting
